@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/LinkQueue/LinkQueue.cpp
+LinkQueue.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/LinkQueue/LinkQueue.h
+string
+-
+iostream
+-
+
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/LinkQueue/LinkQueue.h
+
+F:/CLion/DataStructuresAndAlgorithms/library.cpp
+library.h
+F:/CLion/DataStructuresAndAlgorithms/library.h
+iostream
+-
+
+F:/CLion/DataStructuresAndAlgorithms/library.h
+
