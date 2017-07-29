@@ -14,7 +14,7 @@ int main()
     lqueue.push("three");
     lqueue.push("four");
     lqueue.push("five");
-    cout << "¶ÓÁÐ´óÐ¡£º" << lqueue.size() << endl;
+    cout << "é˜Ÿåˆ—å¤§å°ï¼š" << lqueue.size() << endl;
     while (!lqueue.isEmpty())
     {
         cout << lqueue.front() << endl;
