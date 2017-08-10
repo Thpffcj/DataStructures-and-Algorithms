@@ -3,5 +3,5 @@ project(DataStructuresAndAlgorithms)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES library.cpp library.h dataStructures/LinkQueue/LinkQueue.h dataStructures/LinkQueue/LinkQueue.cpp)
+set(SOURCE_FILES library.cpp library.h algorithms/sort/SortTestHelper.h algorithms/sort/main.cpp)
 add_executable(DataStructuresAndAlgorithms ${SOURCE_FILES})

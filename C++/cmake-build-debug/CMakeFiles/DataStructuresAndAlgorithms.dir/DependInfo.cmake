@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/CLion/DataStructuresAndAlgorithms/dataStructures/LinkQueue/LinkQueue.cpp" "F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/LinkQueue/LinkQueue.cpp.obj"
+  "F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/main.cpp" "F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj"
   "F:/CLion/DataStructuresAndAlgorithms/library.cpp" "F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

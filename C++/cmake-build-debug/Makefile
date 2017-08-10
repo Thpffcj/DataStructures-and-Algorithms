@@ -122,32 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-dataStructures/LinkQueue/LinkQueue.obj: dataStructures/LinkQueue/LinkQueue.cpp.obj
+algorithms/sort/main.obj: algorithms/sort/main.cpp.obj
 
-.PHONY : dataStructures/LinkQueue/LinkQueue.obj
+.PHONY : algorithms/sort/main.obj
 
 # target to build an object file
-dataStructures/LinkQueue/LinkQueue.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/LinkQueue/LinkQueue.cpp.obj
-.PHONY : dataStructures/LinkQueue/LinkQueue.cpp.obj
+algorithms/sort/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj
+.PHONY : algorithms/sort/main.cpp.obj
 
-dataStructures/LinkQueue/LinkQueue.i: dataStructures/LinkQueue/LinkQueue.cpp.i
+algorithms/sort/main.i: algorithms/sort/main.cpp.i
 
-.PHONY : dataStructures/LinkQueue/LinkQueue.i
+.PHONY : algorithms/sort/main.i
 
 # target to preprocess a source file
-dataStructures/LinkQueue/LinkQueue.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/LinkQueue/LinkQueue.cpp.i
-.PHONY : dataStructures/LinkQueue/LinkQueue.cpp.i
+algorithms/sort/main.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.i
+.PHONY : algorithms/sort/main.cpp.i
 
-dataStructures/LinkQueue/LinkQueue.s: dataStructures/LinkQueue/LinkQueue.cpp.s
+algorithms/sort/main.s: algorithms/sort/main.cpp.s
 
-.PHONY : dataStructures/LinkQueue/LinkQueue.s
+.PHONY : algorithms/sort/main.s
 
 # target to generate assembly for a file
-dataStructures/LinkQueue/LinkQueue.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/LinkQueue/LinkQueue.cpp.s
-.PHONY : dataStructures/LinkQueue/LinkQueue.cpp.s
+algorithms/sort/main.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.s
+.PHONY : algorithms/sort/main.cpp.s
 
 library.obj: library.cpp.obj
 
@@ -185,9 +185,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... dataStructures/LinkQueue/LinkQueue.obj
-	@echo ... dataStructures/LinkQueue/LinkQueue.i
-	@echo ... dataStructures/LinkQueue/LinkQueue.s
+	@echo ... algorithms/sort/main.obj
+	@echo ... algorithms/sort/main.i
+	@echo ... algorithms/sort/main.s
 	@echo ... library.obj
 	@echo ... library.i
 	@echo ... library.s

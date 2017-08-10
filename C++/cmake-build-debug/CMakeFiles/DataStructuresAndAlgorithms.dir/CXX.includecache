@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/LinkQueue/LinkQueue.cpp
-LinkQueue.h
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/LinkQueue/LinkQueue.h
-string
--
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SortTestHelper.h
 iostream
 -
+ctime
+-
+cassert
+-
 
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/LinkQueue/LinkQueue.h
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/main.cpp
+iostream
+-
+SortTestHelper.h
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SortTestHelper.h
 
 F:/CLion/DataStructuresAndAlgorithms/library.cpp
 library.h

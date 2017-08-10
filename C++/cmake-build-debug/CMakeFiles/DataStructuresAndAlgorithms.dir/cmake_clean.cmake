@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj"
-  "CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/LinkQueue/LinkQueue.cpp.obj"
+  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj"
   "DataStructuresAndAlgorithms.pdb"
   "DataStructuresAndAlgorithms.exe"
   "DataStructuresAndAlgorithms.exe.manifest"
