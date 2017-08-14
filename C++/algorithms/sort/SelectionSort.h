@@ -10,7 +10,6 @@
 
 using namespace std;
 
-
 template<typename T>
 void selectionSort(T arr[], int n){
 
