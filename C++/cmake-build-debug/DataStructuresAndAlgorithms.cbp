@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/heap/main.cpp">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/BubbleSort.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
@@ -87,6 +90,9 @@
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/MergeSort.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/QuickSort.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SelectionSort.h">

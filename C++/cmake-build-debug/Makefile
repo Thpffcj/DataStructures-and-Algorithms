@@ -122,6 +122,33 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
+algorithms/heap/main.obj: algorithms/heap/main.cpp.obj
+
+.PHONY : algorithms/heap/main.obj
+
+# target to build an object file
+algorithms/heap/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj
+.PHONY : algorithms/heap/main.cpp.obj
+
+algorithms/heap/main.i: algorithms/heap/main.cpp.i
+
+.PHONY : algorithms/heap/main.i
+
+# target to preprocess a source file
+algorithms/heap/main.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.i
+.PHONY : algorithms/heap/main.cpp.i
+
+algorithms/heap/main.s: algorithms/heap/main.cpp.s
+
+.PHONY : algorithms/heap/main.s
+
+# target to generate assembly for a file
+algorithms/heap/main.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.s
+.PHONY : algorithms/heap/main.cpp.s
+
 algorithms/sort/main.obj: algorithms/sort/main.cpp.obj
 
 .PHONY : algorithms/sort/main.obj
@@ -185,6 +212,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... algorithms/heap/main.obj
+	@echo ... algorithms/heap/main.i
+	@echo ... algorithms/heap/main.s
 	@echo ... algorithms/sort/main.obj
 	@echo ... algorithms/sort/main.i
 	@echo ... algorithms/sort/main.s
