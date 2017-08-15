@@ -122,86 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-algorithms/heap/main.obj: algorithms/heap/main.cpp.obj
+dataStructures/heap/main.obj: dataStructures/heap/main.cpp.obj
 
-.PHONY : algorithms/heap/main.obj
-
-# target to build an object file
-algorithms/heap/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj
-.PHONY : algorithms/heap/main.cpp.obj
-
-algorithms/heap/main.i: algorithms/heap/main.cpp.i
-
-.PHONY : algorithms/heap/main.i
-
-# target to preprocess a source file
-algorithms/heap/main.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.i
-.PHONY : algorithms/heap/main.cpp.i
-
-algorithms/heap/main.s: algorithms/heap/main.cpp.s
-
-.PHONY : algorithms/heap/main.s
-
-# target to generate assembly for a file
-algorithms/heap/main.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.s
-.PHONY : algorithms/heap/main.cpp.s
-
-algorithms/sort/main.obj: algorithms/sort/main.cpp.obj
-
-.PHONY : algorithms/sort/main.obj
+.PHONY : dataStructures/heap/main.obj
 
 # target to build an object file
-algorithms/sort/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj
-.PHONY : algorithms/sort/main.cpp.obj
+dataStructures/heap/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj
+.PHONY : dataStructures/heap/main.cpp.obj
 
-algorithms/sort/main.i: algorithms/sort/main.cpp.i
+dataStructures/heap/main.i: dataStructures/heap/main.cpp.i
 
-.PHONY : algorithms/sort/main.i
-
-# target to preprocess a source file
-algorithms/sort/main.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.i
-.PHONY : algorithms/sort/main.cpp.i
-
-algorithms/sort/main.s: algorithms/sort/main.cpp.s
-
-.PHONY : algorithms/sort/main.s
-
-# target to generate assembly for a file
-algorithms/sort/main.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.s
-.PHONY : algorithms/sort/main.cpp.s
-
-library.obj: library.cpp.obj
-
-.PHONY : library.obj
-
-# target to build an object file
-library.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj
-.PHONY : library.cpp.obj
-
-library.i: library.cpp.i
-
-.PHONY : library.i
+.PHONY : dataStructures/heap/main.i
 
 # target to preprocess a source file
-library.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.i
-.PHONY : library.cpp.i
+dataStructures/heap/main.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.i
+.PHONY : dataStructures/heap/main.cpp.i
 
-library.s: library.cpp.s
+dataStructures/heap/main.s: dataStructures/heap/main.cpp.s
 
-.PHONY : library.s
+.PHONY : dataStructures/heap/main.s
 
 # target to generate assembly for a file
-library.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.s
-.PHONY : library.cpp.s
+dataStructures/heap/main.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.s
+.PHONY : dataStructures/heap/main.cpp.s
 
 # Help Target
 help:
@@ -212,15 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... algorithms/heap/main.obj
-	@echo ... algorithms/heap/main.i
-	@echo ... algorithms/heap/main.s
-	@echo ... algorithms/sort/main.obj
-	@echo ... algorithms/sort/main.i
-	@echo ... algorithms/sort/main.s
-	@echo ... library.obj
-	@echo ... library.i
-	@echo ... library.s
+	@echo ... dataStructures/heap/main.obj
+	@echo ... dataStructures/heap/main.i
+	@echo ... dataStructures/heap/main.s
 .PHONY : help
 
 

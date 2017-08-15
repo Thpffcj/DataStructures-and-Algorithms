@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/heap/main.cpp">
-			<Option target="DataStructuresAndAlgorithms"/>
-		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/BubbleSort.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
@@ -104,13 +101,13 @@
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SortTestHelper.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/main.cpp">
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/Heap.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/library.cpp">
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/HeapSort.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/library.h">
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/main.cpp">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/CMakeLists.txt">

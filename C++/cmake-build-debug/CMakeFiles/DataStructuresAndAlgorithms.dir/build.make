@@ -56,95 +56,43 @@ include CMakeFiles/DataStructuresAndAlgorithms.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj: CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
-CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj: ../library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CLion\DataStructuresAndAlgorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj"
-	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructuresAndAlgorithms.dir\library.cpp.obj -c F:\CLion\DataStructuresAndAlgorithms\library.cpp
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj: CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj: ../dataStructures/heap/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CLion\DataStructuresAndAlgorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj"
+	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructuresAndAlgorithms.dir\dataStructures\heap\main.cpp.obj -c F:\CLion\DataStructuresAndAlgorithms\dataStructures\heap\main.cpp
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.i"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\DataStructuresAndAlgorithms\library.cpp > CMakeFiles\DataStructuresAndAlgorithms.dir\library.cpp.i
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.i"
+	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\DataStructuresAndAlgorithms\dataStructures\heap\main.cpp > CMakeFiles\DataStructuresAndAlgorithms.dir\dataStructures\heap\main.cpp.i
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.s"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\DataStructuresAndAlgorithms\library.cpp -o CMakeFiles\DataStructuresAndAlgorithms.dir\library.cpp.s
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.s"
+	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\DataStructuresAndAlgorithms\dataStructures\heap\main.cpp -o CMakeFiles\DataStructuresAndAlgorithms.dir\dataStructures\heap\main.cpp.s
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj.requires:
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj.requires:
 
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj.requires
+.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj.requires
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj.provides: CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj.provides.build
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj.provides
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj.provides: CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj.provides.build
+.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj.provides
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj.provides.build: CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj
-
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj: CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj: ../algorithms/sort/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CLion\DataStructuresAndAlgorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj"
-	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\sort\main.cpp.obj -c F:\CLion\DataStructuresAndAlgorithms\algorithms\sort\main.cpp
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.i"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\DataStructuresAndAlgorithms\algorithms\sort\main.cpp > CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\sort\main.cpp.i
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.s"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\DataStructuresAndAlgorithms\algorithms\sort\main.cpp -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\sort\main.cpp.s
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj.requires:
-
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj.requires
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj.provides: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj.provides.build
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj.provides
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj.provides.build: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj
-
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj: CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj: ../algorithms/heap/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CLion\DataStructuresAndAlgorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj"
-	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\heap\main.cpp.obj -c F:\CLion\DataStructuresAndAlgorithms\algorithms\heap\main.cpp
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.i"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\DataStructuresAndAlgorithms\algorithms\heap\main.cpp > CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\heap\main.cpp.i
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.s"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\DataStructuresAndAlgorithms\algorithms\heap\main.cpp -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\heap\main.cpp.s
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj.requires:
-
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj.requires
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj.provides: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj.provides.build
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj.provides
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj.provides.build: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj.provides.build: CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj
 
 
 # Object files for target DataStructuresAndAlgorithms
 DataStructuresAndAlgorithms_OBJECTS = \
-"CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj" \
-"CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj" \
-"CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj"
+"CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj"
 
 # External object files for target DataStructuresAndAlgorithms
 DataStructuresAndAlgorithms_EXTERNAL_OBJECTS =
 
-DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj
-DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj
-DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj
+DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/build.make
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/linklibs.rsp
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/objects1.rsp
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\CLion\DataStructuresAndAlgorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DataStructuresAndAlgorithms.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\CLion\DataStructuresAndAlgorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DataStructuresAndAlgorithms.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructuresAndAlgorithms.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,9 +100,7 @@ CMakeFiles/DataStructuresAndAlgorithms.dir/build: DataStructuresAndAlgorithms.ex
 
 .PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/build
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/requires: CMakeFiles/DataStructuresAndAlgorithms.dir/library.cpp.obj.requires
-CMakeFiles/DataStructuresAndAlgorithms.dir/requires: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/sort/main.cpp.obj.requires
-CMakeFiles/DataStructuresAndAlgorithms.dir/requires: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/heap/main.cpp.obj.requires
+CMakeFiles/DataStructuresAndAlgorithms.dir/requires: CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj.requires
 
 .PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/requires
 
