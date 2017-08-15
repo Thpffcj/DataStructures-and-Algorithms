@@ -80,6 +80,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/BubbleSort.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/InsertionSort.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/MergeSort.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SelectionSort.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/ShellSort.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SortTestHelper.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>

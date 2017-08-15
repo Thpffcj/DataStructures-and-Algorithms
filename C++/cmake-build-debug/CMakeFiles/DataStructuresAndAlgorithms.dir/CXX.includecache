@@ -6,6 +6,38 @@
 
 #IncludeRegexTransform: 
 
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/BubbleSort.h
+iostream
+-
+algorithm
+-
+
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/InsertionSort.h
+iostream
+-
+algorithm
+-
+
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/MergeSort.h
+iostream
+-
+algorithm
+-
+InsertionSort.h
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/InsertionSort.h
+
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SelectionSort.h
+iostream
+-
+algorithm
+-
+
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/ShellSort.h
+iostream
+-
+algorithm
+-
+
 F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SortTestHelper.h
 iostream
 -
@@ -19,6 +51,16 @@ iostream
 -
 SortTestHelper.h
 F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SortTestHelper.h
+SelectionSort.h
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SelectionSort.h
+InsertionSort.h
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/InsertionSort.h
+MergeSort.h
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/MergeSort.h
+BubbleSort.h
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/BubbleSort.h
+ShellSort.h
+F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/ShellSort.h
 
 F:/CLion/DataStructuresAndAlgorithms/library.cpp
 library.h
