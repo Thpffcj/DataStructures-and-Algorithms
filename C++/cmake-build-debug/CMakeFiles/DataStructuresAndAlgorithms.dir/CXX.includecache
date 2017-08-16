@@ -6,33 +6,31 @@
 
 #IncludeRegexTransform: 
 
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/FileOps.h
-string
--
-iostream
--
-fstream
--
-vector
--
-
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/SequenceST.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind1.h
 iostream
 -
 cassert
 -
 
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/main.cpp
-iostream
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind2.h
+cassert
 -
-vector
+c++/array
+-
+
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFindTestHelper.h
+iostream
 -
 ctime
 -
-string
+UnionFind1.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind1.h
+UnionFind2.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind2.h
+
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/main.cpp
+iostream
 -
-SequenceST.h
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/SequenceST.h
-FileOps.h
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/FileOps.h
+UnionFindTestHelper.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFindTestHelper.h
 

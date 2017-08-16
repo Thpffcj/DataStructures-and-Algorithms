@@ -125,7 +125,16 @@
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/SequenceST.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/main.cpp">
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind1.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind2.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFindTestHelper.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/main.cpp">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/CMakeLists.txt">
