@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/Heap.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/IndexMaxHeap.h
+iostream
+-
+algorithm
+-
+cassert
+-
+
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/IndexMinHeap.h
+iostream
+-
+algorithm
+-
+cassert
+-
+
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/MaxHeap.h
 iostream
 -
 algorithm
@@ -20,9 +36,11 @@ cmath
 cassert
 -
 
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/HeapSort.h
-Heap.h
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/Heap.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/MinHeap.h
+algorithm
+-
+cassert
+-
 
 F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/SortTestHelper.h
 iostream
@@ -35,20 +53,14 @@ cassert
 F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/main.cpp
 iostream
 -
-algorithm
--
-string
--
-ctime
--
-cmath
--
-cassert
--
-Heap.h
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/Heap.h
-HeapSort.h
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/HeapSort.h
+MaxHeap.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/MaxHeap.h
+MinHeap.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/MinHeap.h
+IndexMaxHeap.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/IndexMaxHeap.h
+IndexMinHeap.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/IndexMinHeap.h
 SortTestHelper.h
 F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/SortTestHelper.h
 

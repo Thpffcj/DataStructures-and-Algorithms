@@ -3,115 +3,80 @@
 //
 
 #include <iostream>
-#include <algorithm>
-#include <string>
-#include <ctime>
-#include <cmath>
-#include <cassert>
-#include "Heap.h"
-#include "HeapSort.h"
+#include "MaxHeap.h"
+#include "MinHeap.h"
+#include "IndexMaxHeap.h"
+#include "IndexMinHeap.h"
 #include "SortTestHelper.h"
 
 using namespace std;
 
 template<typename T>
-void __shiftDown(T arr[], int n, int k){
+void heapSortUsingMaxHeap(T arr[], int n){
 
-    while( 2*k+1 < n ){
-        int j = 2*k+1;
-        if( j+1 < n && arr[j+1] > arr[j] )
-            j += 1;
+    MaxHeap<T> maxheap = MaxHeap<T>(n);
+    for( int i = 0 ; i < n ; i ++ )
+        maxheap.insert(arr[i]);
 
-        if( arr[k] >= arr[j] )break;
+    for( int i = n-1 ; i >= 0 ; i-- )
+        arr[i] = maxheap.extractMax();
 
-        swap( arr[k] , arr[j] );
-        k = j;
-    }
 }
 
 template<typename T>
-void __shiftDown2(T arr[], int n, int k){
+void heapSortUsingIndexMaxHeap(T arr[], int n){
 
-    T e = arr[k];
-    while( 2*k+1 < n ){
-        int j = 2*k+1;
-        if( j+1 < n && arr[j+1] > arr[j] )
-            j += 1;
+    IndexMaxHeap<T> indexMaxheap = IndexMaxHeap<T>(n);
+    for( int i = 0 ; i < n ; i ++ )
+        indexMaxheap.insert(i, arr[i]);
 
-        if( e >= arr[j] ) break;
+    for( int i = n-1 ; i >= 0 ; i-- )
+        arr[i] = indexMaxheap.extractMax();
 
-
-        arr[k] = arr[j];
-        k = j;
-    }
-
-    arr[k] = e;
 }
 
 template<typename T>
-void heapSort(T arr[], int n){
+void heapSortUsingMinHeap(T arr[], int n){
 
-    for( int i = (n-1)/2 ; i >= 0 ; i -- )
-        __shiftDown2(arr, n, i);
+    MinHeap<T> minheap = MinHeap<T>(n);
+    for( int i = 0 ; i < n ; i ++ )
+        minheap.insert(arr[i]);
 
-    for( int i = n-1; i > 0 ; i-- ){
-        swap( arr[0] , arr[i] );
-        __shiftDown2(arr, i, 0);
-    }
+    for( int i = 0 ; i < n ; i++ )
+        arr[i] = minheap.extractMin();
+
+}
+
+template<typename T>
+void heapSortUsingIndexMinHeap(T arr[], int n){
+
+    IndexMinHeap<T> indexMinheap = IndexMinHeap<T>(n);
+    for( int i = 0 ; i < n ; i ++ )
+        indexMinheap.insert(i, arr[i]);
+
+    for( int i = 0 ; i < n ; i++ )
+        arr[i] = indexMinheap.extractMin();
+
 }
 
 int main() {
 
     int n = 1000000;
 
-    // 测试1 一般性测试
-    cout<<"Test for Random Array, size = "<<n<<", random range [0, "<<n<<"]"<<endl;
     int* arr1 = SortTestHelper::generateRandomArray(n,0,n);
     int* arr2 = SortTestHelper::copyIntArray(arr1, n);
     int* arr3 = SortTestHelper::copyIntArray(arr1, n);
+    int* arr4 = SortTestHelper::copyIntArray(arr1, n);
 
-    SortTestHelper::testSort("Heap Sort 1", heapSort1, arr1, n);
-    SortTestHelper::testSort("Heap Sort 2", heapSort2, arr2, n);
-    SortTestHelper::testSort("Heap Sort 3", heapSort, arr3, n);
-
-    delete[] arr1;
-    delete[] arr2;
-    delete[] arr3;
-
-    cout<<endl;
-
-
-    // 测试2 测试近乎有序的数组
-    int swapTimes = 100;
-    cout<<"Test for Random Nearly Ordered Array, size = "<<n<<", swap time = "<<swapTimes<<endl;
-    arr1 = SortTestHelper::generateRandomArray(n,0,n);
-    arr2 = SortTestHelper::copyIntArray(arr1, n);
-    arr3 = SortTestHelper::copyIntArray(arr1, n);
-
-    SortTestHelper::testSort("Heap Sort 1", heapSort1, arr1, n);
-    SortTestHelper::testSort("Heap Sort 2", heapSort2, arr2, n);
-    SortTestHelper::testSort("Heap Sort 3", heapSort, arr3, n);
+    SortTestHelper::testSort("Heap Sort Using Max Heap", heapSortUsingMaxHeap, arr1, n);
+    SortTestHelper::testSort("Heap Sort Using Index Max Heap", heapSortUsingIndexMaxHeap, arr2, n);
+    SortTestHelper::testSort("Heap Sort Using Min Heap", heapSortUsingMinHeap, arr3, n);
+    SortTestHelper::testSort("Heap Sort Using Index Min Heap", heapSortUsingIndexMinHeap, arr4, n);
 
     delete[] arr1;
     delete[] arr2;
     delete[] arr3;
-
-    cout<<endl;
-
-
-    // 测试3 测试存在包含大量相同元素的数组
-    cout<<"Test for Random Array, size = "<<n<<", random range [0,10]"<<endl;
-    arr1 = SortTestHelper::generateRandomArray(n,0,n);
-    arr2 = SortTestHelper::copyIntArray(arr1, n);
-    arr3 = SortTestHelper::copyIntArray(arr1, n);
-
-    SortTestHelper::testSort("Heap Sort 1", heapSort1, arr1, n);
-    SortTestHelper::testSort("Heap Sort 2", heapSort2, arr2, n);
-    SortTestHelper::testSort("Heap Sort 3", heapSort, arr3, n);
-
-    delete[] arr1;
-    delete[] arr2;
-    delete[] arr3;
+    delete[] arr4;
 
     return 0;
 }

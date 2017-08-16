@@ -5,7 +5,7 @@
 #ifndef DATASTRUCTURESANDALGORITHMS_HEAPSORT_H
 #define DATASTRUCTURESANDALGORITHMS_HEAPSORT_H
 
-#include "Heap.h"
+#include "MaxHeap.h"
 using namespace std;
 
 template<typename T>

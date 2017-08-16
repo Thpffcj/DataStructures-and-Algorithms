@@ -101,10 +101,19 @@
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SortTestHelper.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/Heap.h">
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/HeapSort.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/HeapSort.h">
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/IndexMaxHeap.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/IndexMinHeap.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/MaxHeap.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/MinHeap.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/main.cpp">
