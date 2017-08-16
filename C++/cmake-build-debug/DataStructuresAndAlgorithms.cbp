@@ -116,7 +116,16 @@
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/MinHeap.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/main.cpp">
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/BST.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/FileOps.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/SequenceST.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/main.cpp">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/CMakeLists.txt">

@@ -122,32 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-dataStructures/heap/main.obj: dataStructures/heap/main.cpp.obj
+dataStructures/tree/main.obj: dataStructures/tree/main.cpp.obj
 
-.PHONY : dataStructures/heap/main.obj
+.PHONY : dataStructures/tree/main.obj
 
 # target to build an object file
-dataStructures/heap/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.obj
-.PHONY : dataStructures/heap/main.cpp.obj
+dataStructures/tree/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/tree/main.cpp.obj
+.PHONY : dataStructures/tree/main.cpp.obj
 
-dataStructures/heap/main.i: dataStructures/heap/main.cpp.i
+dataStructures/tree/main.i: dataStructures/tree/main.cpp.i
 
-.PHONY : dataStructures/heap/main.i
+.PHONY : dataStructures/tree/main.i
 
 # target to preprocess a source file
-dataStructures/heap/main.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.i
-.PHONY : dataStructures/heap/main.cpp.i
+dataStructures/tree/main.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/tree/main.cpp.i
+.PHONY : dataStructures/tree/main.cpp.i
 
-dataStructures/heap/main.s: dataStructures/heap/main.cpp.s
+dataStructures/tree/main.s: dataStructures/tree/main.cpp.s
 
-.PHONY : dataStructures/heap/main.s
+.PHONY : dataStructures/tree/main.s
 
 # target to generate assembly for a file
-dataStructures/heap/main.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/heap/main.cpp.s
-.PHONY : dataStructures/heap/main.cpp.s
+dataStructures/tree/main.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/tree/main.cpp.s
+.PHONY : dataStructures/tree/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... dataStructures/heap/main.obj
-	@echo ... dataStructures/heap/main.i
-	@echo ... dataStructures/heap/main.s
+	@echo ... dataStructures/tree/main.obj
+	@echo ... dataStructures/tree/main.i
+	@echo ... dataStructures/tree/main.s
 .PHONY : help
 
 

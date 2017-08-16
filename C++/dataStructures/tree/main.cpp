@@ -3,92 +3,158 @@
 //
 
 #include <iostream>
-#include <cassert>
+#include <vector>
 #include <ctime>
+#include <string>
+#include "SequenceST.h"
+#include "FileOps.h"
 
 using namespace std;
 
-// 二分查找法,在有序数组arr中,查找target
-// 如果找到target,返回相应的索引index
-// 如果没有找到target,返回-1
-template<typename T>
-int binarySearch(T arr[], int n, T target){
+template <typename Key, typename Value>
+class BST{
 
-    // 在arr[l...r]之中查找target
-    int l = 0, r = n-1;
-    while( l <= r ){
+private:
+    struct Node{
+        Key key;
+        Value value;
+        Node *left;
+        Node *right;
 
-        //int mid = (l + r)/2;
-        int mid = l + (r-l)/2;
-        if( arr[mid] == target )
-            return mid;
+        Node(Key key, Value value){
+            this->key = key;
+            this->value = value;
+            this->left = this->right = NULL;
+        }
+    };
 
-        if( arr[mid] > target )
-            r = mid - 1;
-        else
-            l = mid + 1;
+    Node *root;
+    int count;
+
+public:
+    BST(){
+        root = NULL;
+        count = 0;
+    }
+    ~BST(){
+        // TODO: ~BST()
     }
 
-    return -1;
-}
+    int size(){
+        return count;
+    }
 
+    bool isEmpty(){
+        return count == 0;
+    }
 
-// 用递归的方式写二分查找法
-template<typename T>
-int __binarySearch2(T arr[], int l, int r, T target){
+    void insert(Key key, Value value){
+        root = insert(root, key, value);
+    }
 
-    if( l > r )
-        return -1;
+    bool contain(Key key){
+        return contain(root, key);
+    }
 
-    int mid = (l+r)/2;
-    if( arr[mid] == target )
-        return mid;
-    else if( arr[mid] > target )
-        return __binarySearch2(arr, 0, mid-1, target);
-    else
-        return __binarySearch2(arr, mid+1, r, target);
+    Value* search(Key key){
+        return search( root , key );
+    }
 
-}
+private:
+    // 向以node为根的二叉搜索树中,插入节点(key, value)
+    // 返回插入新节点后的二叉搜索树的根
+    Node* insert(Node *node, Key key, Value value){
 
-template<typename T>
-int binarySearch2(T arr[], int n, T target){
+        if( node == NULL ){
+            count ++;
+            return new Node(key, value);
+        }
 
-    return __binarySearch2( arr , 0 , n-1, target);
-}
+        if( key == node->key )
+            node->value = value;
+        else if( key < node->key )
+            node->left = insert( node->left , key, value);
+        else    // key > node->key
+            node->right = insert( node->right, key, value);
+
+        return node;
+    }
+
+    // 查看以node为根的二叉搜索树中是否包含键值为key的节点
+    bool contain(Node* node, Key key){
+
+        if( node == NULL )
+            return false;
+
+        if( key == node->key )
+            return true;
+        else if( key < node->key )
+            return contain( node->left , key );
+        else // key > node->key
+            return contain( node->right , key );
+    }
+
+    // 在以node为根的二叉搜索树中查找key所对应的value
+    Value* search(Node* node, Key key){
+
+        if( node == NULL )
+            return NULL;
+
+        if( key == node->key )
+            return &(node->value);
+        else if( key < node->key )
+            return search( node->left , key );
+        else // key > node->key
+            return search( node->right, key );
+    }
+};
+
 
 int main() {
 
-    int n = 1000000;
-    int* a = new int[n];
-    for( int i = 0 ; i < n ; i ++ )
-        a[i] = i;
+    string filename = "F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/bible.txt";
+    vector<string> words;
+    if( FileOps::readFile(filename, words) ) {
 
-    // 测试非递归二分查找法
-    clock_t startTime = clock();
-    for( int i = 0 ; i < 2*n ; i ++ ){
-        int v = binarySearch(a, n, i);
-        if( i < n )
-            assert( v == i );
-        else
-            assert( v == -1 );
+        cout << "There are totally " << words.size() << " words in " << filename << endl;
+
+        cout << endl;
+
+        // test BST
+        time_t startTime = clock();
+        BST<string, int> bst = BST<string, int>();
+        for (vector<string>::iterator iter = words.begin(); iter != words.end(); iter++) {
+            int *res = bst.search(*iter);
+            if (res == NULL)
+                bst.insert(*iter, 1);
+            else
+                (*res)++;
+        }
+
+        cout << "'god' : " << *bst.search("god") << endl;
+        time_t endTime = clock();
+        cout << "BST , time: " << double(endTime - startTime) / CLOCKS_PER_SEC << " s." << endl;
+
+        cout << endl;
+
+
+        // test SST
+        startTime = clock();
+        SequenceST<string, int> sst = SequenceST<string, int>();
+        for (vector<string>::iterator iter = words.begin(); iter != words.end(); iter++) {
+            int *res = sst.search(*iter);
+            if (res == NULL)
+                sst.insert(*iter, 1);
+            else
+                (*res)++;
+        }
+
+        cout << "'god' : " << *sst.search("god") << endl;
+
+        endTime = clock();
+        cout << "SST , time: " << double(endTime - startTime) / CLOCKS_PER_SEC << " s." << endl;
+
     }
-    clock_t endTime = clock();
-    cout << "Binary Search (Without Recursion): " << double(endTime - startTime) / CLOCKS_PER_SEC << " s"<<endl;
-
-    // 测试递归的二分查找法
-    startTime = clock();
-    for( int i = 0 ; i < 2*n ; i ++ ){
-        int v = binarySearch2(a, n, i);
-        if( i < n )
-            assert( v == i );
-        else
-            assert( v == -1 );
-    }
-    endTime = clock();
-    cout << "Binary Search (Recursion): " << double(endTime - startTime) / CLOCKS_PER_SEC << " s"<<endl;
-
-
-    delete[] a;
 
     return 0;
 }
