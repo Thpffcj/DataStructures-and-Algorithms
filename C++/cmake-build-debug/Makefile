@@ -122,32 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-dataStructures/unionFind/main.obj: dataStructures/unionFind/main.cpp.obj
+dataStructures/graph/main.obj: dataStructures/graph/main.cpp.obj
 
-.PHONY : dataStructures/unionFind/main.obj
+.PHONY : dataStructures/graph/main.obj
 
 # target to build an object file
-dataStructures/unionFind/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj
-.PHONY : dataStructures/unionFind/main.cpp.obj
+dataStructures/graph/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj
+.PHONY : dataStructures/graph/main.cpp.obj
 
-dataStructures/unionFind/main.i: dataStructures/unionFind/main.cpp.i
+dataStructures/graph/main.i: dataStructures/graph/main.cpp.i
 
-.PHONY : dataStructures/unionFind/main.i
+.PHONY : dataStructures/graph/main.i
 
 # target to preprocess a source file
-dataStructures/unionFind/main.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.i
-.PHONY : dataStructures/unionFind/main.cpp.i
+dataStructures/graph/main.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.i
+.PHONY : dataStructures/graph/main.cpp.i
 
-dataStructures/unionFind/main.s: dataStructures/unionFind/main.cpp.s
+dataStructures/graph/main.s: dataStructures/graph/main.cpp.s
 
-.PHONY : dataStructures/unionFind/main.s
+.PHONY : dataStructures/graph/main.s
 
 # target to generate assembly for a file
-dataStructures/unionFind/main.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.s
-.PHONY : dataStructures/unionFind/main.cpp.s
+dataStructures/graph/main.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.s
+.PHONY : dataStructures/graph/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... dataStructures/unionFind/main.obj
-	@echo ... dataStructures/unionFind/main.i
-	@echo ... dataStructures/unionFind/main.s
+	@echo ... dataStructures/graph/main.obj
+	@echo ... dataStructures/graph/main.i
+	@echo ... dataStructures/graph/main.s
 .PHONY : help
 
 

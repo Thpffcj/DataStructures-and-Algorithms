@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj"
+  "CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj"
   "DataStructuresAndAlgorithms.pdb"
   "DataStructuresAndAlgorithms.exe"
   "DataStructuresAndAlgorithms.exe.manifest"

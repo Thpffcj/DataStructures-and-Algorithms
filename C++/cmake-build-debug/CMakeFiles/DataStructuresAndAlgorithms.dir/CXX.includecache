@@ -6,55 +6,29 @@
 
 #IncludeRegexTransform: 
 
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind1.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/DenseGraph.h
 iostream
+-
+vector
 -
 cassert
 -
 
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind2.h
-cassert
--
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/SparseGraph.h
 iostream
 -
-
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind3.h
-cassert
--
-iostream
--
-
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind4.h
-iostream
+vector
 -
 cassert
 -
 
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind5.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/main.cpp
 iostream
 -
-cassert
+c++/ctime
 -
-
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFindTestHelper.h
-iostream
--
-ctime
--
-UnionFind1.h
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind1.h
-UnionFind2.h
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind2.h
-UnionFind3.h
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind3.h
-UnionFind4.h
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind4.h
-UnionFind5.h
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind5.h
-
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/main.cpp
-iostream
--
-UnionFindTestHelper.h
-F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFindTestHelper.h
+SparseGraph.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/SparseGraph.h
+DenseGraph.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/DenseGraph.h
 

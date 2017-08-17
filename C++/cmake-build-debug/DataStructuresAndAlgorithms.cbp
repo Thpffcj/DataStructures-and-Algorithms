@@ -101,6 +101,15 @@
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SortTestHelper.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/DenseGraph.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/SparseGraph.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/main.cpp">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/HeapSort.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
@@ -141,9 +150,6 @@
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFindTestHelper.h">
-			<Option target="DataStructuresAndAlgorithms"/>
-		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/main.cpp">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/CMakeLists.txt">

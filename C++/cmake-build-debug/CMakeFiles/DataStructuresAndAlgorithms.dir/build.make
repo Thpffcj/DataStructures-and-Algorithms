@@ -56,38 +56,38 @@ include CMakeFiles/DataStructuresAndAlgorithms.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj: CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
-CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj: ../dataStructures/unionFind/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CLion\DataStructuresAndAlgorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj"
-	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructuresAndAlgorithms.dir\dataStructures\unionFind\main.cpp.obj -c F:\CLion\DataStructuresAndAlgorithms\dataStructures\unionFind\main.cpp
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj: CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj: ../dataStructures/graph/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\CLion\DataStructuresAndAlgorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj"
+	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructuresAndAlgorithms.dir\dataStructures\graph\main.cpp.obj -c F:\CLion\DataStructuresAndAlgorithms\dataStructures\graph\main.cpp
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.i"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\DataStructuresAndAlgorithms\dataStructures\unionFind\main.cpp > CMakeFiles\DataStructuresAndAlgorithms.dir\dataStructures\unionFind\main.cpp.i
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.i"
+	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\DataStructuresAndAlgorithms\dataStructures\graph\main.cpp > CMakeFiles\DataStructuresAndAlgorithms.dir\dataStructures\graph\main.cpp.i
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.s"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\DataStructuresAndAlgorithms\dataStructures\unionFind\main.cpp -o CMakeFiles\DataStructuresAndAlgorithms.dir\dataStructures\unionFind\main.cpp.s
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.s"
+	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\DataStructuresAndAlgorithms\dataStructures\graph\main.cpp -o CMakeFiles\DataStructuresAndAlgorithms.dir\dataStructures\graph\main.cpp.s
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj.requires:
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj.requires:
 
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj.requires
+.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj.requires
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj.provides: CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj.provides.build
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj.provides
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj.provides: CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj.provides.build
+.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj.provides
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj.provides.build: CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj.provides.build: CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj
 
 
 # Object files for target DataStructuresAndAlgorithms
 DataStructuresAndAlgorithms_OBJECTS = \
-"CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj"
+"CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj"
 
 # External object files for target DataStructuresAndAlgorithms
 DataStructuresAndAlgorithms_EXTERNAL_OBJECTS =
 
-DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj
+DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/build.make
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/linklibs.rsp
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/objects1.rsp
@@ -100,7 +100,7 @@ CMakeFiles/DataStructuresAndAlgorithms.dir/build: DataStructuresAndAlgorithms.ex
 
 .PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/build
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/requires: CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj.requires
+CMakeFiles/DataStructuresAndAlgorithms.dir/requires: CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj.requires
 
 .PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/requires
 
