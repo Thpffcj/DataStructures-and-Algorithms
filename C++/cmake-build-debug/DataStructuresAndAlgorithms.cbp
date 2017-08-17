@@ -131,6 +131,15 @@
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind2.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind3.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind4.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind5.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFindTestHelper.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>

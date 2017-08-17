@@ -3,6 +3,9 @@
 
 CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj: ../dataStructures/unionFind/UnionFind1.h
 CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj: ../dataStructures/unionFind/UnionFind2.h
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj: ../dataStructures/unionFind/UnionFind3.h
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj: ../dataStructures/unionFind/UnionFind4.h
+CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj: ../dataStructures/unionFind/UnionFind5.h
 CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj: ../dataStructures/unionFind/UnionFindTestHelper.h
 CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/unionFind/main.cpp.obj: ../dataStructures/unionFind/main.cpp
 

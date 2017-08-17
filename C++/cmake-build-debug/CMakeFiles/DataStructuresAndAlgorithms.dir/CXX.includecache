@@ -15,7 +15,25 @@ cassert
 F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind2.h
 cassert
 -
-c++/array
+iostream
+-
+
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind3.h
+cassert
+-
+iostream
+-
+
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind4.h
+iostream
+-
+cassert
+-
+
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind5.h
+iostream
+-
+cassert
 -
 
 F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFindTestHelper.h
@@ -27,6 +45,12 @@ UnionFind1.h
 F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind1.h
 UnionFind2.h
 F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind2.h
+UnionFind3.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind3.h
+UnionFind4.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind4.h
+UnionFind5.h
+F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind5.h
 
 F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/main.cpp
 iostream
