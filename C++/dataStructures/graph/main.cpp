@@ -3,56 +3,30 @@
 //
 
 #include <iostream>
-#include <c++/ctime>
 #include "SparseGraph.h"
 #include "DenseGraph.h"
+#include "ReadGraph.h"
+#include "Path.h"
+#include "ShortestPath.h"
 
 using namespace std;
 
+
 int main() {
 
-    int N = 20;
-    int M = 100;
-
-    srand( time(NULL) );
-
-
-    // Sparse Graph
-    SparseGraph g1(N , false);
-    for( int i = 0 ; i < M ; i ++ ){
-        int a = rand()%N;
-        int b = rand()%N;
-        g1.addEdge( a , b );
-    }
-
-    // O(E)
-    for( int v = 0 ; v < N ; v ++ ){
-        cout<<v<<" : ";
-        SparseGraph::adjIterator adj( g1 , v );
-        for( int w = adj.begin() ; !adj.end() ; w = adj.next() )
-            cout<<w<<" ";
-        cout<<endl;
-    }
-
+    string filename = "F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/testG2.txt";
+    SparseGraph g = SparseGraph(7, false);
+    ReadGraph<SparseGraph> readGraph(g, filename);
+    g.show();
     cout<<endl;
 
+    Path<SparseGraph> dfs(g,0);
+    cout<<"DFS : ";
+    dfs.showPath(6);
 
-    // Dense Graph
-    DenseGraph g2(N , false);
-    for( int i = 0 ; i < M ; i ++ ){
-        int a = rand()%N;
-        int b = rand()%N;
-        g2.addEdge( a , b );
-    }
-
-    // O(V^2)
-    for( int v = 0 ; v < N ; v ++ ){
-        cout<<v<<" : ";
-        DenseGraph::adjIterator adj( g2 , v );
-        for( int w = adj.begin() ; !adj.end() ; w = adj.next() )
-            cout<<w<<" ";
-        cout<<endl;
-    }
+    ShortestPath<SparseGraph> bfs(g,0);
+    cout<<"BFS : ";
+    bfs.showPath(6);
 
     return 0;
 }

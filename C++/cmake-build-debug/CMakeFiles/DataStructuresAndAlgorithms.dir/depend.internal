@@ -3,5 +3,8 @@
 
 CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj
  F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/DenseGraph.h
+ F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/Path.h
+ F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/ReadGraph.h
+ F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/ShortestPath.h
  F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/SparseGraph.h
  F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/main.cpp

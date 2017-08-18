@@ -101,7 +101,19 @@
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SortTestHelper.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/Components.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/DenseGraph.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/Path.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/ReadGraph.h">
+			<Option target="DataStructuresAndAlgorithms"/>
+		</Unit>
+		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/ShortestPath.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
 		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/SparseGraph.h">
