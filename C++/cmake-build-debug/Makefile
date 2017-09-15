@@ -47,10 +47,10 @@ RM = "F:\CLion\CLion 2017.1.3\bin\cmake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\CLion\DataStructuresAndAlgorithms
+CMAKE_SOURCE_DIR = E:\GitHub\DataStructuresAndAlgorithms\C++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\CLion\DataStructuresAndAlgorithms\cmake-build-debug
+CMAKE_BINARY_DIR = E:\GitHub\DataStructuresAndAlgorithms\C++\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\DataStructuresAndAlgorithms\cmake-build-debug\CMakeFiles F:\CLion\DataStructuresAndAlgorithms\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitHub\DataStructuresAndAlgorithms\C++\cmake-build-debug\CMakeFiles E:\GitHub\DataStructuresAndAlgorithms\C++\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\DataStructuresAndAlgorithms\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitHub\DataStructuresAndAlgorithms\C++\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

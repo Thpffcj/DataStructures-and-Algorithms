@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug"/>
+				<Option working_dir="E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DataStructuresAndAlgorithms">
-				<Option output="F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/DataStructuresAndAlgorithms.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug"/>
+				<Option output="E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/DataStructuresAndAlgorithms.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="C:/MinGw/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructuresAndAlgorithms"/>
-					<CompileFile command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructuresAndAlgorithms"/>
+					<CompileFile command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DataStructuresAndAlgorithms/fast">
-				<Option output="F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/DataStructuresAndAlgorithms.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug"/>
+				<Option output="E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/DataStructuresAndAlgorithms.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,118 +53,118 @@
 					<Add directory="C:/MinGw/lib/gcc/../../x86_64-w64-mingw32/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructuresAndAlgorithms/fast"/>
-					<CompileFile command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructuresAndAlgorithms/fast"/>
+					<CompileFile command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug"/>
+				<Option working_dir="E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug"/>
+				<Option working_dir="E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGw/bin/mingw32-make.exe -f &quot;F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGw/bin/mingw32-make.exe -f &quot;E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/BubbleSort.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/sort/BubbleSort.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/InsertionSort.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/sort/InsertionSort.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/MergeSort.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/sort/MergeSort.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/QuickSort.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/sort/QuickSort.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SelectionSort.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/sort/SelectionSort.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/ShellSort.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/sort/ShellSort.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/algorithms/sort/SortTestHelper.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/sort/SortTestHelper.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/Components.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/graph/Components.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/DenseGraph.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/graph/DenseGraph.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/Path.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/graph/Path.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/ReadGraph.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/graph/ReadGraph.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/ShortestPath.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/graph/ShortestPath.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/SparseGraph.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/graph/SparseGraph.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/graph/main.cpp">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/graph/main.cpp">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/HeapSort.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/heap/HeapSort.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/IndexMaxHeap.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/heap/IndexMaxHeap.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/IndexMinHeap.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/heap/IndexMinHeap.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/MaxHeap.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/heap/MaxHeap.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/heap/MinHeap.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/heap/MinHeap.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/BST.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/tree/BST.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/FileOps.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/tree/FileOps.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/tree/SequenceST.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/tree/SequenceST.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind1.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/unionFind/UnionFind1.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind2.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/unionFind/UnionFind2.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind3.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/unionFind/UnionFind3.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind4.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/unionFind/UnionFind4.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFind5.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/unionFind/UnionFind5.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/dataStructures/unionFind/UnionFindTestHelper.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/dataStructures/unionFind/UnionFindTestHelper.h">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="F:/CLion/DataStructuresAndAlgorithms/CMakeLists.txt">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

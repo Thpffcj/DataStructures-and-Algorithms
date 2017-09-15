@@ -1,4 +1,4 @@
-# Install script for directory: F:/CLion/DataStructuresAndAlgorithms
+# Install script for directory: E:/GitHub/DataStructuresAndAlgorithms/C++
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/CLion/DataStructuresAndAlgorithms/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
