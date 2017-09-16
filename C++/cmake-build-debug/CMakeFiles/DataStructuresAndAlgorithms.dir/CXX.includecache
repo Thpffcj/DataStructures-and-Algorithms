@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Time-Complexity-Experiments/MyAlgorithmTester.h
+iostream
+-
+cassert
+-
+
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Time-Complexity-Experiments/MyUtil.h
+iostream
+-
+algorithm
+-
+cassert
+-
+
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp
+iostream
+-
+cmath
+-
+ctime
+-
+MyUtil.h
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Time-Complexity-Experiments/MyUtil.h
+MyAlgorithmTester.h
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Time-Complexity-Experiments/MyAlgorithmTester.h
+

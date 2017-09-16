@@ -122,32 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-dataStructures/graph/main.obj: dataStructures/graph/main.cpp.obj
+algorithms/algorithmInterview/Time-Complexity-Experiments/main2.obj: algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.obj
 
-.PHONY : dataStructures/graph/main.obj
+.PHONY : algorithms/algorithmInterview/Time-Complexity-Experiments/main2.obj
 
 # target to build an object file
-dataStructures/graph/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.obj
-.PHONY : dataStructures/graph/main.cpp.obj
+algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.obj
+.PHONY : algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.obj
 
-dataStructures/graph/main.i: dataStructures/graph/main.cpp.i
+algorithms/algorithmInterview/Time-Complexity-Experiments/main2.i: algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.i
 
-.PHONY : dataStructures/graph/main.i
+.PHONY : algorithms/algorithmInterview/Time-Complexity-Experiments/main2.i
 
 # target to preprocess a source file
-dataStructures/graph/main.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.i
-.PHONY : dataStructures/graph/main.cpp.i
+algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.i
+.PHONY : algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.i
 
-dataStructures/graph/main.s: dataStructures/graph/main.cpp.s
+algorithms/algorithmInterview/Time-Complexity-Experiments/main2.s: algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.s
 
-.PHONY : dataStructures/graph/main.s
+.PHONY : algorithms/algorithmInterview/Time-Complexity-Experiments/main2.s
 
 # target to generate assembly for a file
-dataStructures/graph/main.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/dataStructures/graph/main.cpp.s
-.PHONY : dataStructures/graph/main.cpp.s
+algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.s
+.PHONY : algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... dataStructures/graph/main.obj
-	@echo ... dataStructures/graph/main.i
-	@echo ... dataStructures/graph/main.s
+	@echo ... algorithms/algorithmInterview/Time-Complexity-Experiments/main2.obj
+	@echo ... algorithms/algorithmInterview/Time-Complexity-Experiments/main2.i
+	@echo ... algorithms/algorithmInterview/Time-Complexity-Experiments/main2.s
 .PHONY : help
 
 
