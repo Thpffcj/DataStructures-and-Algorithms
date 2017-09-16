@@ -122,32 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-algorithms/algorithmInterview/Time-Complexity-Experiments/main2.obj: algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.obj
+algorithms/algorithmInterview/Amortized-Time-2/main.obj: algorithms/algorithmInterview/Amortized-Time-2/main.cpp.obj
 
-.PHONY : algorithms/algorithmInterview/Time-Complexity-Experiments/main2.obj
+.PHONY : algorithms/algorithmInterview/Amortized-Time-2/main.obj
 
 # target to build an object file
-algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.obj
-.PHONY : algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.obj
+algorithms/algorithmInterview/Amortized-Time-2/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Amortized-Time-2/main.cpp.obj
+.PHONY : algorithms/algorithmInterview/Amortized-Time-2/main.cpp.obj
 
-algorithms/algorithmInterview/Time-Complexity-Experiments/main2.i: algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.i
+algorithms/algorithmInterview/Amortized-Time-2/main.i: algorithms/algorithmInterview/Amortized-Time-2/main.cpp.i
 
-.PHONY : algorithms/algorithmInterview/Time-Complexity-Experiments/main2.i
+.PHONY : algorithms/algorithmInterview/Amortized-Time-2/main.i
 
 # target to preprocess a source file
-algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.i
-.PHONY : algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.i
+algorithms/algorithmInterview/Amortized-Time-2/main.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Amortized-Time-2/main.cpp.i
+.PHONY : algorithms/algorithmInterview/Amortized-Time-2/main.cpp.i
 
-algorithms/algorithmInterview/Time-Complexity-Experiments/main2.s: algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.s
+algorithms/algorithmInterview/Amortized-Time-2/main.s: algorithms/algorithmInterview/Amortized-Time-2/main.cpp.s
 
-.PHONY : algorithms/algorithmInterview/Time-Complexity-Experiments/main2.s
+.PHONY : algorithms/algorithmInterview/Amortized-Time-2/main.s
 
 # target to generate assembly for a file
-algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.s
-.PHONY : algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.s
+algorithms/algorithmInterview/Amortized-Time-2/main.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Amortized-Time-2/main.cpp.s
+.PHONY : algorithms/algorithmInterview/Amortized-Time-2/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... algorithms/algorithmInterview/Time-Complexity-Experiments/main2.obj
-	@echo ... algorithms/algorithmInterview/Time-Complexity-Experiments/main2.i
-	@echo ... algorithms/algorithmInterview/Time-Complexity-Experiments/main2.s
+	@echo ... algorithms/algorithmInterview/Amortized-Time-2/main.obj
+	@echo ... algorithms/algorithmInterview/Amortized-Time-2/main.i
+	@echo ... algorithms/algorithmInterview/Amortized-Time-2/main.s
 .PHONY : help
 
 

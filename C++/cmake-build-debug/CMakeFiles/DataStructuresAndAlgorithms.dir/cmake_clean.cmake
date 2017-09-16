@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp.obj"
+  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Amortized-Time-2/main.cpp.obj"
   "DataStructuresAndAlgorithms.pdb"
   "DataStructuresAndAlgorithms.exe"
   "DataStructuresAndAlgorithms.exe.manifest"

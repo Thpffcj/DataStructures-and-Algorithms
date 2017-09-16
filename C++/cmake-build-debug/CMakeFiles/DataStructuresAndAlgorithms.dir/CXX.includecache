@@ -6,29 +6,17 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Time-Complexity-Experiments/MyAlgorithmTester.h
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Amortized-Time-2/MyVector.h
+
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Amortized-Time-2/main.cpp
 iostream
 -
 cassert
--
-
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Time-Complexity-Experiments/MyUtil.h
-iostream
--
-algorithm
--
-cassert
--
-
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Time-Complexity-Experiments/main2.cpp
-iostream
 -
 cmath
 -
 ctime
 -
-MyUtil.h
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Time-Complexity-Experiments/MyUtil.h
-MyAlgorithmTester.h
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Time-Complexity-Experiments/MyAlgorithmTester.h
+MyVector.h
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Amortized-Time-2/MyVector.h
 
