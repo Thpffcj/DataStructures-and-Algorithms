@@ -3,5 +3,5 @@ project(DataStructuresAndAlgorithms)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES algorithms/algorithmInterview/Amortized-Time-2/main.cpp algorithms/algorithmInterview/Amortized-Time-2/MyVector.h)
+set(SOURCE_FILES )
 add_executable(DataStructuresAndAlgorithms ${SOURCE_FILES})

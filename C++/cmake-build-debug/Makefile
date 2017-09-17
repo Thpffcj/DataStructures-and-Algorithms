@@ -122,32 +122,59 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-algorithms/algorithmInterview/Amortized-Time-2/main.obj: algorithms/algorithmInterview/Amortized-Time-2/main.cpp.obj
+algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.obj: algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj
 
-.PHONY : algorithms/algorithmInterview/Amortized-Time-2/main.obj
+.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.obj
 
 # target to build an object file
-algorithms/algorithmInterview/Amortized-Time-2/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Amortized-Time-2/main.cpp.obj
-.PHONY : algorithms/algorithmInterview/Amortized-Time-2/main.cpp.obj
+algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj
+.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj
 
-algorithms/algorithmInterview/Amortized-Time-2/main.i: algorithms/algorithmInterview/Amortized-Time-2/main.cpp.i
+algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.i: algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.i
 
-.PHONY : algorithms/algorithmInterview/Amortized-Time-2/main.i
+.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.i
 
 # target to preprocess a source file
-algorithms/algorithmInterview/Amortized-Time-2/main.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Amortized-Time-2/main.cpp.i
-.PHONY : algorithms/algorithmInterview/Amortized-Time-2/main.cpp.i
+algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.i
+.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.i
 
-algorithms/algorithmInterview/Amortized-Time-2/main.s: algorithms/algorithmInterview/Amortized-Time-2/main.cpp.s
+algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.s: algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.s
 
-.PHONY : algorithms/algorithmInterview/Amortized-Time-2/main.s
+.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.s
 
 # target to generate assembly for a file
-algorithms/algorithmInterview/Amortized-Time-2/main.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Amortized-Time-2/main.cpp.s
-.PHONY : algorithms/algorithmInterview/Amortized-Time-2/main.cpp.s
+algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.s
+.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.s
+
+algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.obj: algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj
+
+.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.obj
+
+# target to build an object file
+algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj
+.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj
+
+algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.i: algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.i
+
+.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.i
+
+# target to preprocess a source file
+algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.i
+.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.i
+
+algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.s: algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.s
+
+.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.s
+
+# target to generate assembly for a file
+algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.s
+.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.s
 
 # Help Target
 help:
@@ -158,9 +185,12 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... algorithms/algorithmInterview/Amortized-Time-2/main.obj
-	@echo ... algorithms/algorithmInterview/Amortized-Time-2/main.i
-	@echo ... algorithms/algorithmInterview/Amortized-Time-2/main.s
+	@echo ... algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.obj
+	@echo ... algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.i
+	@echo ... algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.s
+	@echo ... algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.obj
+	@echo ... algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.i
+	@echo ... algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.s
 .PHONY : help
 
 

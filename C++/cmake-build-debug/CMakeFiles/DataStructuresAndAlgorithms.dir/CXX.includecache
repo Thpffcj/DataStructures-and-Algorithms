@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Amortized-Time-2/MyVector.h
-
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Amortized-Time-2/main.cpp
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp
 iostream
+-
+vector
 -
 cassert
 -
-cmath
--
-ctime
--
-MyVector.h
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Amortized-Time-2/MyVector.h
 

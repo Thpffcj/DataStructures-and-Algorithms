@@ -80,10 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Amortized-Time-2/MyVector.h">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
-		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Amortized-Time-2/main.cpp">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
 		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/CMakeLists.txt">

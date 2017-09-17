@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Amortized-Time-2/main.cpp.obj"
+  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj"
+  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj"
   "DataStructuresAndAlgorithms.pdb"
   "DataStructuresAndAlgorithms.exe"
   "DataStructuresAndAlgorithms.exe.manifest"
