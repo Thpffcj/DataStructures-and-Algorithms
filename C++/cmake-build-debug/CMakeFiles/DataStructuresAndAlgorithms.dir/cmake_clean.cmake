@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj"
-  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj"
+  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj"
   "DataStructuresAndAlgorithms.pdb"
   "DataStructuresAndAlgorithms.exe"
   "DataStructuresAndAlgorithms.exe.manifest"

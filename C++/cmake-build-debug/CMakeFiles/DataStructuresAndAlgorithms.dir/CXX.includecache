@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main.cpp
 iostream
 -
 vector
 -
-cassert
+set
 -
 

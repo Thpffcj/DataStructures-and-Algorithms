@@ -122,59 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.obj: algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj
+algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.obj: algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj
 
-.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.obj
-
-# target to build an object file
-algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj
-.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj
-
-algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.i: algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.i
-
-.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.i
-
-# target to preprocess a source file
-algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.i
-.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.i
-
-algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.s: algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.s
-
-.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.s
-
-# target to generate assembly for a file
-algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.s
-.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.s
-
-algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.obj: algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj
-
-.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.obj
+.PHONY : algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.obj
 
 # target to build an object file
-algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj
-.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj
+algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj
+.PHONY : algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj
 
-algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.i: algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.i
+algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.i: algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.i
 
-.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.i
+.PHONY : algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.i
 
 # target to preprocess a source file
-algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.i
-.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.i
+algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.i
+.PHONY : algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.i
 
-algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.s: algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.s
+algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.s: algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.s
 
-.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.s
+.PHONY : algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.s
 
 # target to generate assembly for a file
-algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.s
-.PHONY : algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.s
+algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.s
+.PHONY : algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.s
 
 # Help Target
 help:
@@ -185,12 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.obj
-	@echo ... algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.i
-	@echo ... algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.s
-	@echo ... algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.obj
-	@echo ... algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.i
-	@echo ... algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.s
+	@echo ... algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.obj
+	@echo ... algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.i
+	@echo ... algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.s
 .PHONY : help
 
 

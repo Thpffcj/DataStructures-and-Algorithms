@@ -56,69 +56,43 @@ include CMakeFiles/DataStructuresAndAlgorithms.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj: CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj: ../algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\DataStructuresAndAlgorithms\C++\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj"
-	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Using-Array\Two-Sum-II\main3.cpp.obj -c E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Using-Array\Two-Sum-II\main3.cpp
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj: CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj: ../algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\DataStructuresAndAlgorithms\C++\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj"
+	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Using-Hash-Table\Intersection-of-Two-Arrays-II\main.cpp.obj -c E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Using-Hash-Table\Intersection-of-Two-Arrays-II\main.cpp
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.i"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Using-Array\Two-Sum-II\main3.cpp > CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Using-Array\Two-Sum-II\main3.cpp.i
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.i"
+	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Using-Hash-Table\Intersection-of-Two-Arrays-II\main.cpp > CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Using-Hash-Table\Intersection-of-Two-Arrays-II\main.cpp.i
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.s"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Using-Array\Two-Sum-II\main3.cpp -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Using-Array\Two-Sum-II\main3.cpp.s
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.s"
+	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Using-Hash-Table\Intersection-of-Two-Arrays-II\main.cpp -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Using-Hash-Table\Intersection-of-Two-Arrays-II\main.cpp.s
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj.requires:
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj.requires:
 
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj.requires
+.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj.requires
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj.provides: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj.provides.build
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj.provides
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj.provides: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj.provides.build
+.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj.provides
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj.provides.build: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj
-
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj: CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj: ../algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\DataStructuresAndAlgorithms\C++\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj"
-	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Using-Array\Two-Sum-II\adf.cpp.obj -c E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Using-Array\Two-Sum-II\adf.cpp
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.i"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Using-Array\Two-Sum-II\adf.cpp > CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Using-Array\Two-Sum-II\adf.cpp.i
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.s"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Using-Array\Two-Sum-II\adf.cpp -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Using-Array\Two-Sum-II\adf.cpp.s
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj.requires:
-
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj.requires
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj.provides: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj.provides.build
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj.provides
-
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj.provides.build: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj.provides.build: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj
 
 
 # Object files for target DataStructuresAndAlgorithms
 DataStructuresAndAlgorithms_OBJECTS = \
-"CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj" \
-"CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj"
+"CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj"
 
 # External object files for target DataStructuresAndAlgorithms
 DataStructuresAndAlgorithms_EXTERNAL_OBJECTS =
 
-DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj
-DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj
+DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/build.make
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/linklibs.rsp
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/objects1.rsp
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\GitHub\DataStructuresAndAlgorithms\C++\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DataStructuresAndAlgorithms.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\GitHub\DataStructuresAndAlgorithms\C++\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DataStructuresAndAlgorithms.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructuresAndAlgorithms.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,8 +100,7 @@ CMakeFiles/DataStructuresAndAlgorithms.dir/build: DataStructuresAndAlgorithms.ex
 
 .PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/build
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/requires: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp.obj.requires
-CMakeFiles/DataStructuresAndAlgorithms.dir/requires: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp.obj.requires
+CMakeFiles/DataStructuresAndAlgorithms.dir/requires: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp.obj.requires
 
 .PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/requires
 

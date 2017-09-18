@@ -80,10 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp">
-			<Option target="DataStructuresAndAlgorithms"/>
-		</Unit>
-		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Using-Array/Two-Sum-II/main3.cpp">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
 		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/CMakeLists.txt">
