@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-II/main.cpp
 iostream
 -
 vector
 -
-unordered_map
+unordered_set
 -
 
