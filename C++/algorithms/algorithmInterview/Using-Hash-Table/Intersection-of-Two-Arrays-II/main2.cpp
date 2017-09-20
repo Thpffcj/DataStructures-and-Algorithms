@@ -1,15 +1,7 @@
 /**
- * Created by Thpffcj on 2017/9/18
+ * Created by Thpffcj on 2017/9/19
  */
 
-/**
- * Given two arrays, write a function to compute their intersection.
- * Example:
- * Given nums1 = [1, 2, 2, 1], nums2 = [2, 2], return [2, 2].
- * Note:
- * Each element in the result should appear as many times as it shows in both arrays.
- * The result can be in any order.
- */
 #include <iostream>
 #include <vector>
 #include <unordered_map>
@@ -21,13 +13,19 @@ public:
 
         unordered_map<int, int> record;
         for( int i = 0 ; i < nums1.size() ; i ++ )
-            record[nums1[i]] += 1;
+            if( record.find(nums1[i]) == record.end() )
+                record.insert( make_pair(nums1[i],1));
+            else
+                record[nums1[i]] += 1;
 
         vector<int> resultVector;
         for( int i = 0 ; i < nums2.size() ; i ++ )
-            if( record[ nums2[i] ] > 0 ){
+            if( record.find(nums2[i]) != record.end() &&
+                record[ nums2[i] ] > 0 ){
                 resultVector.push_back( nums2[i] );
                 record[nums2[i]] --;
+                if( record[nums2[i]] == 0 )
+                    record.erase( nums2[i] );
             }
 
         return resultVector;
@@ -49,3 +47,4 @@ int main() {
 
     return 0;
 }
+

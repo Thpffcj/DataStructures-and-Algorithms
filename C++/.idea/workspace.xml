@@ -12,9 +12,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="157e2b25-18c9-463f-8ab6-0f14620395e0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../java/out/production/DataStructuresAndAlgorithms/algorithms/JumpGame.class" afterPath="$PROJECT_DIR$/../java/out/production/DataStructuresAndAlgorithms/algorithms/JumpGame.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/basic_map_main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main2.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Java/src/interview/oop/company/Accounting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Java/src/interview/oop/company/BankEndPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Java/src/interview/oop/company/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Java/src/interview/oop/company/Manager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Java/src/interview/oop/company/Tester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Java/src/interview/oop/linkedlist/LinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Java/src/interview/oop/linkedlist/Tester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main.cpp.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/objects.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/DataStructuresAndAlgorithms.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/DataStructuresAndAlgorithms.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main.cpp" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main2.cpp" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main2.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -31,19 +49,48 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="108">
+              <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="148">
+              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding>
+                <element signature="e#325#344#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main2.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main2.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-199">
+              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="e#44#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="126">
+                <caret line="97" column="28" lean-forward="false" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -56,9 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dataStructures/unionFind/main.cpp" />
-        <option value="$PROJECT_DIR$/dataStructures/unionFind/UnionFind5.h" />
-        <option value="$PROJECT_DIR$/dataStructures/graph/ReadGraph.h" />
         <option value="$PROJECT_DIR$/dataStructures/graph/SparseGraph.h" />
         <option value="$PROJECT_DIR$/dataStructures/graph/DenseGraph.h" />
         <option value="$PROJECT_DIR$/dataStructures/graph/Components.h" />
@@ -103,10 +147,13 @@
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Longest-Substring-Without-Repeating-Characters/main3.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Longest-Substring-Without-Repeating-Characters/main.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Longest-Substring-Without-Repeating-Characters/main2.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/More-About-Set-And-Map/main.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/basic_map_main.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main2.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main2.cpp" />
       </list>
     </option>
   </component>
@@ -512,31 +559,32 @@
       <workItem from="1505616129659" duration="515000" />
       <workItem from="1505690711961" duration="5138000" />
       <workItem from="1505746704715" duration="711000" />
+      <workItem from="1505831532537" duration="2882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78183000" />
+    <option name="totallyTimeSpent" value="81065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3361921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29845625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29845625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14069591" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1429652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -553,53 +601,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Time-Complexity/Time-Complexity-Experiments/MyUtil.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Time-Complexity/Common-Code-for-Time-Complexity/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1782">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Time-Complexity/Time-Complexity-Basic/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Time-Complexity/Time-Complexity-Experiments/main4.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Time-Complexity/Time-Complexity-Experiments/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Time-Complexity/Time-Complexity-Experiments/main2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Time-Complexity/Time-Complexity-Experiments/MyAlgorithmTester.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1390">
@@ -632,13 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/sort/MergeSort.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -758,25 +757,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Two-Sum-II/m.cpp" />
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Two-Sum-II/adf.cpp" />
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/readme.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Binary-Search-II/asd.cpp" />
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Binary-Search-II/as.cpp" />
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Binary-Search/util.h">
@@ -845,33 +825,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main.cpp">
+    <entry file="file://$PROJECT_DIR$/algorithms/sort/MergeSort.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="-880">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/sort/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="48" column="34" lean-forward="false" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/sort/SortTestHelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/More-About-Set-And-Map/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/basic_map_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <element signature="e#43#62#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#44#63#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="e#283#302#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/readme.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="97" column="28" lean-forward="false" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="108">
+          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="148">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#325#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#44#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
