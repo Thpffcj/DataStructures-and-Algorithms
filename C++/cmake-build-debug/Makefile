@@ -122,32 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.obj: algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp.obj
+algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.obj: algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.obj
 
-.PHONY : algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.obj
+.PHONY : algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.obj
 
 # target to build an object file
-algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp.obj
-.PHONY : algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp.obj
+algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.obj
+.PHONY : algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.obj
 
-algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.i: algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp.i
+algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.i: algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.i
 
-.PHONY : algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.i
+.PHONY : algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.i
 
 # target to preprocess a source file
-algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp.i
-.PHONY : algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp.i
+algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.i
+.PHONY : algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.i
 
-algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.s: algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp.s
+algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.s: algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.s
 
-.PHONY : algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.s
+.PHONY : algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.s
 
 # target to generate assembly for a file
-algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp.s
-.PHONY : algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp.s
+algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.s
+.PHONY : algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.obj
-	@echo ... algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.i
-	@echo ... algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.s
+	@echo ... algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.obj
+	@echo ... algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.i
+	@echo ... algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.s
 .PHONY : help
 
 

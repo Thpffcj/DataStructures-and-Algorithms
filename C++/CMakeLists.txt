@@ -3,5 +3,5 @@ project(DataStructuresAndAlgorithms)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp)
+set(SOURCE_FILES )
 add_executable(DataStructuresAndAlgorithms ${SOURCE_FILES})
