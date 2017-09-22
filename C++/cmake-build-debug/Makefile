@@ -122,32 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.obj: algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.obj
+algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.obj: algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj
 
-.PHONY : algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.obj
+.PHONY : algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.obj
 
 # target to build an object file
-algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.obj
-.PHONY : algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.obj
+algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj
+.PHONY : algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj
 
-algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.i: algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.i
+algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.i: algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.i
 
-.PHONY : algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.i
+.PHONY : algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.i
 
 # target to preprocess a source file
-algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.i
-.PHONY : algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.i
+algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.i
+.PHONY : algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.i
 
-algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.s: algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.s
+algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.s: algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.s
 
-.PHONY : algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.s
+.PHONY : algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.s
 
 # target to generate assembly for a file
-algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.s
-.PHONY : algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp.s
+algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.s
+.PHONY : algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.obj
-	@echo ... algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.i
-	@echo ... algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.s
+	@echo ... algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.obj
+	@echo ... algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.i
+	@echo ... algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.s
 .PHONY : help
 
 

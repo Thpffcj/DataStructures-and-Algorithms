@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main.cpp
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Stack-and-Queue/Perfect-Squares/main.cpp
 iostream
+-
+vector
+-
+queue
 -
 
