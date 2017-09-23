@@ -3,5 +3,5 @@ project(DataStructuresAndAlgorithms)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp)
+set(SOURCE_FILES algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp)
 add_executable(DataStructuresAndAlgorithms ${SOURCE_FILES})

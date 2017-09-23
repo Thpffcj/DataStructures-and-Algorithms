@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum-III/main.cpp
-iostream
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/main.c
+stdio.h
 -
 

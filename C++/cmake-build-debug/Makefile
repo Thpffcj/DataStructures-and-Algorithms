@@ -122,32 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.obj: algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj
+algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.obj: algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.obj
 
-.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.obj
+.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.obj
 
 # target to build an object file
-algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj
-.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj
+algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.obj
+.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.obj
 
-algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.i: algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.i
+algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.i: algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.i
 
-.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.i
+.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.i
 
 # target to preprocess a source file
-algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.i
-.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.i
+algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.i
+.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.i
 
-algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.s: algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.s
+algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.s: algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.s
 
-.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.s
+.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.s
 
 # target to generate assembly for a file
-algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.s
-.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.s
+algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.s
+.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.obj
-	@echo ... algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.i
-	@echo ... algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.s
+	@echo ... algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.obj
+	@echo ... algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.i
+	@echo ... algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.s
 .PHONY : help
 
 
