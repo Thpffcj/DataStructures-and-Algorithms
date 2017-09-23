@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj"
+  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj"
   "DataStructuresAndAlgorithms.pdb"
   "DataStructuresAndAlgorithms.exe"
   "DataStructuresAndAlgorithms.exe.manifest"

@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
 		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/CMakeLists.txt">

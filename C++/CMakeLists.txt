@@ -3,5 +3,5 @@ project(DataStructuresAndAlgorithms)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp)
+set(SOURCE_FILES algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp)
 add_executable(DataStructuresAndAlgorithms ${SOURCE_FILES})

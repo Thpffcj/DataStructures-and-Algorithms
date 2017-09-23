@@ -56,38 +56,38 @@ include CMakeFiles/DataStructuresAndAlgorithms.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj: CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj: ../algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\DataStructuresAndAlgorithms\C++\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj"
-	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Stack-and-Queue\Priority-Queue\main.cpp.obj -c E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Stack-and-Queue\Priority-Queue\main.cpp
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj: CMakeFiles/DataStructuresAndAlgorithms.dir/flags.make
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj: ../algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitHub\DataStructuresAndAlgorithms\C++\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj"
+	C:\MinGw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Binary-Tree-and-Recursion\Path-Sum\main.cpp.obj -c E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Binary-Tree-and-Recursion\Path-Sum\main.cpp
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.i"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Stack-and-Queue\Priority-Queue\main.cpp > CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Stack-and-Queue\Priority-Queue\main.cpp.i
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.i"
+	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Binary-Tree-and-Recursion\Path-Sum\main.cpp > CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Binary-Tree-and-Recursion\Path-Sum\main.cpp.i
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.s"
-	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Stack-and-Queue\Priority-Queue\main.cpp -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Stack-and-Queue\Priority-Queue\main.cpp.s
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.s"
+	C:\MinGw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GitHub\DataStructuresAndAlgorithms\C++\algorithms\algorithmInterview\Binary-Tree-and-Recursion\Path-Sum\main.cpp -o CMakeFiles\DataStructuresAndAlgorithms.dir\algorithms\algorithmInterview\Binary-Tree-and-Recursion\Path-Sum\main.cpp.s
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj.requires:
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj.requires:
 
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj.requires
+.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj.requires
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj.provides: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj.provides.build
-.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj.provides
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj.provides: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj.provides.build
+.PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj.provides
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj.provides.build: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj
+CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj.provides.build: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj
 
 
 # Object files for target DataStructuresAndAlgorithms
 DataStructuresAndAlgorithms_OBJECTS = \
-"CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj"
+"CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj"
 
 # External object files for target DataStructuresAndAlgorithms
 DataStructuresAndAlgorithms_EXTERNAL_OBJECTS =
 
-DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj
+DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/build.make
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/linklibs.rsp
 DataStructuresAndAlgorithms.exe: CMakeFiles/DataStructuresAndAlgorithms.dir/objects1.rsp
@@ -100,7 +100,7 @@ CMakeFiles/DataStructuresAndAlgorithms.dir/build: DataStructuresAndAlgorithms.ex
 
 .PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/build
 
-CMakeFiles/DataStructuresAndAlgorithms.dir/requires: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj.requires
+CMakeFiles/DataStructuresAndAlgorithms.dir/requires: CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj.requires
 
 .PHONY : CMakeFiles/DataStructuresAndAlgorithms.dir/requires
 

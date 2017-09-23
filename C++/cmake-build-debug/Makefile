@@ -122,32 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.obj: algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj
+algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.obj: algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj
 
-.PHONY : algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.obj
+.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.obj
 
 # target to build an object file
-algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj
-.PHONY : algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj
+algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj
+.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj
 
-algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.i: algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.i
+algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.i: algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.i
 
-.PHONY : algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.i
+.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.i
 
 # target to preprocess a source file
-algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.i
-.PHONY : algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.i
+algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.i
+.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.i
 
-algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.s: algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.s
+algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.s: algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.s
 
-.PHONY : algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.s
+.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.s
 
 # target to generate assembly for a file
-algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.s
-.PHONY : algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.s
+algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.s
+.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.obj
-	@echo ... algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.i
-	@echo ... algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.s
+	@echo ... algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.obj
+	@echo ... algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.i
+	@echo ... algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.s
 .PHONY : help
 
 

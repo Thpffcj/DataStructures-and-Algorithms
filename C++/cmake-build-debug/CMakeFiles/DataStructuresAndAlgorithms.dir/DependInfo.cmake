@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp" "E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Stack-and-Queue/Priority-Queue/main.cpp.obj"
+  "E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp" "E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Path-Sum/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
