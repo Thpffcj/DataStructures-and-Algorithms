@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.obj"
+  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.obj"
   "DataStructuresAndAlgorithms.pdb"
   "DataStructuresAndAlgorithms.exe"
   "DataStructuresAndAlgorithms.exe.manifest"

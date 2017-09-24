@@ -122,32 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.obj: algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.obj
+algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.obj: algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.obj
 
-.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.obj
+.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.obj
 
 # target to build an object file
-algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.obj
-.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.obj
+algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.obj
+.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.obj
 
-algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.i: algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.i
+algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.i: algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.i
 
-.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.i
+.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.i
 
 # target to preprocess a source file
-algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.i
-.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.i
+algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.i
+.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.i
 
-algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.s: algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.s
+algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.s: algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.s
 
-.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.s
+.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.s
 
 # target to generate assembly for a file
-algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.s
-.PHONY : algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp.s
+algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.s
+.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.obj
-	@echo ... algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.i
-	@echo ... algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.s
+	@echo ... algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.obj
+	@echo ... algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.i
+	@echo ... algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.s
 .PHONY : help
 
 
