@@ -122,32 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.obj: algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.obj
+algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.obj: algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp.obj
 
-.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.obj
+.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.obj
 
 # target to build an object file
-algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.obj
-.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.obj
+algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp.obj
+.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp.obj
 
-algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.i: algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.i
+algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.i: algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp.i
 
-.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.i
+.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.i
 
 # target to preprocess a source file
-algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.i
-.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.i
+algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp.i
+.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp.i
 
-algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.s: algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.s
+algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.s: algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp.s
 
-.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.s
+.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.s
 
 # target to generate assembly for a file
-algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.s
-.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp.s
+algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp.s
+.PHONY : algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.obj
-	@echo ... algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.i
-	@echo ... algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.s
+	@echo ... algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.obj
+	@echo ... algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.i
+	@echo ... algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.s
 .PHONY : help
 
 

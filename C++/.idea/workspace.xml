@@ -12,9 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="157e2b25-18c9-463f-8ab6-0f14620395e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Letter-Combinations-of-a-Phone-Number/main.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Permutations/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations-optimized/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Number-of-Islands/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Word-Search/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/objects.a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/DataStructuresAndAlgorithms.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/DataStructuresAndAlgorithms.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -49,35 +50,20 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="57" selection-end-column="2" />
+            <state relative-caret-position="337">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="85" selection-end-column="2" />
               <folding>
-                <element signature="e#258#277#0" expanded="true" />
+                <element signature="e#606#625#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="530">
-                <caret line="151" column="0" lean-forward="true" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
             </state>
           </provider>
         </entry>
@@ -90,10 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Minimum-Size-Subarray-Sum/main4.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Longest-Substring-Without-Repeating-Characters/main3.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Longest-Substring-Without-Repeating-Characters/main.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Longest-Substring-Without-Repeating-Characters/main2.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/More-About-Set-And-Map/main.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/basic_map_main.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main.cpp" />
@@ -139,8 +121,12 @@
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Binary-Tree-and-Recursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree/mian.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Letter-Combinations-of-a-Phone-Number/main.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Permutations/main.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations-optimized/main.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Word-Search/main.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Number-of-Islands/main.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp" />
       </list>
     </option>
   </component>
@@ -151,8 +137,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="735" />
-    <option name="width" value="651" />
+    <option name="x" value="719" />
+    <option name="width" value="662" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -531,15 +517,18 @@
       <workItem from="1506151781405" duration="19000" />
       <workItem from="1506163634515" duration="3897000" />
       <workItem from="1506175918216" duration="2059000" />
-      <workItem from="1506214698718" duration="3871000" />
+      <workItem from="1506214698718" duration="4466000" />
+      <workItem from="1506250530079" duration="2449000" />
+      <workItem from="1506261546785" duration="4143000" />
+      <workItem from="1506300153660" duration="1683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117772000" />
+    <option name="totallyTimeSpent" value="126642000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="735" y="0" width="651" height="744" extended-state="0" />
+    <frame x="719" y="0" width="662" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -547,14 +536,14 @@
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3361921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29502574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21783876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.392555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.269103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -579,35 +568,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/basic_map_main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main3.cpp" />
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main2.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -875,9 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="e#330#349#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,35 +842,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-          <folding>
-            <element signature="e#259#278#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="57" selection-end-column="2" />
-          <folding>
-            <element signature="e#258#277#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations-optimized/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Word-Search/min.cpp" />
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="530">
-            <caret line="151" column="0" lean-forward="true" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+          <first_editor relative-caret-position="492">
+            <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
@@ -925,6 +876,41 @@
         <state relative-caret-position="108">
           <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Word-Search/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="93" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Number-of-Islands/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#432#451#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="85" selection-end-column="2" />
+          <folding>
+            <element signature="e#606#625#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
