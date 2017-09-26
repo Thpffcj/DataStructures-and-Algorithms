@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp">
+		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp">
 			<Option target="DataStructuresAndAlgorithms"/>
 		</Unit>
 		<Unit filename="E:/GitHub/DataStructuresAndAlgorithms/C++/CMakeLists.txt">

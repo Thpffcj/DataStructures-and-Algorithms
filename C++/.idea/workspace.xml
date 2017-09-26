@@ -12,10 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="157e2b25-18c9-463f-8ab6-0f14620395e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations-optimized/main.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Number-of-Islands/main.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Word-Search/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Climbing-Stairs/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Climbing-Stairs/main2.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Fibonacci/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Fibonacci/main2.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Fibonacci/main3.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main2.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main3.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main4.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Integer-Break/main.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Integer-Break/main2.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Integer-Break/main3.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir/objects.a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/DataStructuresAndAlgorithms.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/DataStructuresAndAlgorithms.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -50,19 +58,31 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp">
+      <file leaf-file-name="main4.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main4.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="85" selection-end-column="2" />
+            <state relative-caret-position="229">
+              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
-                <element signature="e#606#625#0" expanded="true" />
+                <element signature="e#44#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main2.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main2.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="e#44#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,18 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/More-About-Set-And-Map/main.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/basic_map_main.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays/main2.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main2.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Two-Sum/main.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/4Sum-II/main.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/4Sum-II/main2.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Number-of-Boomerangs/main.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-II/main.cpp" />
-        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/About-Linked-List/Reverse-Linked-List/main.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/About-Linked-List/Test-Your-Linked-List/main.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main.cpp" />
@@ -125,8 +133,20 @@
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Combinations-optimized/main.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Word-Search/main.cpp" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Number-of-Islands/main.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Fibonacci/main.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Fibonacci/main2.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Fibonacci/main3.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Climbing-Stairs/main2.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Climbing-Stairs/main.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Integer-Break/main.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Integer-Break/main2.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Integer-Break/main3.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main3.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main4.cpp" />
+        <option value="$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main2.cpp" />
       </list>
     </option>
   </component>
@@ -137,7 +157,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="719" />
+    <option name="x" value="720" />
+    <option name="y" value="17" />
     <option name="width" value="662" />
     <option name="height" value="744" />
   </component>
@@ -221,7 +242,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Recurion-and-Backstracking" />
+              <option name="myItemId" value="Dynamic-Programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructuresAndAlgorithms" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="C++" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithmInterview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dynamic-Programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="House-Robber" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,16 +567,16 @@
       <workItem from="1506214698718" duration="4466000" />
       <workItem from="1506250530079" duration="2449000" />
       <workItem from="1506261546785" duration="4143000" />
-      <workItem from="1506300153660" duration="1683000" />
+      <workItem from="1506300153660" duration="5335000" />
+      <workItem from="1506384231733" duration="3968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126642000" />
+    <option name="totallyTimeSpent" value="134262000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="719" y="0" width="662" height="744" extended-state="1" />
-    <editor active="true" />
+    <frame x="720" y="17" width="662" height="744" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -537,10 +584,10 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3361921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21783876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21783876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.269103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27740863" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -568,90 +615,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Intersection-of-Two-Arrays-II/main2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Sort-Colors/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Two-Sum/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/4Sum-II/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Array/Sort-Colors/main2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/4Sum-II/main2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Number-of-Boomerangs/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="57" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-II/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="43" column="21" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Using-Hash-Table/Contains-Duplicate-III/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="40" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/About-Linked-List/Reverse-Linked-List/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/About-Linked-List/Remove-Linked-List-Elements/main2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="104" column="1" lean-forward="false" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/About-Linked-List/Swap-Nodes-in-Pairs/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -860,10 +823,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Word-Search/min.cpp" />
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Word-Search/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="93" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Number-of-Islands/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="492">
+          <first_editor relative-caret-position="473">
             <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
             <folding />
           </first_editor>
@@ -879,19 +856,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Word-Search/main.cpp">
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="93" selection-end-column="2" />
+        <state relative-caret-position="337">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="85" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/Number-of-Islands/main.cpp">
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Fibonacci/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="684">
+          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Fibonacci/main2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Fibonacci/main3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Climbing-Stairs/main2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Climbing-Stairs/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding>
-            <element signature="e#432#451#0" expanded="false" />
+            <element signature="e#225#244#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Integer-Break/main2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="e#44#63#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Integer-Break/main3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="33" selection-end-column="2" />
+          <folding>
+            <element signature="e#44#63#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/Integer-Break/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="e#394#413#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="e#578#597#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -899,17 +944,37 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Recurion-and-Backstracking/N-Queens/main.cpp">
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main3.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="85" selection-end-column="2" />
+          <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
           <folding>
-            <element signature="e#606#625#0" expanded="true" />
+            <element signature="e#44#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#44#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#44#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
