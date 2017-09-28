@@ -122,32 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.obj: algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp.obj
+algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.obj: algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp.obj
 
-.PHONY : algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.obj
+.PHONY : algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.obj
 
 # target to build an object file
-algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp.obj
-.PHONY : algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp.obj
+algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp.obj
+.PHONY : algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp.obj
 
-algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.i: algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp.i
+algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.i: algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp.i
 
-.PHONY : algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.i
+.PHONY : algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.i
 
 # target to preprocess a source file
-algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp.i
-.PHONY : algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp.i
+algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp.i
+.PHONY : algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp.i
 
-algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.s: algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp.s
+algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.s: algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp.s
 
-.PHONY : algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.s
+.PHONY : algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.s
 
 # target to generate assembly for a file
-algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp.s
-.PHONY : algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.cpp.s
+algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp.s
+.PHONY : algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.obj
-	@echo ... algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.i
-	@echo ... algorithms/algorithmInterview/Dynamic-Programming/House-Robber/main.s
+	@echo ... algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.obj
+	@echo ... algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.i
+	@echo ... algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.s
 .PHONY : help
 
 
