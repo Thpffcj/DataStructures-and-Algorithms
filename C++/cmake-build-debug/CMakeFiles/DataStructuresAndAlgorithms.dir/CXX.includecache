@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Dynamic-Programming/0-1-knapsack/main.cpp
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp
 iostream
 -
 vector

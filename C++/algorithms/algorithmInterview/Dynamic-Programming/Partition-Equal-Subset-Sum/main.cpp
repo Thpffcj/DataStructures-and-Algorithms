@@ -33,14 +33,18 @@ private:
     // 使用nums[0...index], 是否可以完全填充一个容量为sum的背包
     bool tryPartition(const vector<int> &nums, int index, int sum){
 
-        if( sum == 0 )
+        if( sum == 0 ) {
             return true;
+        }
 
-        if( sum < 0 || index < 0 )
+        if( sum < 0 || index < 0 ) {
             return false;
 
-        if( memo[index][sum] != -1 )
+        }
+
+        if( memo[index][sum] != -1 ) {
             return memo[index][sum] == 1;
+        }
 
         memo[index][sum] = (tryPartition(nums, index-1 , sum ) ||
                             tryPartition(nums, index-1 , sum - nums[index] ) ) ? 1 : 0;
@@ -56,8 +60,9 @@ public:
             sum += nums[i];
         }
 
-        if( sum%2 )
+        if( sum%2 ) {
             return false;
+        }
 
         memo = vector<vector<int>>(nums.size(), vector<int>(sum/2+1,-1));
         return tryPartition(nums, nums.size()-1 , sum/2 );

@@ -3,5 +3,5 @@ project(DataStructuresAndAlgorithms)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES )
+set(SOURCE_FILES algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp)
 add_executable(DataStructuresAndAlgorithms ${SOURCE_FILES})
