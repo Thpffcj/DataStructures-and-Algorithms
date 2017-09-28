@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp.obj"
+  "CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp.obj"
   "DataStructuresAndAlgorithms.pdb"
   "DataStructuresAndAlgorithms.exe"
   "DataStructuresAndAlgorithms.exe.manifest"

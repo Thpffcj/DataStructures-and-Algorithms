@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Dynamic-Programming/Partition-Equal-Subset-Sum/main.cpp
+E:/GitHub/DataStructuresAndAlgorithms/C++/algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp
 iostream
 -
 vector
 -
-cassert
+c++/algorithm
 -
 

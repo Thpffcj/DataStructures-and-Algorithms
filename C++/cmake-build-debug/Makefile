@@ -122,32 +122,32 @@ DataStructuresAndAlgorithms/fast:
 	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/build
 .PHONY : DataStructuresAndAlgorithms/fast
 
-algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.obj: algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp.obj
+algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.obj: algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp.obj
 
-.PHONY : algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.obj
+.PHONY : algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.obj
 
 # target to build an object file
-algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp.obj
-.PHONY : algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp.obj
+algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp.obj:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp.obj
+.PHONY : algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp.obj
 
-algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.i: algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp.i
+algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.i: algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp.i
 
-.PHONY : algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.i
+.PHONY : algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.i
 
 # target to preprocess a source file
-algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp.i:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp.i
-.PHONY : algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp.i
+algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp.i:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp.i
+.PHONY : algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp.i
 
-algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.s: algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp.s
+algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.s: algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp.s
 
-.PHONY : algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.s
+.PHONY : algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.s
 
 # target to generate assembly for a file
-algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp.s:
-	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp.s
-.PHONY : algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.cpp.s
+algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp.s:
+	$(MAKE) -f CMakeFiles\DataStructuresAndAlgorithms.dir\build.make CMakeFiles/DataStructuresAndAlgorithms.dir/algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp.s
+.PHONY : algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... DataStructuresAndAlgorithms
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.obj
-	@echo ... algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.i
-	@echo ... algorithms/algorithmInterview/Dynamic-Programming/Triangle/main.s
+	@echo ... algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.obj
+	@echo ... algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.i
+	@echo ... algorithms/algorithmInterview/Greedy-Algorithms/Non-overlapping-Intervals/main2.s
 .PHONY : help
 
 
