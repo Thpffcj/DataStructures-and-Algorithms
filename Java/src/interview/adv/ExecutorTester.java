@@ -9,8 +9,8 @@ import java.util.concurrent.ThreadPoolExecutor;
  */
 public class ExecutorTester {
 
-    public static void main(String[] args) {
-        ExecutorService executorService = Executors.newFixedThreadPool(3);
-        executorService.submit(new CodingTask());
-    }
+//    public static void main(String[] args) {
+//        ExecutorService executorService = Executors.newFixedThreadPool(3);
+//        executorService.submit(new CodingTask());
+//    }
 }
