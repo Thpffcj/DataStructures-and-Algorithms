@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95b92a32-3ebc-41ed-b6a5-1df7e2074c3f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/quickSortVisualization/AlgoFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/quickSortVisualization/AlgoVisHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/quickSortVisualization/AlgoVisualizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/quickSortVisualization/QuickSortData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/threeWaysQuickSortVisualization/AlgoFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/threeWaysQuickSortVisualization/AlgoVisHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/threeWaysQuickSortVisualization/AlgoVisualizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/threeWaysQuickSortVisualization/ThreeWaysQuickSortData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/twoWaysQuickSortVisualization/AlgoFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/twoWaysQuickSortVisualization/AlgoVisHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/twoWaysQuickSortVisualization/AlgoVisualizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/twoWaysQuickSortVisualization/TwoWaysQuickSortData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/resources/0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/resources/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/resources/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/resources/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/resources/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/resources/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/resources/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/resources/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/resources/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/resources/block.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/resources/flag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/resources/mine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/AlgoFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/AlgoVisHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/AlgoVisualizer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/MineSweeperData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/ShuffeExp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../C++/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../C++/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../C++/algorithms/algorithmInterview/About-Linked-List/Remove-Nth-Node-From-End-of-List/main.cpp" afterPath="$PROJECT_DIR$/../C++/algorithms/algorithmInterview/About-Linked-List/Remove-Nth-Node-From-End-of-List/main.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../C++/algorithms/algorithmInterview/About-Linked-List/Remove-Nth-Node-From-End-of-List/main2.cpp" afterPath="$PROJECT_DIR$/../C++/algorithms/algorithmInterview/About-Linked-List/Remove-Nth-Node-From-End-of-List/main2.cpp" />
@@ -34,12 +39,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AlgoVisualizer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/threeWaysQuickSortVisualization/AlgoVisualizer.java">
+      <file leaf-file-name="MineSweeperData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/MineSweeperData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlgoVisualizer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/AlgoVisualizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlgoFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/AlgoFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1332">
+              <caret line="74" column="46" lean-forward="false" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,14 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/circleAnimation/AlgoFrame.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/circleAnimation/Circle.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/circleAnimation/AlgoVisHelper.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/circleAnimation/AlgoVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/templates/AlgoFrame.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/templates/AlgoVisHelper.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/templates/AlgoVisualizer.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/probabilitySimulation/moneyExperiment/AlgoFrame.java" />
         <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/probabilitySimulation/moneyExperiment/AlgoVisHelper.java" />
         <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/probabilitySimulation/moneyExperiment/AlgoVisualizer.java" />
         <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/probabilitySimulation/getPIWithMonteCarlo/Circle.java" />
@@ -116,6 +137,14 @@
         <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/threeWaysQuickSortVisualization/AlgoVisHelper.java" />
         <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/threeWaysQuickSortVisualization/ThreeWaysQuickSortData.java" />
         <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/threeWaysQuickSortVisualization/AlgoVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/core/AlgoVisHelper.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/core/AlgoFrame.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/core/ShuffeExp.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/core/AlgoVisualizer.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/core/MineSweeperData.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/ShuffeExp.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/MineSweeperData.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/AlgoVisualizer.java" />
       </list>
     </option>
   </component>
@@ -125,9 +154,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="756" />
-    <option name="width" value="639" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="719" />
+    <option name="width" value="676" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -148,10 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,21 +208,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="algorithmicGame" type="462c0819:PsiDirectoryNode" />
-              <item name="sortVisualization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithmicGame" type="462c0819:PsiDirectoryNode" />
-              <item name="sortVisualization" type="462c0819:PsiDirectoryNode" />
-              <item name="threeWaysQuickSortVisualization" type="462c0819:PsiDirectoryNode" />
+              <item name="mineSweeper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,11 +231,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\DataStructuresAndAlgorithms\Java\src\algorithms\algorithmicGame\mineSweeper" />
       <recent name="E:\GitHub\DataStructuresAndAlgorithms\Java\src\algorithms\algorithmicGame\sortVisualization\threeWaysQuickSortVisualization" />
       <recent name="E:\GitHub\DataStructuresAndAlgorithms\Java\src\algorithms\algorithmicGame\sortVisualization\twoWaysQuickSortVisualization" />
       <recent name="E:\GitHub\DataStructuresAndAlgorithms\Java\src\algorithms\algorithmicGame\sortVisualization\quickSortVisualization" />
       <recent name="E:\GitHub\DataStructuresAndAlgorithms\Java\src\algorithms\algorithmicGame\sortVisualization\mergeSortTDVisualization" />
-      <recent name="E:\GitHub\DataStructuresAndAlgorithms\Java\src\algorithms\algorithmicGame\sortVisualization\mergeSortBUVisualization" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,45 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AlgoVisualizer">
-    <configuration name="AlgoVisualizer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="algorithms.algorithmicGame.sortVisualization.mergeSortTDVisualization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithms.algorithmicGame.sortVisualization.mergeSortTDVisualization.AlgoVisualizer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java" />
-      <envs />
-    </configuration>
-    <configuration name="AlgoVisualizer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="algorithms.algorithmicGame.sortVisualization.mergeSortBUVisualization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithms.algorithmicGame.sortVisualization.mergeSortBUVisualization.AlgoVisualizer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.AlgoVisualizer (1)">
     <configuration name="AlgoVisualizer (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -315,6 +297,44 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="algorithms.algorithmicGame.sortVisualization.threeWaysQuickSortVisualization.AlgoVisualizer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java" />
+      <envs />
+    </configuration>
+    <configuration name="AlgoVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="algorithms.algorithmicGame.mineSweeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="algorithms.algorithmicGame.mineSweeper.AlgoVisualizer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java" />
+      <envs />
+    </configuration>
+    <configuration name="ShuffeExp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="algorithms.algorithmicGame.mineSweeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="algorithms.algorithmicGame.mineSweeper.ShuffeExp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -706,19 +726,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.AlgoVisualizer (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AlgoVisualizer (3)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AlgoVisualizer (4)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AlgoVisualizer (5)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AlgoVisualizer" />
+      <item index="0" class="java.lang.String" itemvalue="Application.AlgoVisualizer (4)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AlgoVisualizer (5)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AlgoVisualizer" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ShuffeExp" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AlgoVisualizer (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AlgoVisualizer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AlgoVisualizer (5)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AlgoVisualizer (4)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AlgoVisualizer (3)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AlgoVisualizer (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AlgoVisualizer (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ShuffeExp" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AlgoVisualizer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AlgoVisualizer (5)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AlgoVisualizer (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -749,31 +769,32 @@
       <workItem from="1507521286456" duration="929000" />
       <workItem from="1507538905950" duration="1449000" />
       <workItem from="1507559453134" duration="2055000" />
-      <workItem from="1507628805729" duration="3176000" />
+      <workItem from="1507628805729" duration="3293000" />
+      <workItem from="1507710042761" duration="4836000" />
+      <workItem from="1507728190074" duration="4493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44934000" />
+    <option name="totallyTimeSpent" value="54380000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="756" y="0" width="639" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22354949" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29879102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15733737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -806,48 +827,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/circleAnimation/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/templates/AlgoVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/circleAnimation/AlgoVisualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/circleAnimation/AlgoFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-444">
-          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/circleAnimation/AlgoVisHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/templates/AlgoFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/javaSwingBasics/templates/AlgoVisHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -866,9 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
           <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -981,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,7 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +1007,7 @@
         <state relative-caret-position="177">
           <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1065,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
           <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,7 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="80" column="19" lean-forward="false" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,7 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="99" column="19" lean-forward="true" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,7 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,7 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1152,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1168,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,15 +1135,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="117" column="20" lean-forward="true" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/sortVisualization/threeWaysQuickSortVisualization/AlgoVisualizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/swing/ImageIcon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="172" column="42" lean-forward="true" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
+          <folding>
+            <element signature="e#5677#5678#0" expanded="true" />
+            <element signature="e#5717#5718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/ShuffeExp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/AlgoVisHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="81" column="38" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/AlgoFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="74" column="46" lean-forward="false" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/MineSweeperData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/algorithmicGame/mineSweeper/AlgoVisualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
