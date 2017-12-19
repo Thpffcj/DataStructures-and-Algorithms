@@ -1,3 +1,0 @@
-E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/CMakeFiles/DataStructuresAndAlgorithms.dir
-E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/GitHub/DataStructuresAndAlgorithms/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
