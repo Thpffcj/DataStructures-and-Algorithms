@@ -1,19 +1,21 @@
 package algorithms.sort;
 
 /**
- * Created by Thpffcj on 2017/10/8.
+ * Created by Thpffcj on 2018/1/2.
  */
-public class InsertionSort {
+public class InsertionSortAdvance {
 
-    private InsertionSort(){}
+    private InsertionSortAdvance(){}
 
     public static void sort(Comparable[] arr) {
         int n = arr.length;
         for (int i = 0; i < n; i++) {
-            // 寻找元素arr[i]的合适的插入位置
-            for (int j = i; j > 0 && arr[j].compareTo(arr[j-1]) < 0; j--) {
-                swap(arr, j, j-1);
+            Comparable min = arr[i];
+            int j;
+            for (j = i; j > 0 && arr[j-1].compareTo(min) > 0; j--) {
+                arr[j] = arr[j-1];
             }
+            arr[j] = min;
         }
     }
 
@@ -25,9 +27,10 @@ public class InsertionSort {
 
     // 测试InsertionSort
     public static void main(String[] args) {
+
         int N = 20000;
         Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
-        SortTestHelper.testSort("algorithms.sort.InsertionSort", arr);
+        SortTestHelper.testSort("algorithms.sort.InsertionSortAdvance", arr);
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]);
             System.out.print(' ');

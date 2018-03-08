@@ -17,8 +17,9 @@ public class SortTestHelper {
 
         Integer[] arr = new Integer[n];
 
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++) {
             arr[i] = new Integer((int)(Math.random() * (rangeR - rangeL + 1) + rangeL));
+        }
         return arr;
     }
 
@@ -30,8 +31,9 @@ public class SortTestHelper {
     public static Integer[] generateNearlyOrderedArray(int n, int swapTimes){
 
         Integer[] arr = new Integer[n];
-        for( int i = 0 ; i < n ; i ++ )
+        for( int i = 0 ; i < n ; i ++ ) {
             arr[i] = new Integer(i);
+        }
 
         for( int i = 0 ; i < swapTimes ; i ++ ){
             int a = (int)(Math.random() * n);
@@ -52,15 +54,13 @@ public class SortTestHelper {
             System.out.print( ' ' );
         }
         System.out.println();
-
-        return;
     }
 
     // 判断arr数组是否有序
     public static boolean isSorted(Comparable[] arr){
 
         for( int i = 0 ; i < arr.length - 1 ; i ++ )
-            if( arr[i].compareTo(arr[i+1]) > 0 )
+            if(arr[i].compareTo(arr[i+1]) > 0)
                 return false;
         return true;
     }
@@ -82,7 +82,7 @@ public class SortTestHelper {
             sortMethod.invoke(null,params);
             long endTime = System.currentTimeMillis();
 
-            assert isSorted( arr );
+            assert isSorted(arr);
 
             System.out.println( sortClass.getSimpleName()+ " : " + (endTime-startTime) + "ms" );
         }
