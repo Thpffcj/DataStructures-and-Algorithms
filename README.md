@@ -8,7 +8,7 @@
   - algorithms 
     - algorithm-interview：Leetcode算法面试题(C++)
     - sort：一些排序算法
-- dataStructures
+- data-structures
   - doubleLink
   - graph
   - heap
@@ -23,5 +23,5 @@
     - algorithm-interview：Leetcode算法面试题(Java)
     - casual：一些无分类算法问题
     - sort：一些排序算法
-  - dataStructures
+  - data-structures
   - interview
