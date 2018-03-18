@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.probabilitySimulation.moneyExperiment;
+package algorithms.algorithmGame.probabilitySimulation.moneyExperiment;
 
 import javax.swing.*;
 import java.awt.*;

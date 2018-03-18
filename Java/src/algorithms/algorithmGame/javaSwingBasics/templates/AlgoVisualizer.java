@@ -1,4 +1,6 @@
-package algorithms.algorithmicGame.javaSwingBasics.templates;
+package algorithms.algorithmGame.javaSwingBasics.templates;
+
+import algorithms.algorithmGame.javaSwingBasics.templates.AlgoFrame;
 
 import java.awt.*;
 import java.awt.event.KeyAdapter;

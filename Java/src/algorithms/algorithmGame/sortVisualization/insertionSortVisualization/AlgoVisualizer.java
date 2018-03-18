@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.sortVisualization.insertionSortVisualization;
+package algorithms.algorithmGame.sortVisualization.insertionSortVisualization;
 
 import java.awt.*;
 

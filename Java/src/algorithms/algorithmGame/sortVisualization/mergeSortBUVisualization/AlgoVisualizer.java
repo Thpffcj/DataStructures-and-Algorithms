@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.sortVisualization.mergeSortBUVisualization;
+package algorithms.algorithmGame.sortVisualization.mergeSortBUVisualization;
 
 import java.awt.*;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.mineSweeper;
+package algorithms.algorithmGame.mineSweeper;
 
 import javax.swing.*;
 import java.awt.*;

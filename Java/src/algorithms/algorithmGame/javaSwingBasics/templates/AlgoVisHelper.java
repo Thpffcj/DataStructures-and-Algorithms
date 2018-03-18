@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.javaSwingBasics.templates;
+package algorithms.algorithmGame.javaSwingBasics.templates;
 
 import javax.swing.*;
 import java.awt.*;

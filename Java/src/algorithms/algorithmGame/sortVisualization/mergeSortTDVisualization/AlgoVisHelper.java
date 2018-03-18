@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.sortVisualization.mergeSortTDVisualization;
+package algorithms.algorithmGame.sortVisualization.mergeSortTDVisualization;
 
 import javax.swing.*;
 import java.awt.*;

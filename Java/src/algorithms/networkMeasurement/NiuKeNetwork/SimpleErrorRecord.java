@@ -1,4 +1,4 @@
-package algorithms.algorithmInterview.NiuKeNetwork;
+package algorithms.networkMeasurement.NiuKeNetwork;
 
 /**
  * Created by Thpffcj on 2018/3/14.

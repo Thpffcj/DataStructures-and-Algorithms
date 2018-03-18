@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.probabilitySimulation.pistimation;
+package algorithms.algorithmGame.probabilitySimulation.pistimation;
 
 import java.awt.*;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.probabilitySimulation.threeGatesProblem;
+package algorithms.algorithmGame.probabilitySimulation.threeGatesProblem;
 
 /**
  * Created by Thpffcj on 2017/10/7.

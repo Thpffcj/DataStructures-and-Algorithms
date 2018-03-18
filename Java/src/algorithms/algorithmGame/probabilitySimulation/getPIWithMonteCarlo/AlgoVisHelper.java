@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.probabilitySimulation.getPIWithMonteCarlo;
+package algorithms.algorithmGame.probabilitySimulation.getPIWithMonteCarlo;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.sortVisualization.selectionSortVisualization;
+package algorithms.algorithmGame.sortVisualization.selectionSortVisualization;
 
 import java.awt.*;
 import java.awt.geom.Ellipse2D;

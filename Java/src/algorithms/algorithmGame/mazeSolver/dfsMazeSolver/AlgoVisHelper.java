@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.mazeSolver.dfsMazeSolver;
+package algorithms.algorithmGame.mazeSolver.dfsMazeSolver;
 
 import java.awt.*;
 import java.awt.geom.Ellipse2D;

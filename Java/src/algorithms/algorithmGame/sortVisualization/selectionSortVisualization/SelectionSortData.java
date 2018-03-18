@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.sortVisualization.selectionSortVisualization;
+package algorithms.algorithmGame.sortVisualization.selectionSortVisualization;
 
 /**
  * Created by Thpffcj on 2017/10/8.

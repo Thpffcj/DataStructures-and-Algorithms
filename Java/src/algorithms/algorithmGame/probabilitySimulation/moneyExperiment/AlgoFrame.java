@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.probabilitySimulation.moneyExperiment;
+package algorithms.algorithmGame.probabilitySimulation.moneyExperiment;
 
 import java.awt.Graphics2D;
 import java.awt.Graphics;

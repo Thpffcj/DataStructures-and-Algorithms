@@ -1,4 +1,4 @@
-package algorithms.algorithmicGame.probabilitySimulation.winningThePrize;
+package algorithms.algorithmGame.probabilitySimulation.winningThePrize;
 
 /**
  * Created by Thpffcj on 2017/10/7.
