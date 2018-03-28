@@ -15,7 +15,7 @@ package algorithms.networkMeasurement.beautyGroup;
  */
 public class StockTradingDay {
 
-    public int maxProfit(int[] prices, int n) {
-
-    }
+//    public int maxProfit(int[] prices, int n) {
+//
+//    }
 }
