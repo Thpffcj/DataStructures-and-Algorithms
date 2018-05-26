@@ -1,4 +1,4 @@
-package algorithms.casual;
+package algorithms.leetcode;
 
 /**
  * Created by Thpffcj on 2017/7/31.
