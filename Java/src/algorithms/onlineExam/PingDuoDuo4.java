@@ -6,8 +6,9 @@ import java.util.*;
  * Created by Thpffcj on 2018/4/3.
  */
 
-//8 3
-//1 3 -1 -3 5 3 6 7
+/**
+ * 现在有一个整数数组A(长度为n)。有一个滑动窗口
+ */
 public class PingDuoDuo4 {
 
     public static void main(String[] args) {
