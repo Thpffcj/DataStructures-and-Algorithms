@@ -1,2 +1,6 @@
 - 22 Generate Parentheses
 - 43 Multiply Strings
+- 64 Minimum Path Sum
+- 73 Set Matrix Zeroes
+- 78 Subsets
+- 91 Decode Ways
