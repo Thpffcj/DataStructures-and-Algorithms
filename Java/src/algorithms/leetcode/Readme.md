@@ -4,3 +4,8 @@
 - 73 Set Matrix Zeroes
 - 78 Subsets
 - 91 Decode Ways
+- 96 Unique Binary Search TreesUnique Binary Search Trees
+- 136 Single Number
+- 127 Word Ladder TODO
+- 160 Intersection of Two Linked Lists
+- 179 Largest Number
