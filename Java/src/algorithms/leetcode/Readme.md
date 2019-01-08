@@ -1,12 +1,40 @@
+- 1 Two Sum
+- 2 Add Two Numbers
+- 5 Longest Palindromic Substring
+- 6 ZigZag Conversion
+- 7 Reverse Integer
+- 9 Palindrome Number
+- 11 Container With Most Water
+- 12 Integer to Roman
+- 13 Roman to Integer
+- 14 Longest Common Prefix 
 - 22 Generate Parentheses
+- 27 Remove Element  
+- 28 Implement strStr()
+- 33 Search in Rotated Sorted Array
+- 34 Find First and Last Position of Element in Sorted Array
 - 43 Multiply Strings
+- 58 Length of Last Word
 - 64 Minimum Path Sum
+- 66 Plus One
+- 67 Add Binary
 - 73 Set Matrix Zeroes
+- 74 Search a 2D Matrix
 - 78 Subsets
 - 91 Decode Ways
 - 96 Unique Binary Search TreesUnique Binary Search Trees
+- 118 Pascal's Triangle  
 - 136 Single Number
 - 127 Word Ladder TODO
+- 141 Linked List Cycle 
+- 150 Evaluate Reverse Polish Notation
 - 160 Intersection of Two Linked Lists
+- 168 Excel Sheet Column Title 
+- 171 Excel Sheet Column Number
 - 179 Largest Number
 - 190 Reverse Bits
+- 204 Count Primes
+- 231 Power of Two
+- 657 Robot Return to Origin
+- 771 Jewels and Stones
+- 804 Unique Morse Code Words
