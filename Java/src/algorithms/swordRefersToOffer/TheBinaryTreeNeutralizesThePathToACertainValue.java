@@ -14,6 +14,9 @@ public class TheBinaryTreeNeutralizesThePathToACertainValue {
 
     public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
 
-        return null;
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+
+
+        return result;
     }
 }

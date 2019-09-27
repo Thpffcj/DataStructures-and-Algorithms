@@ -40,14 +40,14 @@ public class SortByTheGivenArray {
                 for (int k = 0; k < m; k++) {
                     if (first[k] == digit) {
                         result[position] = digit;
-                        first[k] = -100;
+                        first[k] = -999;
                         position++;
                     }
                 }
             }
             Arrays.sort(first);
             for (int j = 0; j < m; j++) {
-                if (first[j] != -100) {
+                if (first[j] != -999) {
                     result[position] = first[j];
                     position++;
                 }
