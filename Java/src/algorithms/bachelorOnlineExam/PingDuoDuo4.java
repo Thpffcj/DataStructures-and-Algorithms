@@ -1,4 +1,4 @@
-package algorithms.onlineExam;
+package algorithms.bachelorOnlineExam;
 
 import java.util.*;
 

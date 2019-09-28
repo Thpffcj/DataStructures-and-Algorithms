@@ -1,4 +1,4 @@
-package algorithms.onlineExam;
+package algorithms.bachelorOnlineExam;
 
 /**
  * Created by Thpffcj on 2018/3/22.
