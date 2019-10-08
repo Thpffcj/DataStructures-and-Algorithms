@@ -21,19 +21,47 @@ public class ReplicationOfComplexLinkedLists {
         }
 
         RandomListNode head = new RandomListNode(pHead.label);
+        RandomListNode result = head;
+        RandomListNode pNode = pHead;
+
         Map<RandomListNode, RandomListNode> map = new HashMap<>();
+        map.put(pHead, head);
         while (head != null) {
             RandomListNode oldNode = pHead.next;
             RandomListNode newNode = null;
             if (oldNode != null) {
                 newNode = new RandomListNode(oldNode.label);
+                map.put(oldNode, newNode);
             }
-
-            map.put(oldNode, newNode);
-
+            head.next = newNode;
             pHead = pHead.next;
             head = newNode;
         }
-        return null;
+
+        head = result;
+        while (head != null) {
+            head.random = map.get(pNode.random);
+            pNode = pNode.next;
+            head = head.next;
+        }
+
+        return result;
+    }
+
+    public static void main(String[] args) {
+        ReplicationOfComplexLinkedLists r = new ReplicationOfComplexLinkedLists();
+        RandomListNode r1 = new RandomListNode(1);
+        RandomListNode r2 = new RandomListNode(2);
+        RandomListNode r3 = new RandomListNode(3);
+        RandomListNode r4 = new RandomListNode(4);
+        RandomListNode r5 = new RandomListNode(5);
+        r1.next = r2;
+        r2.next = r3;
+        r3.next = r4;
+        r4.next = r5;
+        r1.random = r3;
+        r2.random = r5;
+        r4.random = r2;
+        r.Clone(r1);
     }
 }
