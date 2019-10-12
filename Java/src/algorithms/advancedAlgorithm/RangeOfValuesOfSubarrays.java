@@ -27,14 +27,40 @@ public class RangeOfValuesOfSubarrays {
         Scanner sc = new Scanner(System.in);
         int numbers = Integer.parseInt(sc.nextLine());
         for (int number = 0; number < numbers; number++) {
-            String[] digit = sc.nextLine().split(" ");
+            String[] line = sc.nextLine().split(" ");
             int num = Integer.parseInt(sc.nextLine());
+            int[] digit = new int[line.length];
+            for (int i = 0; i < line.length; i++) {
+                digit[i] = Integer.parseInt(line[i]);
+            }
 
-            int max = Integer.MIN_VALUE;
-            int min = Integer.MAX_VALUE;
-            int start = 0;
-            int end = 0;
-
+            int max;
+            int min;
+            int result = 0;
+            for (int i = 0; i < digit.length; i++) {
+                max = Integer.MIN_VALUE;
+                min = Integer.MAX_VALUE;
+                for (int j = i; j < digit.length; j++) {
+                    if (digit[j] > max) {
+                        max = digit[j];
+                    }
+                    if (digit[j] < min) {
+                        min = digit[j];
+                    }
+                    if ((max - min) > num) {
+                        result++;
+                    }
+                }
+            }
+            System.out.println(result);
         }
     }
 }
+
+//3
+//3 6 4 3 2
+//2
+//1 1 3 1 1
+//1
+//3 6 4 3 2
+//2
