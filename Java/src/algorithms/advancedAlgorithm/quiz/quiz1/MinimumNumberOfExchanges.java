@@ -1,4 +1,4 @@
-package algorithms.advancedAlgorithm;
+package algorithms.advancedAlgorithm.quiz.quiz1;
 
 import java.util.Arrays;
 import java.util.HashMap;

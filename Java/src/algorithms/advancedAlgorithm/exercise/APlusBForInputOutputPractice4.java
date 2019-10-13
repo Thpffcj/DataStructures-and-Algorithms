@@ -1,4 +1,4 @@
-package algorithms.advancedAlgorithm;
+package algorithms.advancedAlgorithm.exercise;
 
 import java.util.Scanner;
 

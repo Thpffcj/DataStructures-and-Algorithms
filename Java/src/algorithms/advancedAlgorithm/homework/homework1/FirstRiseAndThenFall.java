@@ -1,12 +1,10 @@
-package algorithms.advancedAlgorithm;
+package algorithms.advancedAlgorithm.homework.homework1;
 
 /**
  * Created by thpffcj on 2019/10/11.
  */
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 /**

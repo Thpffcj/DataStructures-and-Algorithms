@@ -1,4 +1,4 @@
-package algorithms.advancedAlgorithm;
+package algorithms.advancedAlgorithm.homework.homework1;
 
 /**
  * Created by thpffcj on 2019/10/10.
@@ -20,7 +20,7 @@ import java.util.Scanner;
  *
  * 6
  */
-public class RangeOfValuesOfSubarrays {
+public class RangeOfValuesOfSubArrays {
 
     public static void main(String[] args) {
 

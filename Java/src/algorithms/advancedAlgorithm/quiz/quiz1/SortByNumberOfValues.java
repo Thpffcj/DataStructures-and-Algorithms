@@ -1,4 +1,4 @@
-package algorithms.advancedAlgorithm;
+package algorithms.advancedAlgorithm.quiz.quiz1;
 
 /**
  * Created by thpffcj on 2019/9/26.

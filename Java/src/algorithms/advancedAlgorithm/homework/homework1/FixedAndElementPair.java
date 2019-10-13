@@ -1,4 +1,4 @@
-package algorithms.advancedAlgorithm;
+package algorithms.advancedAlgorithm.homework.homework1;
 
 /**
  * Created by thpffcj on 2019/10/10.
