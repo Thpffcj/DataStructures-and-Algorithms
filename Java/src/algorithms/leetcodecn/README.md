@@ -186,7 +186,7 @@
 ### 链表
 
 - 2 两数相加 AddingTwoNumbers
-- 21 合并两个有序链表
+- 21 合并两个有序链表 MergingTwoOrderedLinkedLists
 - 206 反转链表
 - 24 两两交换链表中的节点
 - 25 K个组翻转链表
@@ -205,7 +205,7 @@
 - 2 两数相加 AddingTwoNumbers
 - 535 TinyURL的加密与解密
 - 7 整数反转 IntegerInversion
-- 13 罗马数字转整数
+- 13 罗马数字转整数 RomanNumeralToInteger
 - 9 回文数
 - 458 可怜的小猪
 - 233 数字1的个数
@@ -230,7 +230,7 @@
 - 313 超级丑数
 - 871 最低加油次数 
 - 786 第K个最小的素数分数
-- 347 前K个高频元素
+- 347 前K个高频元素 TopKHighFrequencyElements
 - 218 天际线问题
 
 ### 字符串
@@ -243,12 +243,12 @@
 - 38 报数
 - 17 电话号码的字母组合
 - 10 正则表达式匹配
-- 20 有效的括号
+- 20 有效的括号 ValidParentheses
 - 72 编辑距离
 - 12 整数转罗马数字
 - 14 最长公共前缀
 - 67 二进制求和
-- 415 字符串相加
+- 415 字符串相加 StringAddition
 
 
 
