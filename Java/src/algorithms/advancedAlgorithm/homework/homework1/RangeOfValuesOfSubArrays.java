@@ -4,6 +4,9 @@ package algorithms.advancedAlgorithm.homework.homework1;
  * Created by thpffcj on 2019/10/10.
  */
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -33,6 +36,16 @@ public class RangeOfValuesOfSubArrays {
             for (int i = 0; i < line.length; i++) {
                 digit[i] = Integer.parseInt(line[i]);
             }
+
+//            try {
+//                BufferedWriter bw = new BufferedWriter(
+//                        new FileWriter("/Users/thpffcj/Public/file/test.txt"));
+//                String aryStr = Arrays.toString(digit);
+//                bw.write(aryStr);
+//                bw.close();
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
 
             int max;
             int min;
