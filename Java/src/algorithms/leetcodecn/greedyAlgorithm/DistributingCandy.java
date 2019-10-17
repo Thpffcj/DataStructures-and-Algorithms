@@ -24,7 +24,42 @@ package algorithms.leetcodecn.greedyAlgorithm;
  */
 public class DistributingCandy {
 
+    /**
+     * 规则定义： 设学生 AA 和学生 BB 左右相邻，AA 在 BB 左边；
+     * 左规则： 当 ratings_B>ratings_A时，B 的糖比 A 的糖数量多。
+     * 右规则： 当 ratings_A>ratings_B时，A 的糖比 B 的糖数量多。
+     * 相邻的学生中，评分高的学生必须获得更多的糖果 等价于 所有学生满足左规则且满足右规则。
+     * @param ratings
+     * @return
+     */
     public int candy(int[] ratings) {
+        if (ratings == null || ratings.length <= 0) {
+            return 0;
+        }
 
+        int[] left = new int[ratings.length];
+        int[] right = new int[ratings.length];
+        left[0] = right[right.length - 1] = 1;
+
+        for (int i = 1; i < left.length; i++) {
+            if (ratings[i] > ratings[i - 1]) {
+                left[i] = left[i - 1] + 1;
+            } else {
+                left[i] = 1;
+            }
+        }
+        for (int i = right.length - 2; i >= 0; i--) {
+            if (ratings[i] > ratings[i + 1]) {
+                right[i] = right[i + 1] + 1;
+            } else {
+                right[i] = 1;
+            }
+        }
+
+        int result = 0;
+        for (int i = 0; i < left.length; i++) {
+            result += Math.max(left[i], right[i]);
+        }
+        return result;
     }
 }
