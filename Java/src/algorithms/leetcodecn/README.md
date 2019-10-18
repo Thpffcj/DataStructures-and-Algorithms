@@ -187,7 +187,7 @@
 
 - 2 两数相加 AddingTwoNumbers
 - 21 合并两个有序链表 MergingTwoOrderedLinkedLists
-- 206 反转链表
+- 206 反转链表 ReverseList
 - 24 两两交换链表中的节点
 - 25 K个组翻转链表
 - 92 反转链表2
@@ -206,7 +206,7 @@
 - 535 TinyURL的加密与解密
 - 7 整数反转 IntegerInversion
 - 13 罗马数字转整数 RomanNumeralToInteger
-- 9 回文数
+- 9 回文数 NumberOfTracts
 - 458 可怜的小猪
 - 233 数字1的个数
 - 258 各位相加
@@ -247,7 +247,7 @@
 - 72 编辑距离
 - 12 整数转罗马数字
 - 14 最长公共前缀 LongestCommonPrefix
-- 67 二进制求和
+- 67 二进制求和 BinarySummation
 - 415 字符串相加 StringAddition
 
 
