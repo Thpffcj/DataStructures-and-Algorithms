@@ -7,7 +7,7 @@
 - 15 三数之和 TheSumOfTheThreeNumbers
 - 42 接雨水
 - 11 盛最多水的容器
-- 53 最大子序和
+- 53 最大子序和 MaximumSubsequenceSum
 - 644 最大平均子段和2
 - 16 最接近的三数之和
 - 85 最大矩形
@@ -20,7 +20,7 @@
 
 - 22 括号生成 BracketGeneration
 - 46 全排列 FullyArranged
-- 17 电话号码的字母组合
+- 17 电话号码的字母组合 LetterCombinationOfPhoneNumber
 - 37 解数独
 - 10 正则表达式匹配
 - 351 安卓系统手势解锁
@@ -53,7 +53,7 @@
 
 - 95 不同的二叉搜索树2
 - 96 * 不同的二叉搜索树 DifferentBinarySearchTrees
-- 94 二叉树的中序遍历
+- 94 二叉树的中序遍历 IntermediateOrderTraversalOfBinaryTrees
 - 226 翻转二叉树 FlipTheBinaryTree
 - 104 二叉树的最大深度 MaximumDepthOfTheBinaryTree
 - 617 合并二叉树 
@@ -209,7 +209,7 @@
 - 9 回文数 NumberOfTracts
 - 458 可怜的小猪
 - 233 数字1的个数
-- 258 各位相加
+- 258 各位相加 AddYouAll
 - 12 整数转罗马数字
 - 67 二进制求和
 - 782 变为棋盘
