@@ -26,12 +26,12 @@ public class InsertSort {
 
         Scanner sc = new Scanner(System.in);
 
-        while (sc.hasNext()) {
-            String[] line = sc.nextLine().split(" ");
-            int[] digits = new int[line.length];
-
-            for (int i = 0; i < digits.length; i++) {
-                digits[i] = Integer.parseInt(line[i]);
+        int numbers = Integer.parseInt(sc.nextLine());
+        for (int number = 0; number < numbers; number++) {
+            int n = sc.nextInt();
+            int[] digits = new int[n];
+            for (int i = 0; i < n; i++) {
+                digits[i] = sc.nextInt();
             }
 
             for (int i = 1; i < digits.length; i++) {

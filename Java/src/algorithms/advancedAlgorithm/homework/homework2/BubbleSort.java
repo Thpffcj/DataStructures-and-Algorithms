@@ -25,27 +25,29 @@ public class BubbleSort {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
-        int[] digits = new int[number];
-        for (int i = 0; i < number; i++) {
-            digits[i] = sc.nextInt();
-        }
+        while (sc.hasNext()) {
+            int number = sc.nextInt();
+            int[] digits = new int[number];
+            for (int i = 0; i < number; i++) {
+                digits[i] = sc.nextInt();
+            }
 
-        for (int i = digits.length - 1; i >= 1; i--) {
-            for (int j = i; j >= 1; j--) {
-                if (digits[j] < digits[j - 1]) {
-                    int temp = digits[j];
-                    digits[j] = digits[j - 1];
-                    digits[j - 1] = temp;
+            for (int i = digits.length - 1; i >= 1; i--) {
+                for (int j = 0; j < i; j++) {
+                    if (digits[j] > digits[j + 1]) {
+                        int temp = digits[j];
+                        digits[j] = digits[j + 1];
+                        digits[j + 1] = temp;
+                    }
                 }
             }
-        }
 
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < digits.length; i++) {
-            sb.append(digits[i]).append(" ");
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < digits.length; i++) {
+                sb.append(digits[i]).append(" ");
+            }
+            System.out.println(sb.substring(0, sb.length() - 1));
         }
-        System.out.println(sb.substring(0, sb.length() - 1).toString());
     }
 
 
