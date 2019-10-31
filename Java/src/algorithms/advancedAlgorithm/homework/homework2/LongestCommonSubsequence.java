@@ -25,6 +25,11 @@ import java.util.*;
  */
 public class LongestCommonSubsequence {
 
+    /**
+     * 两个序列的最长公共子序列不止一个，所以难点是如何得到它们，不难猜到，需要用回溯法来解决。
+     * 具体做法是在计算长度的时候，用一个数组保存当前点是从哪个状态转移过来的
+     * @param args
+     */
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -32,41 +37,45 @@ public class LongestCommonSubsequence {
         for (int number = 0; number < numbers; number++) {
             String line1 = sc.nextLine();
             String line2 = sc.nextLine();
-
             int dp = LCS(line1, line2);
         }
     }
 
-    public static int LCS(String a, String b) {
-        int n = a.length(), m = b.length();
+    public static int LCS(String s1, String s2) {
+
+        int n = s1.length();
+        int m = s2.length();
+
         // c[i][j]表示a长度为i和b长度为j时的最长公共子序列长度
         int[][] c = new int[n + 1][m + 1];
+
         // d[i][j]表示方向
-        char[][] d = new char[n + 1][m + 1];
-        for (int i = 1; i <= n; ++i) {
-            for (int j = 1; j <= m; ++j) {
-                if (a.charAt(i - 1) == b.charAt(j - 1)) {
+        char[][] direction = new char[n + 1][m + 1];
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
+                if (s1.charAt(i - 1) == s2.charAt(j - 1)) {
                     c[i][j] = c[i - 1][j - 1] + 1;
                     // 左上
-                    d[i][j] = '↖';
+                    direction[i][j] = '↖';
                 } else if (c[i - 1][j] > c[i][j - 1]) {
                     c[i][j] = c[i - 1][j];
                     // 上
-                    d[i][j] = '↑';
+                    direction[i][j] = '↑';
                 } else if (c[i - 1][j] < c[i][j - 1]) {
                     c[i][j] = c[i][j - 1];
                     // 左
-                    d[i][j] = '←';
+                    direction[i][j] = '←';
                 } else {
                     c[i][j] = c[i][j - 1];
-                    // 可向左可向右
-                    d[i][j] = '┘';
+                    // 可向左可向上
+                    direction[i][j] = '┘';
                 }
             }
         }
         String lcs = "";
         Set<String> lcsSet = new HashSet<>();
-        backTrace(d, a, lcs, n, m, c[n][m], lcsSet);
+        backTrace(direction, s1, lcs, n, m, c[n][m], lcsSet);
         List<String> list = new ArrayList<>();
         for (String s : lcsSet) {
             list.add(s);
@@ -78,12 +87,14 @@ public class LongestCommonSubsequence {
         return c[n][m];
     }
 
-    public static void backTrace(char[][] d, String a, String lcs, int i, int j, int maxSublen, Set<String> lcsSet) {
+    public static void backTrace(char[][] d, String s1, String lcs, int i, int j, int maxSubLength, Set<String> lcsSet) {
+
         if (i == 0 || j == 0) {
             StringBuilder sb = new StringBuilder(lcs);
             lcs = sb.reverse().toString();
+
             // 可能有些提早出来了，一定要判断长度是最长的，但是这样还是会有重复的字符串，所以还要做去重处理
-            if (lcs.length() == maxSublen) {
+            if (lcs.length() == maxSubLength) {
                 lcsSet.add(lcs);
             }
             return;
@@ -91,18 +102,18 @@ public class LongestCommonSubsequence {
 
         switch (d[i][j]) {
             case '↖':
-                lcs += a.charAt(i - 1);
-                backTrace(d, a, lcs, i - 1, j - 1, maxSublen, lcsSet);
+                lcs += s1.charAt(i - 1);
+                backTrace(d, s1, lcs, i - 1, j - 1, maxSubLength, lcsSet);
                 break;
             case '↑':
-                backTrace(d, a, lcs, i - 1, j, maxSublen, lcsSet);
+                backTrace(d, s1, lcs, i - 1, j, maxSubLength, lcsSet);
                 break;
             case '←':
-                backTrace(d, a, lcs, i, j - 1, maxSublen, lcsSet);
+                backTrace(d, s1, lcs, i, j - 1, maxSubLength, lcsSet);
                 break;
             case '┘':
-                backTrace(d, a, lcs, i - 1, j, maxSublen, lcsSet);
-                backTrace(d, a, lcs, i, j - 1, maxSublen, lcsSet);
+                backTrace(d, s1, lcs, i - 1, j, maxSubLength, lcsSet);
+                backTrace(d, s1, lcs, i, j - 1, maxSubLength, lcsSet);
                 break;
         }
     }

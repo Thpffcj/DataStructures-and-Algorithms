@@ -54,10 +54,13 @@ public class LinkTableIntervalReverseOrder {
     }
 
     public static ListNode reverseKGroup(ListNode head, int k) {
-        if (head == null || k == 1) return head;
+        if (head == null || k == 1) {
+            return head;
+        }
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode pre = dummy;
+
         int i = 0;
         while (head != null) {
             i++;
@@ -71,6 +74,12 @@ public class LinkTableIntervalReverseOrder {
         return dummy.next;
     }
 
+    /**
+     * 翻转链表
+     * @param pre
+     * @param next
+     * @return
+     */
     private static ListNode reverse(ListNode pre, ListNode next) {
         ListNode last = pre.next;
         ListNode cur = last.next;
