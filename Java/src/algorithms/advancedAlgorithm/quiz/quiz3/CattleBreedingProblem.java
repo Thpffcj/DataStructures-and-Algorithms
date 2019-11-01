@@ -30,7 +30,6 @@ public class CattleBreedingProblem {
         } else {
             long k = n / 2;
             map.put(n, (fib(k) * ((fib(k - 1) << 1) + fib(k))) % 1000000007);
-
         }
         return map.get(n);
     }
