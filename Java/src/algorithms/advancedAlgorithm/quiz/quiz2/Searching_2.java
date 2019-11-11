@@ -1,12 +1,30 @@
 package algorithms.advancedAlgorithm.quiz.quiz2;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.*;
 
 /**
  * Created by thpffcj on 2019/10/17.
+ */
+
+/**
+ * Description
+ * Find the count of numbers less than N having exactly 9 divisors
+ * 1<=T<=1000,1<=N<=10^12
+ *
+ * Input
+ * First Line of Input contains the number of testcases. Only Line of each testcase contains the number of members N in the rival gang.
+ *
+ * Output
+ * Print the desired output.
+ *
+ * Sample Input 1
+ * 2
+ * 40
+ * 5
+ *
+ * Sample Output 1
+ * 1
+ * 0
  */
 public class Searching_2 {
 
