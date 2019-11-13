@@ -37,8 +37,8 @@
 - 4 寻找两个有序数组的中位数 FindTheMedianOfTwoOrderedArrays
 - 644 最大平均子段和2
 - 349 两个数组的交集 TheIntersectionOfTwoArrays
-- 287 * 寻找重复数
-- 167 两数之和2-输入有序数组
+- 287 * 寻找重复数 LookingForDuplicates
+- 167 两数之和2-输入有序数组 TheSumOfTwoNumbersInputOrder
 - 363 矩形区域不超过K的最大数值和
 - 718 最长重复子数组
 - 862 和至少为K的最短子数组
@@ -88,7 +88,7 @@
 - 743 网络延迟时间
 - 107 二叉树的层次遍历2
 - 407 接雨水2
-- 542 01矩阵
+- 542 * 01矩阵 ZeroOneMatrix
 - 847 访问所有节点的最短路径
 - 490 迷宫
 - 101 对称二叉树 SymmetricBinaryTree
