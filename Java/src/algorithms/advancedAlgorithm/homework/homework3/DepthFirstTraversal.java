@@ -1,0 +1,19 @@
+package algorithms.advancedAlgorithm.homework.homework3;
+
+/**
+ * Created by thpffcj on 2019/11/18.
+ */
+
+/**
+ * Description
+ * 按照给定的起始顶点深度优先遍历给定的无向图，尝试所有可能的遍历方式，打印遍历过程中出现的最大深度。
+ *
+ * Input
+ * 输入第一行是用例个数，后面每个用例使用多行表示，用例的第一行是图中节点的个数n和起始点，用空格隔开，后面n+1行为图的邻接矩阵，
+ * 其中第一行为节点名称。值之间使用空格隔开。
+ *
+ * Output
+ * 输出深度优先遍历中遇到的最大深度。
+ */
+public class DepthFirstTraversal {
+}
