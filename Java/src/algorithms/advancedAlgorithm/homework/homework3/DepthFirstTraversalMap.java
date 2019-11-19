@@ -15,5 +15,5 @@ package algorithms.advancedAlgorithm.homework.homework3;
  * Output
  * 输出深度优先遍历中遇到的最大深度。
  */
-public class DepthFirstTraversal {
+public class DepthFirstTraversalMap {
 }
