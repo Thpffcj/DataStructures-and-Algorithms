@@ -4,6 +4,8 @@ package algorithms.advancedAlgorithm.quiz.didNotParticipate;
  * Created by thpffcj on 2019/11/6.
  */
 
+import java.util.Scanner;
+
 /**
  * Description
  * You are given N number of books. Every ith book has Pi number of pages. You have to allocate books to
@@ -27,6 +29,35 @@ package algorithms.advancedAlgorithm.quiz.didNotParticipate;
  * Output
  * For each test case, output a single line containing minimum number of pages each student has to read
  * for corresponding test case.
+ *
+ * Sample Input 1
+ * 1
+ * 4
+ * 12 34 67 90
+ * 2
+ *
+ * Sample Output 1
+ * 113
  */
 public class BookDistribution {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int numbers = Integer.parseInt(sc.nextLine());
+        while (numbers > 0) {
+            int n = Integer.parseInt(sc.nextLine());
+            String[] infos = sc.nextLine().split(" ");
+            int[] digit = new int[n];
+            for (int i = 0; i < n; i++) {
+                digit[i] = Integer.parseInt(infos[i]);
+            }
+            int m = Integer.parseInt(sc.nextLine());
+
+            
+
+            numbers--;
+        }
+    }
 }

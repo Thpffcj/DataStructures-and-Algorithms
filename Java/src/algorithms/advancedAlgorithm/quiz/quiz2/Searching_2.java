@@ -12,7 +12,8 @@ import java.util.*;
  * 1<=T<=1000,1<=N<=10^12
  *
  * Input
- * First Line of Input contains the number of testcases. Only Line of each testcase contains the number of members N in the rival gang.
+ * First Line of Input contains the number of testcases. Only Line of each testcase contains the number of
+ * members N in the rival gang.
  *
  * Output
  * Print the desired output.
@@ -28,6 +29,7 @@ import java.util.*;
  */
 public class Searching_2 {
 
+    // TODO
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int cases = scan.nextInt();

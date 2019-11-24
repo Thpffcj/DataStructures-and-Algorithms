@@ -28,145 +28,61 @@ import java.util.Scanner;
 public class BatchQuery {
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
-        int nums = sc.nextInt();
-        while (nums > 0) {
-            nums--;
-            int inputLen = sc.nextInt();
-            int[] arr = new int[inputLen];
-            for (int i = 0; i < inputLen; i++) {
-                arr[i] = sc.nextInt();
+        int numbers = sc.nextInt();
+
+        while (numbers > 0) {
+            int n = sc.nextInt();
+            int[] digit = new int[n];
+            for (int i = 0; i < n; i++) {
+                digit[i] = sc.nextInt();
             }
-            int[] f = new int[inputLen];
-            int[] g = new int[inputLen];
-            f[0] = arr[0];
-            g[0] = -20001;//此处有点问题
-            for (int i = 1; i < inputLen ; i++) {
-                f[i] = Math.max(f[i - 1] + arr[i], arr[i]);
-                g[i] = Math.max(g[i - 1] + arr[i], f[i - 1]);
-            }
-            int res = Integer.MIN_VALUE;
-            for (int i = 0; i < inputLen ; i++) {
-                res = Math.max(res,Math.max(f[i], g[i]));
-            }
-            System.out.println(res);
+
+            maxSum(digit);
+
+            numbers--;
         }
     }
 
-//    public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        int numbers = sc.nextInt();
-//        while (numbers > 0) {
-//            int n = sc.nextInt();
-//            int[] digit = new int[n];
-//            for (int i = 0; i < n; i++) {
-//                digit[i] = sc.nextInt();
-//            }
-//
-//            System.out.println(maxSumSubarrayRemovingOneEle(digit, n));
-//            numbers--;
-//        }
-//    }
-//
-//    static int maxSumSubarrayRemovingOneEle(int arr[], int n) {
-//
-//        // Maximum sum subarrays in forward and
-//        // backward directions
-//        int fw[] = new int[n];
-//        int bw[] = new int[n];
-//
-//        // Initialize current max and max so far.
-//        int cur_max = arr[0], max_so_far = arr[0];
-//
-//        // calculating maximum sum subarrays in forward
-//        // direction
-//        fw[0] = arr[0];
-//
-//        for (int i = 1; i < n; i++) {
-//
-//            cur_max = Math.max(arr[i], cur_max + arr[i]);
-//            max_so_far = Math.max(max_so_far, cur_max);
-//
-//            // storing current maximum till ith, in
-//            // forward array
-//            fw[i] = cur_max;
-//        }
-//
-//        // calculating maximum sum subarrays in backward
-//        // direction
-//        cur_max = max_so_far = bw[n - 1] = arr[n - 1];
-//
-//        for (int i = n - 2; i >= 0; i--) {
-//
-//            cur_max = Math.max(arr[i], cur_max + arr[i]);
-//            max_so_far = Math.max(max_so_far, cur_max);
-//
-//            // storing current maximum from ith, in
-//            // backward array
-//            bw[i] = cur_max;
-//        }
-//
-//        /* Initializing final ans by max_so_far so that,
-//        case when no element is removed to get max sum
-//        subarray is also handled */
-//        int fans = max_so_far;
-//
-//        // choosing maximum ignoring ith element
-//        for (int i = 1; i < n - 1; i++)
-//            fans = Math.max(fans, fw[i - 1] + bw[i + 1]);
-//
-//        return fans;
-//    }
+    public static void maxSum(int[] digit) {
+        int n = digit.length;
+        int[] f = new int[n];
+        int[] g = new int[n];
+        f[0] = digit[0];
+        g[0] = 0;
 
-//    public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        int caseNum = Integer.parseInt(sc.nextLine());
-//        while (caseNum > 0){
-//            int length = Integer.parseInt(sc.nextLine());
-//            String[] strArray = sc.nextLine().split(" ");
-//            int[] caseArray = new int[length];
-//
-//            for(int i = 0;i<length;i++){
-//                caseArray[i] = Integer.parseInt(strArray[i]);
-//            }
-//
-//
-//            int sum = Integer.MIN_VALUE;
-//            for(int i = 0;i<length;i++){
-//                for(int j = i;j<length;j++){
-//                    int temp = setMin(caseArray,i,j);
-//                    if(temp>sum){
-//                        sum=temp;
-//                    }
-//                }
-//            }
-//
-//
-//            System.out.println(sum);
-//            caseNum --;
+        int res = f[0];
+        for (int i = 1; i < n ; i++) {
+            f[i] = Math.max(f[i - 1] + digit[i], digit[i]);
+            // 选f[i - 1]说明跳过i
+            g[i] = Math.max(g[i - 1] + digit[i], f[i - 1]);
+            res = Math.max(res, Math.max(f[i], g[i]));
+        }
+
+        System.out.println(res);
+    }
+
+//    public static void maxSum(int[] arr) {
+//        int ans = arr[0];
+//        int len = arr.length;
+//        int[][] dp = new int[len][2];
+//        // 初始化状态
+//        // "尚未删除"，最大子数组和为本身
+//        dp[0][0] = arr[0];
+//        // "已经删除"，只能删除自身，最大子数组和为 0
+//        dp[0][1] = 0;
+//        for (int i = 1; i < len; i++) {
+//            // 如果前一个子数组和大于 0，则加上
+//            dp[i][0] = Math.max(arr[i], arr[i] + dp[i - 1][0]);
+//            // 删除的字符的两种情况：
+//            // 1. 当前数字被删除，为了满足至少一个元素，必须加上前面一个子数组 "尚未删除" 的最大值
+//            // 2. 当前数字不被删除，则由前面子数组删除，前面子数组 "已经删除" 的最大值加上当前数字
+//            dp[i][1] = Math.max(dp[i - 1][1] + arr[i], dp[i - 1][0]);
+//            // 两种状态都可能产生最大值
+//            ans = Math.max(ans, dp[i][0]);
+//            ans = Math.max(ans, dp[i][1]);
 //        }
-//    }
-//
-//    public static int setMin(int[] a,int m,int n){
-//        int minNum = m;
-//        boolean temp = false;
-//        for(int i=m+1;i<n+1;i++){
-//            if(a[i]<a[minNum]){
-//                minNum = i;
-//                if(a[minNum]<0){
-//                    temp = true;
-//                }
-//            }
-//        }
-//
-//        int sum = 0;
-//        for(int i = m;i<n+1;i++){
-//            if(i==minNum && temp) {
-//                sum += 0;
-//            }else {
-//                sum += a[i];
-//            }
-//        }
-//        return sum;
+//        System.out.println(ans);
 //    }
 }

@@ -4,6 +4,8 @@ package algorithms.advancedAlgorithm.quiz.didNotParticipate;
  * Created by thpffcj on 2019/11/6.
  */
 
+import java.util.Scanner;
+
 /**
  * Description
  * They declared Sonam as bewafa. Although she is not, believe me! She asked a number of queries to people
@@ -31,4 +33,16 @@ package algorithms.advancedAlgorithm.quiz.didNotParticipate;
  * For each query output marks obtain by student whose rank is x(1<=x<=10^18).
  */
 public class Searching_3 {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int numbers = Integer.parseInt(sc.nextLine());
+        while (numbers > 0) {
+
+
+            numbers--;
+        }
+    }
 }
