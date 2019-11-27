@@ -41,15 +41,23 @@ public class Searching_1 {
 
         Scanner sc = new Scanner(System.in);
         int numbers = Integer.parseInt(sc.nextLine());
-        for (int number = 0; number < numbers; number++) {
-            String[] kAndN = sc.nextLine().split(" ");
+
+        while (numbers > 0) {
+
             String[] line = sc.nextLine().split(" ");
-            int[] digit = new int[line.length];
-            for (int i = 0; i < line.length; i++) {
-                digit[i] = Integer.parseInt(line[i]);
+            int k = Integer.parseInt(line[0]);
+            int n = Integer.parseInt(line[1]);
+
+            String[] infos = sc.nextLine().split(" ");
+            int[] digit = new int[infos.length];
+            for (int i = 0; i < infos.length; i++) {
+                digit[i] = Integer.parseInt(infos[i]);
             }
-            int result= findMax(digit, Integer.parseInt(kAndN[1]), Integer.parseInt(kAndN[0]));
+
+            int result= findMax(digit, n, k);
             System.out.println(result);
+
+            numbers--;
         }
     }
 
