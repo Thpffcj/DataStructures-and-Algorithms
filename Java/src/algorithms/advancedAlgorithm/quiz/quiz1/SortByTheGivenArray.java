@@ -13,7 +13,8 @@ import java.util.Scanner;
  * the number of elements in A2[] are smaller than or equal to number of elements in A1[] and A2[] has all
  * distinct elements.
  *
- * Input:A1[] = {2, 1, 2, 5, 7, 1, 9, 3, 6, 8, 8} A2[] = {2, 1, 8, 3}
+ * Input:A1[] = {2, 1, 2, 5, 7, 1, 9, 3, 6, 8, 8}
+ * A2[] = {2, 1, 8, 3}
  * Output: A1[] = {2, 2, 1, 1, 8, 8, 3, 5, 6, 7, 9}
  *
  * Since 2 is present first in A2[], all occurrences of 2s should appear first in A[], then all occurrences 1s as

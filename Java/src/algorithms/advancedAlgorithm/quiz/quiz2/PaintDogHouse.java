@@ -34,9 +34,8 @@ import java.util.Scanner;
  * 20
  * 60
  */
-public class Searching_1 {
+public class PaintDogHouse {
 
-    // TODO 考试
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -54,55 +53,50 @@ public class Searching_1 {
                 digit[i] = Integer.parseInt(infos[i]);
             }
 
-            int result= findMax(digit, n, k);
+            int result = findMax(digit, n, k);
             System.out.println(result);
 
             numbers--;
         }
     }
 
-    // function to calculate sum between two indices
-// in array
-    static int sum(int arr[], int from, int to)
-    {
-        int total = 0;
-        for (int i = from; i <= to; i++)
-            total += arr[i];
-        return total;
-    }
+    /**
+     * 假设我们已经有k-1个分区（使用k-2个分隔符），现在我们必须放置第k-1个分隔符来获得k个分区。
+     * 我们应该怎么做？我们可以在第i个元素与第i + 1个元素之间放置第k-1个分频器
+     */
+    private static int findMax(int digit[], int n, int k) {
 
-    // bottom up tabular dp
-    static int findMax(int arr[], int n, int k)
-    {
-        // initialize table
-        int dp[][] = new int[k+1][n+1];
+        int dp[][] = new int[k + 1][n + 1];
 
-        // base cases
-        // k=1
-        for (int i = 1; i <= n; i++)
-            dp[1][i] = sum(arr, 0, i - 1);
+        for (int i = 1; i < n; i++) {
+            dp[1][i] = sum(digit, 0, i);
+        }
 
-        // n=1
-        for (int i = 1; i <= k; i++)
-            dp[i][1] = arr[0];
+        for (int i = 1; i <= k; i++) {
+            dp[i][1] = digit[0];
+        }
 
-        // 2 to k partitions
-        for (int i = 2; i <= k; i++) { // 2 to n boards
+        for (int i = 2; i <= k; i++) {
             for (int j = 2; j <= n; j++) {
 
-                // track minimum
                 int best = Integer.MAX_VALUE;
 
-                // i-1 th separator before position arr[p=1..j]
-                for (int p = 1; p <= j; p++)
-                    best = Math.min(best, Math.max(dp[i - 1][p],
-                            sum(arr, p, j - 1)));
+                for (int p = 1; p <= j; p++) {
+                    best = Math.min(best, Math.max(dp[i - 1][p], sum(digit, p, j - 1)));
+                }
 
                 dp[i][j] = best;
             }
         }
 
-        // required
         return dp[k][n];
+    }
+
+    private static int sum(int digit[], int from, int to) {
+        int total = 0;
+        for (int i = from; i <= to; i++) {
+            total += digit[i];
+        }
+        return total;
     }
 }

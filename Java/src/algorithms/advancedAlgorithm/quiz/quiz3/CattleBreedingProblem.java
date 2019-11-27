@@ -9,7 +9,17 @@ import java.util.Scanner;
  */
 public class CattleBreedingProblem {
 
-    static Map<Long, Long> map = new HashMap<Long, Long>();
+    private static Map<Long, Long> map = new HashMap<Long, Long>();
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int numbers = sc.nextInt();
+        while (numbers > 0) {
+            System.out.println(fib(sc.nextLong() + 1));
+            numbers--;
+        }
+    }
 
     public static long fib(long n) {
 
@@ -24,6 +34,7 @@ public class CattleBreedingProblem {
         if (map.containsKey(n)) {
             return map.get(n);
         }
+
         if (n % 2 != 0) {
             long k = (n + 1) / 2;
             map.put(n, (fib(k) * fib(k) + fib(k - 1) * fib(k - 1)) % 1000000007);
@@ -32,13 +43,5 @@ public class CattleBreedingProblem {
             map.put(n, (fib(k) * ((fib(k - 1) << 1) + fib(k))) % 1000000007);
         }
         return map.get(n);
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int numbers = sc.nextInt();
-        for (int number = 0; number < numbers; number++) {
-            System.out.println(fib(sc.nextLong() + 1));
-        }
     }
 }

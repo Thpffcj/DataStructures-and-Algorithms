@@ -1,8 +1,6 @@
 package algorithms.advancedAlgorithm.homework.homework3;
 
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by thpffcj on 2019/11/18.
@@ -27,93 +25,76 @@ import java.util.Set;
  */
 public class NumberOfTopologicallyOrderedSolutions {
 
-    // Python解法
-//    def inputPre():
-//    global name, pre, m, n
-//    for i in range(m):
-//    v = 0
-//    u = 0
-//            while u < n:
-//            if p[i][0] == name[u]:
-//            break
-//            else:
-//    u += 1
-//            if u == n:
-//            name.append(p[i][0])
-//    n += 1
-//            while v < n:
-//            if p[i][1] == name[v]:
-//            break
-//            else:
-//    v += 1
-//            if v == n:
-//            name.append(p[i][1])
-//    n += 1
-//    pre[v] |= (1 << u)
-//
-//
-//    def solve():
-//    global dp, n
-//    dp[0] = 1
-//            for s in range(1 << n):
-//            if dp[s] != 0:
-//            for i in range(n):
-//            if ((s & pre[i]) == pre[i]) and not (s & (1 << i)):
-//    dp[s | (1 << i)] += dp[s]
-//    print(dp[(1 << n) - 1])
-//
-//
-//            if __name__ == '__main__':
-//    N = int(input())
-//            for k in range(N):
-//    pairs = list(map(str, input().split(",")))  # 起点终点对集合
-//            m = len(pairs)
-//    n = 0
-//    p = []  # 存储起点终点对
-//        for i in range(m):
-//    pair = pairs[i].split()
-//            p.append(pair)
-//    name = []
-//    size = 13
-//    pre = [0 for i in range(size)]
-//    dp = [0 for i in range(1 << size)]
-//    inputPre()
-//    solve()
+    public static List<String> list = new ArrayList<>();
 
-    // TODO 连乘思路不对
-//    public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        int numbers = Integer.parseInt(sc.nextLine());
-//
-//        while (numbers > 0) {
-//            int result = 1;
-//            String[] input = sc.nextLine().split(",");
-//            Set<String> all = new HashSet<String>();
-//            Set<String> out = new HashSet<String>();
-//            Set<String> in = new HashSet<String>();
-//
-//            for (int i = 0; i < input.length; i++) {
-//                all.add(input[i].split(" ")[0]);
-//                all.add(input[i].split(" ")[1]);
-//            }
-//
-//            while (!all.isEmpty()) {
-//                in.clear();
-//                for (int i = 0; i < input.length; i++) {
-//                    if (!all.contains(input[i].split(" ")[0])) {
-//                        continue;
-//                    }
-//                    in.add(input[i].split(" ")[1]);
-//                }
-//                out.clear();
-//                out.addAll(all);
-//                out.removeAll(in);
-//                result *= (out.size());
-//                all.removeAll(out);
-//            }
-//            System.out.println(result);
-//
-//            numbers--;
-//        }
-//    }
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int numbers = Integer.parseInt(sc.nextLine());
+        while (numbers > 0) {
+            list = new ArrayList<>();
+            String[] infos = sc.nextLine().split(",");
+
+            List<String> edges = new ArrayList<>();
+            Set<String> points = new HashSet<>();
+            for (int i = 0; i < infos.length; i++) {
+                edges.add(infos[i]);
+                points.add(infos[i].split(" ")[0]);
+                points.add(infos[i].split(" ")[1]);
+            }
+
+            findTopological("", points, edges);
+
+            for (int i = 0; i < list.size(); i++) {
+                System.out.println(list.get(i));
+            }
+            System.out.println(list.size());
+
+            numbers--;
+        }
+    }
+
+    public static void findTopological(String s, Set<String> points, List<String> edges) {
+
+        if (points.size() == 0) {
+            list.add(s);
+            return;
+        }
+
+        Set<String> outPoint = new HashSet<String>();
+        List<String> inPoint = new ArrayList<>();
+
+        for (int i = 0; i < edges.size(); i++) {
+            String[] line = edges.get(i).split(" ");
+            outPoint.add(line[1]);
+        }
+
+        inPoint.addAll(points);
+        // 删掉所有有边到达的点
+        inPoint.removeAll(outPoint);
+
+        for (int i = 0; i < inPoint.size(); i++) {
+
+            List<String> curEdges = new ArrayList<>();
+            // TODO 因为创建了新变量，所以不需要回溯
+//            Set<String> allPoint = new HashSet<String>(points);
+//            String sTemp = s + inPoint.get(i) + " ";
+
+            s = s + inPoint.get(i) + " ";
+            points.remove(inPoint.get(i));
+
+            for (int j = 0; j < edges.size(); j++) {
+                String[] line = edges.get(j).split(" ");
+                if (!line[0].equals(inPoint.get(i))) {
+                    curEdges.add(edges.get(j));
+                }
+            }
+
+            findTopological(s, points, curEdges);
+
+            // 如果使用了新变量，则不需要回溯
+            s = s.substring(0, s.length() - 2);
+            points.add(inPoint.get(i));
+        }
+    }
 }

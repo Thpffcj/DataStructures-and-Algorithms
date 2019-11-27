@@ -43,24 +43,26 @@ public class OrderProblem {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        int numbers = scanner.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int numbers = sc.nextInt();
 
         while (numbers > 0) {
-            int N = scanner.nextInt();
-            int X = scanner.nextInt();
-            int Y = scanner.nextInt();
+
+            int N = sc.nextInt();
+            int X = sc.nextInt();
+            int Y = sc.nextInt();
 
             int A[] = new int[N];
             int B[] = new int[N];
 
             for (int i = 0; i < N; i++) {
-                A[i] = scanner.nextInt();
+                A[i] = sc.nextInt();
             }
             for (int i = 0; i < N; i++) {
-                B[i] = scanner.nextInt();
+                B[i] = sc.nextInt();
             }
 
+            // dp[i][j] 代表i个任务分配给第一个人，j个任务分配给第2个任务
             int dp[][] = new int[X + 1][Y + 1];
 
             for (int i = 1; i <= X; i++) {
@@ -73,8 +75,10 @@ public class OrderProblem {
             for (int i = 1; i <= X; i++) {
                 for (int j = 1; j <= Y; j++) {
                     if (i + j <= N) {
-                        int op1 = A[i + j - 1] + dp[i - 1][j]; // GIVING TO X (CHECK X IN FOR)-> ROW
-                        int op2 = B[i + j - 1] + dp[i][j - 1]; // TO Y
+                        // 将第i+j个任务分配给第一个人
+                        int op1 = A[i + j - 1] + dp[i - 1][j];
+                        // 将第i+j个任务分配给第二个人
+                        int op2 = B[i + j - 1] + dp[i][j - 1];
 
                         dp[i][j] = Math.max(op1, op2);
                     } else
@@ -83,6 +87,7 @@ public class OrderProblem {
             }
 
             System.out.println(dp[X][Y]);
+
             numbers--;
         }
     }

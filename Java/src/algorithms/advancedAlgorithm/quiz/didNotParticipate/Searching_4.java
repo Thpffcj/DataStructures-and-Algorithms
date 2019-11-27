@@ -98,12 +98,4 @@ public class Searching_4 {
         }
         return result;
     }
-
-//    public static double force(double arr[], double p) {
-//        double ans = 0.0;
-//        for (int i = 0; i < arr.length; i++) {
-//            ans += (1 / (arr[i] - p));
-//        }
-//        return ans;
-//    }
 }
