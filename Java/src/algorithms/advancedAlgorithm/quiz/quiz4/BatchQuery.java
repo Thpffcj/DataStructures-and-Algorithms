@@ -7,7 +7,7 @@ package algorithms.advancedAlgorithm.quiz.quiz4;
 import java.util.Scanner;
 
 /**
- * Description
+ * Description A班
  * Given an array, the task is to complete the function which finds the maximum sum subarray, where you
  * may remove at most one element to get the maximum sum.
  *

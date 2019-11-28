@@ -7,7 +7,7 @@ package algorithms.advancedAlgorithm.quiz.quiz4;
 import java.util.Scanner;
 
 /**
- * Description
+ * Description A班
  * Rahul and Ankit are the only two waiters in Royal Restaurant. Today, the restaurant received N orders.
  * The amount of tips may differ when handled by different waiters, if Rahul takes the ith order, he would
  * be tipped Ai rupees and if Ankit takes this order, the tip would be Bi rupees.In order to maximize the

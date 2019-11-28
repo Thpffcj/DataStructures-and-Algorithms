@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 
 /**
- * Description
+ * Description A班
  * Given an array of positive integers and many queries for divisibility. In every query Q[i], we are given an
  * integer K , we need to count all elements in the array which are perfectly divisible by K.
  *

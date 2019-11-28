@@ -6,51 +6,39 @@ import java.util.Scanner;
 /**
  * Created by thpffcj on 2019/10/31.
  */
-public class DistanceProblem {
 
-//    public static void main(String[] args) {
-//
-//        Scanner sc = new Scanner(System.in);
-//        int numbers = Integer.parseInt(sc.nextLine());
-//        for (int number = 0; number < numbers; number++) {
-//
-//            int pointNumber = Integer.parseInt(sc.nextLine());
-//
-//            Point[] points = new Point[pointNumber];
-//            for (int i = 0; i < pointNumber; i++) {
-//                String[] line = sc.nextLine().split(" ");
-//                points[i] = new Point(Long.parseLong(line[0]), Long.parseLong(line[1]));
-//            }
-//
-//            int result = 0;
-//            for (int i = 0; i < points.length - 1; i++) {
-//                for (int j = i + 1; j < points.length; j++) {
-//                    if (Point.manhattan(points[i], points[j]).equals(Point.euclid(points[i], points[j]))) {
-//                        result++;
-//                    }
-//                }
-//            }
-//            System.out.println(result);
-//        }
-//    }
-//
-//    public static class Point {
-//        public long x;
-//        public long y;
-//
-//        public Point(long x, long y) {
-//            this.x = x;
-//            this.y = y;
-//        }
-//
-//        public static Double manhattan(Point p1, Point p2) {
-//            return Double.valueOf(Math.abs(p1.x - p2.x) + Math.abs(p1.y - p2.y));
-//        }
-//
-//        public static Double euclid(Point p1, Point p2) {
-//            return Math.sqrt(Math.pow((p1.x - p2.x), 2) + Math.pow((p1.y - p2.y), 2));
-//        }
-//    }
+/**
+ * Description B班
+ * In a given cartesian plane, there are N points. We need to find the Number of Pairs of points(A,B) such that
+ *
+ * Point A and Point B do not coincide.
+ * Manhattan Distance and the Euclidean Distance between the points should be equal.
+ * Note : Pair of 2 points(A,B) is considered same as Pair of 2 points(B,A).
+ *
+ * Manhattan Distance = |x2-x1|+|y2-y1|
+ *
+ * Euclidean Distance = ((x2-x1)^2 + (y2-y1)^2)^0.5 where points are (x1,y1) and (x2,y2).
+ *
+ * Constraints:1<=T <= 50, 1<=N <= 2*10 ^ 5, 0<=(|Xi|, |Yi|) <= 10^9
+ *
+ *
+ * Input
+ * First Line Consist of T - number of test cases. For each Test case:First Line consist of N , Number of points. Next line contains N pairs contains two integers Xi and Yi，i.e, X coordinate and the Y coordinate of a Point
+ *
+ *
+ * Output
+ * Print the number of pairs as asked above.
+ *
+ * Sample Input 1
+ * 1
+ * 2
+ * 1 1
+ * 7 5
+ *
+ * Sample Output 1
+ * 0
+ */
+public class DistanceProblem {
 
     public static void main(String[] args) {
 

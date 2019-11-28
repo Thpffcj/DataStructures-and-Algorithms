@@ -15,10 +15,12 @@ import java.util.*;
  * Output
  * 输出变化之后的两个数组内元素和的差绝对值。
  *
+ * Sample Input 1
  * 1
  * 100 99 98 1 2 3
  * 1 2 3 4 5 40
  *
+ * Sample Output 1
  * 48
  */
 public class AdjustTheArrayToMinimizeTheDifference {
@@ -85,15 +87,3 @@ public class AdjustTheArrayToMinimizeTheDifference {
         }
     }
 }
-
-//3
-//1 2 3 4 5 40
-//100 99 98 1 2 3
-//1 1
-//100 100
-//100 99 98 1 2 3
-//1 2 3 4 5 40
-
-//1
-//1 1
-//100 100

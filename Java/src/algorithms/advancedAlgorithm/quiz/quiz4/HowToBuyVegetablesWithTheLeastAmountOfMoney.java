@@ -7,7 +7,7 @@ package algorithms.advancedAlgorithm.quiz.quiz4;
 import java.util.Scanner;
 
 /**
- * Description
+ * Description A班
  * Rahul wanted to purchase vegetables mainly brinjal, carrot and tomato. There are N different vegetable
  * sellers in a line. Each vegetable seller sells all three vegetable items, but at different prices.
  * Rahul, obsessed by his nature to spend optimally, decided not to purchase same vegetable from adjacent

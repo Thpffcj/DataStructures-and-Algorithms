@@ -10,22 +10,27 @@ import java.util.Scanner;
 /**
  * Description
  * 给定一个矩形区域，每一个位置上都是1或0，求该矩阵中每一个位置上都是1的最大子矩形区域中的1的个数。
+ *
  * Input
  * 输入第一行为测试用例个数。每一个用例有若干行，第一行为矩阵行数n和列数m，下面的n行每一行是用空格隔开的0或1。
+ *
  * Output
  * 输出一个数值。
  *
+ * Sample Input 1
  * 1
  * 3 4
  * 1 0 1 1
  * 1 1 1 1
  * 1 1 1 0
  *
+ * Sample Output 1
  * 6
  */
-public class SubmatrixProblem {
+public class SubMatrixProblem {
 
     /**
+     * TODO 暴力？
      * 从第一行开始，一行一行向下扫描，记录每一列当前的1的个数（碰到0时候清零，可以理解为高度，记录其为h[i ]），然后计算每
      * 一列的符合该列高度的矩形有多宽（对第j列而言，宽度为r[j]-l[j]+1）最后遍历完所有行得到的最大面积就是答案。
      * @param args
@@ -34,7 +39,7 @@ public class SubmatrixProblem {
 
         Scanner sc = new Scanner(System.in);
         int numbers = sc.nextInt();
-        for (int number = 0; number < numbers; number++) {
+        while (numbers > 0) {
             int m = sc.nextInt();
             int n = sc.nextInt();
             int[][] matrix = new int[m][n];
@@ -48,8 +53,10 @@ public class SubmatrixProblem {
             int cols = matrix[0].length;
             int[] leftLessMin = new int[cols];
             int[] rightLessMin = new int[cols];
-            Arrays.fill(leftLessMin, -1); // 初始化为 -1，也就是最左边
-            Arrays.fill(rightLessMin, cols); // 初始化为 cols，也就是最右边
+            // 初始化为 -1，也就是最左边
+            Arrays.fill(leftLessMin, -1);
+            // 初始化为 cols，也就是最右边
+            Arrays.fill(rightLessMin, cols);
             int[] heights = new int[cols];
             for (int row = 0; row < matrix.length; row++) {
                 //更新所有高度
@@ -89,9 +96,53 @@ public class SubmatrixProblem {
                     int area = (rightLessMin[col] - leftLessMin[col] - 1) * heights[col];
                     maxArea = Math.max(area, maxArea);
                 }
-
             }
             System.out.println(maxArea);
+
+            numbers--;
         }
     }
+
+//    public static void main(String[] args) {
+//
+//        Scanner scanner = new Scanner(System.in);
+//        int T = scanner.nextInt();
+//        while (T>0){
+//            int n = scanner.nextInt();
+//            int m = scanner.nextInt();
+//            int[][] A = new int[n][m];
+//            for (int i=0;i<n;i++){
+//                for (int j=0;j<m;j++){
+//                    A[i][j]=scanner.nextInt();
+//                }
+//            }
+//
+//            int num=0;
+//            int sum;
+//            for (int row=1;row<=n;row++){
+//                for (int column=1;column<=m;column++){
+//
+//                    for (int i=0;i<=n-row;i++){
+//                        for (int j=0;j<=m-column;j++){
+//                            sum=0;
+//                            for (int i1=i;i1<i+row;i1++){
+//                                for (int j1=j;j1<j+column;j1++){
+//                                    sum = sum+A[i1][j1];
+//                                }
+//                            }
+//                            if ((sum==row*column)&&(num<sum)){
+//                                num=sum;
+//                                break;
+//                            }
+//
+//                        }
+//                    }
+//
+//                }
+//            }
+//
+//            System.out.println(num);
+//            T--;
+//        }
+//    }
 }

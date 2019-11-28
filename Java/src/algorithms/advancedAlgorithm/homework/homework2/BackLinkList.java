@@ -16,12 +16,14 @@ import java.util.Scanner;
  * Output
  * 是回文则输出true，不是则输出false，一行表示一个链表的结果。
  *
+ * Sample Input 1
  * 4
  * 3 1 2 1
  * 4 1 2 2 1
  * 3 3 5 3
  * 6 a b c d c a
  *
+ * Sample Output 1
  * true
  * true
  * true

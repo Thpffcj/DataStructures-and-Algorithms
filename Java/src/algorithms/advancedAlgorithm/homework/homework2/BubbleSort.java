@@ -16,8 +16,10 @@ import java.util.Scanner;
  * Output
  * 输出的每一行为排序结果，用空格隔开，末尾不要空格。
  *
+ * Sample Input 1
  * 13 24 3 56 34 3 78 12 29 49 84 51 9 100
  *
+ * Sample Output 1
  * 3 3 9 12 24 29 34 49 51 56 78 84 100
  */
 public class BubbleSort {
@@ -49,15 +51,4 @@ public class BubbleSort {
             System.out.println(sb.substring(0, sb.length() - 1));
         }
     }
-
-
-//    public static void main(String[] args) {
-//
-//        Scanner sc = new Scanner(System.in);
-//        int number = sc.nextInt();
-//        int[] digits = new int[number];
-//        for (int i = 0; i < number; i++) {
-//            digits[i] = sc.nextInt();
-//        }
-//    }
 }

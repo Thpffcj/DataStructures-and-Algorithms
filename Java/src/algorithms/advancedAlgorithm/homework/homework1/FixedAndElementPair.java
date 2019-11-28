@@ -15,10 +15,12 @@ import java.util.Scanner;
  * Output
  * 输出这样两个数有几对。
  *
+ * Sample Input 1
  * 1
  * 1 2 4 7 11 0 9 15
  * 11
  *
+ * Sample Output 1
  * 3
  */
 public class FixedAndElementPair {

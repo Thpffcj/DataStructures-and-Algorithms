@@ -15,11 +15,13 @@ import java.util.*;
  * <p>
  * Output
  * 如果没有公共子序列，不输出，如果有多个则分为多行，按字典序排序。
- * <p>
+ *
+ * Sample Input 1
  * 1
  * 1A2BD3G4H56JK
  * 23EFG4I5J6K7
- * <p>
+ *
+ * Sample Output 1
  * 23G456K
  * 23G45JK
  */

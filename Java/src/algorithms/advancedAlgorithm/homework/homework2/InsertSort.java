@@ -15,9 +15,11 @@ import java.util.Scanner;
  * <p>
  * Output
  * 输出排序的数组，用空格隔开，末尾不要空格。
- * <p>
+ *
+ * Sample Input 1
  * 13 24 3 56 34 3 78 12 29 49 84 51 9 100
- * <p>
+ *
+ * Sample Output 1
  * 3 3 9 12 24 29 34 49 51 56 78 84 100
  */
 public class InsertSort {

@@ -15,11 +15,13 @@ import java.util.Scanner;
  * <p>
  * Output
  * 输出的每一行为新的链表，节点值用空格隔开，末尾不要空格。
- * <p>
+ *
+ * Sample Input 1
  * 2
  * 8 1 2 3 4 5 6 7 8 3
  * 8 a b c d e f g h 4
- * <p>
+ *
+ * Sample Output 1
  * 3 2 1 6 5 4 7 8
  * d c b a h g f e
  */

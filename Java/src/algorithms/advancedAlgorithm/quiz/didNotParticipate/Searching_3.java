@@ -31,18 +31,55 @@ import java.util.Scanner;
  *
  * Output
  * For each query output marks obtain by student whose rank is x(1<=x<=10^18).
+ *
+ * Sample Input 1
+ * 1
+ * 3 3
+ * 1 10 12 20 22 30
+ * 5 15 25
+ *
+ * Sample Output 1
+ * 5 16 27
  */
 public class Searching_3 {
 
-    public static void main(String[] args) {
+    public static void main (String[] args) {
+        Scanner s = new Scanner(System.in);
+        int t = s.nextInt();
+        while(t-- > 0){
+            int n = s.nextInt();
+            int q = s.nextInt();
 
-        Scanner sc = new Scanner(System.in);
+            long[][] num = new long[n][2];
+            long grp[] = new long[n];
+            for(int i=0;i<n;i++){
+                num[i][0] = s.nextLong();
+                num[i][1] = s.nextLong();
+                grp[i] = num[i][1]-num[i][0]+1;
+            }
 
-        int numbers = Integer.parseInt(sc.nextLine());
-        while (numbers > 0) {
-
-
-            numbers--;
+            StringBuilder sb = new StringBuilder();
+            for(int i=0;i<q;i++){
+                long rank = s.nextLong();
+                long marks = 0;
+                int k = 0;
+                while(true){
+                    if(k<n && rank>grp[k]){
+                        rank -= grp[k];
+                        k++;
+                    } else if(rank<=grp[k]){
+                        marks = num[k][0]+rank-1;
+                        sb.append(marks + " ");
+                        break;
+                    }
+                    if(k==n){
+                        marks = num[n-1][1] + rank;
+                        sb.append(marks + " ");
+                        break;
+                    }
+                }
+            }
+            System.out.println(sb.substring(0, sb.length() - 1));
         }
     }
 }

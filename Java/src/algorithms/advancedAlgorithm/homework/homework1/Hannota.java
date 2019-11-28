@@ -14,9 +14,11 @@ import java.util.Scanner;
  * Output
  * 移动步数。
  *
+ * Sample Input 1
  * 1
  * 2
  *
+ * Sample Output 1
  * 8
  */
 public class Hannota {

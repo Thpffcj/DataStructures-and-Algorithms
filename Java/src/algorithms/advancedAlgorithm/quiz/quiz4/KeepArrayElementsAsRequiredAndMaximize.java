@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Description
+ * Description A班
  * Given an array of N numbers, we need to maximize the sum of selected numbers. At each step, you need to
  * select a number Ai, delete one occurrence of Ai-1 (if exists) and Ai each from the array. Repeat these
  * steps until the array gets empty. The problem is to maximize the sum of selected numbers.
