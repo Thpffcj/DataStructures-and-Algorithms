@@ -30,6 +30,7 @@ public class ImplementShellSorting {
 
         Scanner sc = new Scanner(System.in);
         int numbers = Integer.parseInt(sc.nextLine());
+
         while (numbers > 0) {
             String[] line = sc.nextLine().split(" ");
             int[] digit = new int[line.length];

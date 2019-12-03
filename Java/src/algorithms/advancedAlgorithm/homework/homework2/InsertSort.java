@@ -9,14 +9,15 @@ import java.util.Scanner;
 /**
  * Description
  * 实现插入排序。
- * <p>
+ *
  * Input
  * 输入第一行为用例个数， 每个测试用例输入的每一行代表一个数组，其中的值用空格隔开，第一个值表示数组的长度。
- * <p>
+ *
  * Output
  * 输出排序的数组，用空格隔开，末尾不要空格。
  *
  * Sample Input 1
+ * 1
  * 13 24 3 56 34 3 78 12 29 49 84 51 9 100
  *
  * Sample Output 1
@@ -27,9 +28,9 @@ public class InsertSort {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
         int numbers = Integer.parseInt(sc.nextLine());
-        for (int number = 0; number < numbers; number++) {
+
+        while (numbers > 0){
             int n = sc.nextInt();
             int[] digits = new int[n];
             for (int i = 0; i < n; i++) {
@@ -56,9 +57,8 @@ public class InsertSort {
             }
 
             System.out.println(sb.substring(0, sb.length() - 1));
+
+            numbers--;
         }
     }
 }
-//2
-//13 24 3 56 34 3 78 12 29 49 84 51 9 100
-//13 24 3 56 34 3 78 12 29 49 84 51 9 100

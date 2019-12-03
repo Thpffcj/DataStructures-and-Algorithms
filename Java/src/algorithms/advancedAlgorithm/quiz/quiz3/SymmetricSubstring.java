@@ -43,7 +43,7 @@ public class SymmetricSubstring {
         int n = str.length();
         int maxlen = 0;
 
-        // A 2D table where sum[i][j] stores sum of digits from str[i] to str[j].
+        // 其中sum[i][j]存储从str[i]到str[j]的数字总和
         int sum[][] = new int[n][n];
 
         for (int i = 0; i < n; i++) {
@@ -55,10 +55,10 @@ public class SymmetricSubstring {
                 int j = i + len - 1;
                 int k = len / 2;
 
-                // Calculate value of sum[i][j]
+                // 计算sum[i][j]的值
                 sum[i][j] = sum[i][j - k] + sum[j - k + 1][j];
 
-                // Update result if 'len' is even, left and right sums are same and len is more than maxlen
+                // 如果len是偶数，左和右总和相同且len大于maxlen，则更新结果
                 if (len % 2 == 0 && sum[i][j - k] == sum[(j - k + 1)][j] && len > maxlen) {
                     maxlen = len;
                 }

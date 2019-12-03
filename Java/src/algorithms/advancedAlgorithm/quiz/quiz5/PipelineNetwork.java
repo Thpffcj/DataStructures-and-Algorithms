@@ -42,84 +42,96 @@ import java.util.*;
  */
 public class PipelineNetwork {
 
-    public static void main(String[] args) {
+    // TODO Greedy
+    // 房屋数量和管道数量
+    static int n, p;
+
+    // 数组start存储管道的起始端
+    static int start[] = new int[1100];
+
+    // 数组end存储管道的终点
+    static int end[] = new int[1100];
+
+    // diameter数组存储两个管道之间的直径值
+    static int diameter[] = new int[1100];
+
+    static List<Integer> a = new ArrayList<Integer>();
+    static List<Integer> b = new ArrayList<Integer>();
+    static List<Integer> c = new ArrayList<Integer>();
+
+    static int ans;
+
+    public static void main(String args[]) {
 
         Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
-
-        while (t > 0) {
-            int n = sc.nextInt();
-            int pipes = sc.nextInt();
-            boolean[] checked = new boolean[n];
-
-            Connection c = new Connection(n);
-            while (pipes > 0) {
-                c.createConnections(sc.nextInt(), sc.nextInt(), sc.nextInt());
-                pipes--;
+        int numbers = Integer.parseInt(sc.nextLine());
+        while (numbers > 0) {
+            for (int j = 0; j < 1100; j++) {
+                end[j] = start[j] = diameter[j] = 0;
             }
 
-            List<String> res = new ArrayList<>();
-            List<Integer> all = new ArrayList<>();
-            Set<Integer> start = new HashSet<>();
-            for (int i = 0; i < n; i++) {
-                all.add(i);
-                start.addAll(c.adjList[i]);
-            }
-            all.removeAll(start);
+            String[] s = sc.nextLine().trim().split(" ");
+            n = Integer.parseInt(s[0]);
+            p = Integer.parseInt(s[1]);
 
-            for (int i : all) {
-                StringBuilder sb = new StringBuilder();
-                List<Integer> li = new ArrayList<>();
-                List<Integer> we = new ArrayList<>();
-                c.DFS(i, li, we);
-                Collections.sort(we);
-                if (li.size() > 0) {
-                    sb.append((i + 1) + " ");
-                    sb.append((li.get(li.size() - 1) + 1));
-                    sb.append(" " + (we.get(0)));
-                    res.add(sb.toString());
-                }
+            int[][] arr = new int[p][3];
+            for (int j = 0; j < p; j++) {
+                String[] s1 = sc.nextLine().trim().split(" ");
+                arr[j][0] = Integer.parseInt(s1[0]);
+                arr[j][1] = Integer.parseInt(s1[1]);
+                arr[j][2] = Integer.parseInt(s1[2]);
             }
-            System.out.println(res.size());
-            for (String str : res) {
-                System.out.println(str);
-            }
-            t--;
+            solve(arr);
+
+            numbers--;
         }
     }
 
-    private static class Connection {
+    static void solve(int arr[][]) {
+        int i = 0;
 
-        int n;
-        List<Integer>[] adjList;
-        List<Integer>[] weightList;
+        while (i < p) {
+            int q = arr[i][0];
+            int h = arr[i][1];
+            int t = arr[i][2];
 
-        public Connection(int n) {
-            this.n = n;
-            adjList = new ArrayList[n];
-            weightList = new ArrayList[n];
-            for (int i = 0; i < n; i++) {
-                adjList[i] = new ArrayList<Integer>();
-                weightList[i] = new ArrayList<Integer>();
+            start[q] = h;
+            diameter[q] = t;
+            end[h] = q;
+            i++;
+        }
+
+        a = new ArrayList<Integer>();
+        b = new ArrayList<Integer>();
+        c = new ArrayList<Integer>();
+
+        for (int j = 1; j <= n; j++) {
+            // 如果管道没有结束顶点但具有起始顶点，即是输出管道，那么我们需要从该顶点开始DFS
+            if (end[j] == 0 && start[j] > 0) {
+                ans = 1000000000;
+                int w = dfs(j);
+
+                a.add(j);
+                b.add(w);
+                c.add(ans);
             }
         }
 
-        public void createConnections(int src, int dest, int weight) {
-            adjList[src - 1].add(dest - 1);
-            weightList[src - 1].add(weight);
+        System.out.println(a.size());
+
+        for (int j = 0; j < a.size(); j++) {
+            System.out.println(a.get(j) + " " + b.get(j) + " " + c.get(j));
+        }
+    }
+
+    static int dfs(int w) {
+        if (start[w] == 0) {
+            return w;
+        }
+        if (diameter[w] < ans) {
+            ans = diameter[w];
         }
 
-        public void DFS(int start, List<Integer> li, List<Integer> we) {
-            List<Integer> conn = adjList[start];
-            List<Integer> weight = weightList[start];
-            if (conn.isEmpty()) {
-                return;
-            }
-            for (int i = 0; i < conn.size(); i++) {
-                li.add(conn.get(i));
-                we.add(weight.get(i));
-                DFS(conn.get(i), li, we);
-            }
-        }
+        return dfs(start[w]);
     }
 }

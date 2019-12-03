@@ -41,10 +41,11 @@ import java.util.Scanner;
 public class MatrixCalculation {
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         int numbers = Integer.parseInt(sc.nextLine());
-        while (numbers > 0) {
 
+        while (numbers > 0) {
             int n = Integer.parseInt(sc.nextLine());
             int max = (int) Math.pow((n * n), 3);
 

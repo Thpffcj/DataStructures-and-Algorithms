@@ -42,57 +42,64 @@ public class BallOnTheRoad {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int numbers = sc.nextInt();
+        int numbers = Integer.parseInt(sc.nextLine());
 
         while (numbers > 0) {
-            int n = sc.nextInt();
-            int m = sc.nextInt();
 
-            long arr1[] = new long[n];
-            long arr2[] = new long[m];
-            for (int i = 0; i < n; ++i) {
-                arr1[i] = sc.nextLong();
-            }
-            for (int i = 0; i < m; ++i) {
-                arr2[i] = sc.nextLong();
+            String[] infos = sc.nextLine().split(" ");
+            int n = Integer.parseInt(infos[0]);
+            int m = Integer.parseInt(infos[1]);
+
+            String[] line1 = sc.nextLine().split(" ");
+            int[] road1 = new int[line1.length];
+            for (int i = 0; i < road1.length; i++) {
+                road1[i] = Integer.parseInt(line1[i]);
             }
 
-            long mSum = 0;
+            String[] line2 = sc.nextLine().split(" ");
+            int[] road2 = new int[line2.length];
+            for (int i = 0; i < road2.length; i++) {
+                road2[i] = Integer.parseInt(line2[i]);
+            }
+
+            int r1 = 0;
+            int r2 = 0;
             int sum1 = 0;
             int sum2 = 0;
-            int f = 0;
-            int s = 0;
-            while (f < arr1.length || s < arr2.length) {
-                if (f >= arr1.length) {
-                    while (s < arr2.length) {
-                        sum2 += arr2[s++];
+            int result = 0;
+            while (r1 < road1.length || r2 < road2.length) {
+                if (r1 >= road1.length) {
+                    while (r2 < road2.length) {
+                        sum2 += road2[r2];
+                        r2++;
                     }
-                    mSum += Math.max(sum1, sum2);
-                } else if (s >= arr2.length) {
-                    while (f < arr1.length) {
-                        sum1 += arr1[f++];
+                    result += Math.max(sum1, sum2);
+                } else if (r2 >= road2.length) {
+                    while (r1 < road1.length) {
+                        sum1 += road1[r1];
+                        r1++;
                     }
-                    mSum += Math.max(sum1, sum2);
+                    result += Math.max(sum1, sum2);
                 } else {
-                    if (arr1[f] > arr2[s]) {
-                        sum2 += arr2[s];
-                        s++;
-                    } else if (arr1[f] < arr2[s]) {
-                        sum1 += arr1[f];
-                        f++;
+                    if (road1[r1] < road2[r2]) {
+                        sum1 += road1[r1];
+                        r1++;
+                    } else if (road1[r1] > road2[r2]) {
+                        sum2 += road2[r2];
+                        r2++;
                     } else {
-                        sum1 += arr1[f];
-                        sum2 += arr2[s];
-                        mSum += Math.max(sum1, sum2);
-                        f++;
-                        s++;
+                        sum1 += road1[r1];
+                        sum2 += road2[r2];
+                        result += Math.max(sum1, sum2);
                         sum1 = 0;
                         sum2 = 0;
+                        r1++;
+                        r2++;
                     }
                 }
             }
-            System.out.println(mSum);
 
+            System.out.println(result);
             numbers--;
         }
     }

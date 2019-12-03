@@ -18,6 +18,7 @@ import java.util.*;
  * 输出的每一行为排序结果，用空格隔开，末尾不要空格。
  *
  * Sample Input 1
+ * 1
  * 13 24 3 56 34 3 78 12 29 49 84 51 9 100
  *
  * Sample Output 1
@@ -48,6 +49,7 @@ public class CountSort {
                     }
                 }
             }
+
             List<Map.Entry<Integer, Integer>> list = new ArrayList<Map.Entry<Integer, Integer>>(map.entrySet());
             Collections.sort(list, new Comparator<Map.Entry<Integer, Integer>>() {
                 @Override

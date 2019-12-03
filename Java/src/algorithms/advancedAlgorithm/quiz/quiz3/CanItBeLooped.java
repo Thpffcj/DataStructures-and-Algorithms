@@ -41,11 +41,12 @@ public class CanItBeLooped {
 
     public static boolean findOut = false;
 
+    // TODO String
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         int numbers = Integer.parseInt(sc.nextLine());
-        for (int number = 0; number < numbers; number++) {
+        while (numbers > 0) {
             findOut = false;
             int n = Integer.parseInt(sc.nextLine());
 
@@ -53,7 +54,6 @@ public class CanItBeLooped {
             boolean[] flag = new boolean[line.length];
             for (int i = 0; i < line.length; i++) {
                 line[i] = line[i].substring(0, 1) + line[i].substring(line[i].length() - 1);
-//                System.out.println(line[i]);
             }
 
             findAll("", line, flag);
@@ -62,6 +62,8 @@ public class CanItBeLooped {
             } else {
                 System.out.println(0);
             }
+
+            numbers--;
         }
     }
 

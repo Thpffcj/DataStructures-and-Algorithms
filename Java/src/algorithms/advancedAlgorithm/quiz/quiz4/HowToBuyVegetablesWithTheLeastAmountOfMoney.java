@@ -39,9 +39,9 @@ public class HowToBuyVegetablesWithTheLeastAmountOfMoney {
 
         Scanner sc = new Scanner(System.in);
         int numbers = Integer.parseInt(sc.nextLine());
+
         while (numbers > 0) {
             int n = Integer.parseInt(sc.nextLine());
-
             int[][] dp = new int[n][3];
 
             String[] info = sc.nextLine().split(" ");

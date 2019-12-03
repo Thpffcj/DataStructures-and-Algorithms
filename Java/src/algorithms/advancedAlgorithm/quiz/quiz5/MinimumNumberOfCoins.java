@@ -38,9 +38,12 @@ import java.util.Scanner;
  */
 public class MinimumNumberOfCoins {
 
+    // TODO Greedy
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         int numbers = Integer.parseInt(sc.nextLine());
+
         while (numbers > 0) {
             String[] infos = sc.nextLine().split(" ");
             int n = Integer.parseInt(infos[0]);
@@ -58,7 +61,7 @@ public class MinimumNumberOfCoins {
                 dp[coin[i]] = 1;
             }
 
-            for (int i = 1; i <= amount; i++) {
+            for (int i = coin[0]; i <= amount; i++) {
                 for (int j = 0; j < n; j++) {
                     if (i + coin[j] <= amount) {
                         dp[i + coin[j]] = Math.min(dp[i] + 1, dp[i + coin[j]]);

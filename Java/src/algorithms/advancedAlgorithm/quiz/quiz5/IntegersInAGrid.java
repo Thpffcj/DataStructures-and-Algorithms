@@ -4,10 +4,7 @@ package algorithms.advancedAlgorithm.quiz.quiz5;
  * Created by thpffcj on 2019/11/28.
  */
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Description
@@ -43,6 +40,7 @@ import java.util.Scanner;
  */
 public class IntegersInAGrid {
 
+    // TODO Greedy
     public static List<Integer> list = new ArrayList<>();
 
     public static void main(String[] args) {

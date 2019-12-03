@@ -4,7 +4,6 @@ package algorithms.advancedAlgorithm.quiz.quiz5;
  * Created by thpffcj on 2019/11/28.
  */
 
-
 import java.util.Scanner;
 
 /**
@@ -31,7 +30,7 @@ import java.util.Scanner;
  * Sample Input 1
  * 1
  * 6
- * 900  940 950  1100 1500 1800
+ * 900 940 950 1100 1500 1800
  * 910 1200 1120 1130 1900 2000
  *
  * Sample Output 1
@@ -40,17 +39,19 @@ import java.util.Scanner;
 public class TimeDivision {
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         int numbers = Integer.parseInt(sc.nextLine());
+
         while (numbers > 0) {
             int N = Integer.parseInt(sc.nextLine().trim());
-
             String[] arrival = sc.nextLine().split(" ");
             String[] departure = sc.nextLine().split(" ");
-            boolean[] left = new boolean[N];
 
+            boolean[] left = new boolean[N];
             int result = 1;
             int maxNeed = 1;
+
             for (int i = 1; i < arrival.length; i++) {
                 int arrive = Integer.parseInt(arrival[i]);
                 int j = i;

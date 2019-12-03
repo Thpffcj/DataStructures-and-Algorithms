@@ -61,8 +61,10 @@ import java.util.Scanner;
 public class MinimizeTheInitialPoint {
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         int numbers = Integer.parseInt(sc.nextLine());
+
         while (numbers > 0) {
             String[] infos = sc.nextLine().split(" ");
             int m = Integer.parseInt(infos[0]);

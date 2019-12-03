@@ -30,10 +30,10 @@ public class NonRecursiveFastSort {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
             String[] line = sc.nextLine().split(" ");
-            int[] digits = new int[line.length];
+            int[] digits = new int[line.length - 1];
 
             for (int i = 0; i < digits.length; i++) {
-                digits[i] = Integer.parseInt(line[i]);
+                digits[i] = Integer.parseInt(line[i + 1]);
             }
 
             digits = generalQuickSort(digits, 0, digits.length - 1);

@@ -7,16 +7,14 @@ package algorithms.advancedAlgorithm;
 import java.util.Scanner;
 
 /**
- * Sample Input 1
- * 2
- * ABCPQR
- * ADGJPRT
- *
- * Sample Output 1
- * RQP
- * JGDA
+ 1
+ 5 5
+ 1 4 5 6 8
+ 2 3 4 6 9
  */
 public class Exercise {
 
+    public static void main(String[] args) {
 
+    }
 }

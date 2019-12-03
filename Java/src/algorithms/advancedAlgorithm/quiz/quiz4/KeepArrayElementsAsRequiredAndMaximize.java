@@ -4,8 +4,7 @@ package algorithms.advancedAlgorithm.quiz.quiz4;
  * Created by thpffcj on 2019/11/21.
  */
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Description A班
@@ -41,20 +40,22 @@ public class KeepArrayElementsAsRequiredAndMaximize {
 
         Scanner sc = new Scanner(System.in);
         int numbers = sc.nextInt();
+
         while (numbers > 0) {
             int n = sc.nextInt();
-            int[] digit = new int[n];
+            List<Integer> digit = new ArrayList<>();
             for (int i = 0; i < n; i++) {
-                digit[i] = sc.nextInt();
+                digit.add(sc.nextInt());
             }
 
-            Arrays.sort(digit);
+            Collections.sort(digit);
             int result = 0;
-            // TODO 有问题 3 3 4 4 4 需要去除两个3
-            for (int i = digit.length - 1; i >= 0; i--) {
-                result += digit[i];
-                if (i > 0 && digit[i - 1] == digit[i] - 1) {
-                    i--;
+            while (!digit.isEmpty()) {
+                int d = digit.remove(digit.size() - 1);
+                result += d;
+                if (digit.contains(d - 1)) {
+                    int position = Collections.binarySearch(digit, d - 1);
+                    digit.remove(position);
                 }
             }
             System.out.println(result);
