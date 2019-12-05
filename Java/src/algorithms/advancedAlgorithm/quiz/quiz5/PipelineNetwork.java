@@ -65,6 +65,7 @@ public class PipelineNetwork {
 
         Scanner sc = new Scanner(System.in);
         int numbers = Integer.parseInt(sc.nextLine());
+
         while (numbers > 0) {
             for (int j = 0; j < 1100; j++) {
                 end[j] = start[j] = diameter[j] = 0;
@@ -106,7 +107,7 @@ public class PipelineNetwork {
         c = new ArrayList<Integer>();
 
         for (int j = 1; j <= n; j++) {
-            // 如果管道没有结束顶点但具有起始顶点，即是输出管道，那么我们需要从该顶点开始DFS
+            // 如果管道没有结束顶点但具有起始顶点，即是输入管道，那么我们需要从该顶点开始DFS
             if (end[j] == 0 && start[j] > 0) {
                 ans = 1000000000;
                 int w = dfs(j);
@@ -124,14 +125,14 @@ public class PipelineNetwork {
         }
     }
 
-    static int dfs(int w) {
-        if (start[w] == 0) {
-            return w;
+    static int dfs(int j) {
+        if (start[j] == 0) {
+            return j;
         }
-        if (diameter[w] < ans) {
-            ans = diameter[w];
+        if (diameter[j] < ans) {
+            ans = diameter[j];
         }
 
-        return dfs(start[w]);
+        return dfs(start[j]);
     }
 }

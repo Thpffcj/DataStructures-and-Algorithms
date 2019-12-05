@@ -4,6 +4,9 @@ package algorithms.advancedAlgorithm.quiz.quiz4;
  * Created by thpffcj on 2019/11/21.
  */
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -34,15 +37,47 @@ public class BatchQuery {
 
         while (numbers > 0) {
             int n = sc.nextInt();
-            int[] digit = new int[n];
+            List<Integer> digit = new ArrayList<>();
             for (int i = 0; i < n; i++) {
-                digit[i] = sc.nextInt();
+                digit.add(sc.nextInt());
             }
 
-            maxSum(digit);
+            System.out.println(maxSum2(digit));
 
             numbers--;
         }
+    }
+
+    public static int maxSum2(List<Integer> digit) {
+        int result = Integer.MIN_VALUE;
+        for (int i = 0; i < digit.size(); i++) {
+            for (int j = i + 1; j <= digit.size(); j++) {
+                int sum = findSum(digit.subList(i, j));
+                if (sum > result) {
+                    result = sum;
+                }
+            }
+        }
+        return result;
+    }
+
+    public static int findSum(List<Integer> digit) {
+        int result = 0;
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < digit.size(); i++) {
+            list.add(digit.get(i));
+        }
+
+        Collections.sort(list);
+
+        if (list.get(0) < 0 && list.get(list.size() - 1) > 0) {
+            list.set(0, 0);
+        }
+
+        for (int i = 0; i < list.size(); i++) {
+            result += list.get(i);
+        }
+        return result;
     }
 
     public static void maxSum(int[] digit) {
@@ -62,27 +97,4 @@ public class BatchQuery {
 
         System.out.println(res);
     }
-
-//    public static void maxSum(int[] arr) {
-//        int ans = arr[0];
-//        int len = arr.length;
-//        int[][] dp = new int[len][2];
-//        // 初始化状态
-//        // "尚未删除"，最大子数组和为本身
-//        dp[0][0] = arr[0];
-//        // "已经删除"，只能删除自身，最大子数组和为 0
-//        dp[0][1] = 0;
-//        for (int i = 1; i < len; i++) {
-//            // 如果前一个子数组和大于 0，则加上
-//            dp[i][0] = Math.max(arr[i], arr[i] + dp[i - 1][0]);
-//            // 删除的字符的两种情况：
-//            // 1. 当前数字被删除，为了满足至少一个元素，必须加上前面一个子数组 "尚未删除" 的最大值
-//            // 2. 当前数字不被删除，则由前面子数组删除，前面子数组 "已经删除" 的最大值加上当前数字
-//            dp[i][1] = Math.max(dp[i - 1][1] + arr[i], dp[i - 1][0]);
-//            // 两种状态都可能产生最大值
-//            ans = Math.max(ans, dp[i][0]);
-//            ans = Math.max(ans, dp[i][1]);
-//        }
-//        System.out.println(ans);
-//    }
 }

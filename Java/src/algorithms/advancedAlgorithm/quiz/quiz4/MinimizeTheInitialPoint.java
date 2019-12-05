@@ -80,6 +80,9 @@ public class MinimizeTheInitialPoint {
 
             int[][] dp = new int[m][n];
             dp[m - 1][n - 1] = 1 - digit[m - 1][n - 1];
+            if (dp[m - 1][n - 1] < 0) {
+                dp[m - 1][n - 1] = 1;
+            }
             // TODO 能不能合并？
             for (int i = m - 2; i >= 0; i--) {
                 dp[i][n - 1] = dp[i + 1][n - 1] - digit[i][n - 1];

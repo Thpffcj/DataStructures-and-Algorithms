@@ -20,7 +20,6 @@ import java.util.Scanner;
  * Rachael find it difficult to win the challenge and is asking your help. Can youhelp her out in winning this
  * challenge?
  *
- *
  * Input
  * First Line of the input consist of an integer T denoting the number of test cases. Then T test cases follow. Each test case consist of a numbe N denoting the length of the array. Second line of each test case consist of N space separated integers denoting the array elements.
  *
@@ -36,16 +35,22 @@ import java.util.Scanner;
  * 1
  * 3
  * 12 22 35
+ *
+ * Sample Output 1
+ * 57
  */
 public class NoRepeatCharacterSubsetProblem {
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         int numbers = Integer.parseInt(sc.nextLine());
+
         while (numbers > 0) {
             int n = Integer.parseInt(sc.nextLine());
-            int[] digit = new int[n];
             String[] line = sc.nextLine().split(" ");
+
+            int[] digit = new int[n];
             for (int i = 0; i < n; i++) {
                 digit[i] = Integer.parseInt(line[i]);
             }
@@ -56,13 +61,13 @@ public class NoRepeatCharacterSubsetProblem {
         }
     }
 
-    private static int solve(int[] a) {
-        int[] dp = new int[(1<<10)];
-        for (int x : a) {
-            for (int bits = dp.length-1; bits >= 0; bits--) {
+    private static int solve(int[] digit) {
+        int[] dp = new int[(1 << 10)];
+        for (int x : digit) {
+            for (int bits = dp.length - 1; bits >= 0; bits--) {
                 int mask = getMask(x);
                 if ((bits & mask) == mask) {
-                    dp[bits] = Math.max(dp[bits], dp[bits^mask] + x);
+                    dp[bits] = Math.max(dp[bits], dp[bits ^ mask] + x);
                 }
             }
         }
@@ -80,6 +85,7 @@ public class NoRepeatCharacterSubsetProblem {
             int d = x % 10;
             res |= (1 << d);
             x /= 10;
+            System.out.println(d + " " + res + " " + x);
         }
         return res;
     }

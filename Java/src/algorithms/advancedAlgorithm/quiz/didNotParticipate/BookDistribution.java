@@ -107,9 +107,7 @@ public class BookDistribution {
 
             // 如果大于分配额度，将任务分配给下一个人
             if (currSum + digit[i] > currMin) {
-
                 studentsRequired++;
-
                 currSum = digit[i];
 
                 // 如果需要的人数大于m，则不符合要求

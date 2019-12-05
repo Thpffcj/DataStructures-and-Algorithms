@@ -16,6 +16,14 @@ import java.util.*;
  *
  * Output
  * 每一个用例的排序结果在一行中输出，元素之间使用空格隔开。
+ *
+ * Sample Input 1
+ * 1
+ * 4
+ * 2 3 2 5
+ *
+ * Sample Output 1
+ * 2 2 3 5
  */
 public class SortByNumberOfValues {
 
@@ -23,6 +31,7 @@ public class SortByNumberOfValues {
 
         Scanner sc = new Scanner(System.in);
         int numbers = sc.nextInt();
+
         while (numbers > 0) {
             int n = sc.nextInt();
             int[] digit = new int[n];
@@ -46,7 +55,7 @@ public class SortByNumberOfValues {
                     if (o1.getValue() != o2.getValue()) {
                         return o2.getValue().compareTo(o1.getValue());
                     } else {
-                        return o2.getKey().compareTo(o2.getKey());
+                        return o1.getKey().compareTo(o2.getKey());
                     }
                 }
             });

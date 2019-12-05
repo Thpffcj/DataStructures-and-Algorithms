@@ -14,26 +14,24 @@ import java.util.*;
  * sorted in increasing order, then geek will start from the left side of the road). The geek can change the road
  * only at the point of intersection(which means, buckets with the same number of balls on two roads). Now you
  * need to help Geek to collect the maximum number of balls.
- * <p>
- * <p>
+ *
  * Input
  * The first line of input contains T denoting the number of test cases. The first line of each test case contains
  * two integers N and M, denoting the number of buckets on road1 and road2 respectively. 2nd line of each test
  * case contains N integers, number of balls in buckets on the first road. 3rd line of each test case contains M
  * integers, number of balls in buckets on the second road.
- * <p>
+ *
  * Constraints:1<= T <= 1000，1<= N <= 10^3，1<= M <=10^3，0<= A[i],B[i]<=10^6
- * <p>
- * <p>
+ *
  * Output
  * For each test case output a single line containing the maximum possible balls that Geek can collect.
- * <p>
+ *
  * Sample Input 1
  * 1
  * 5 5
  * 1 4 5 6 8
  * 2 3 4 6 9
- * <p>
+ *
  * Sample Output 1
  * 29
  */
@@ -45,7 +43,6 @@ public class BallOnTheRoad {
         int numbers = Integer.parseInt(sc.nextLine());
 
         while (numbers > 0) {
-
             String[] infos = sc.nextLine().split(" ");
             int n = Integer.parseInt(infos[0]);
             int m = Integer.parseInt(infos[1]);

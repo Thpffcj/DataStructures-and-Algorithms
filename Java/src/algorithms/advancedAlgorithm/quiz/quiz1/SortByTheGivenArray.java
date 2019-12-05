@@ -22,20 +22,32 @@ import java.util.Scanner;
  * elements of A1[] that are not present in A2[]
  *
  * Constraints:1 ≤ T ≤ 501 ≤ M ≤ 501 ≤ N ≤ 10 & N ≤ M1 ≤ A1[i], A2[i] ≤ 1000
+ *
+ * Sample Input 1
+ * 1
+ * 11 4
+ * 2 1 2 5 7 1 9 3 6 8 8
+ * 2 1 8 3
+ *
+ * Sample Output 1
+ * 2 2 1 1 8 8 3 5 6 7 9
  */
 public class SortByTheGivenArray {
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
+
         for (int i = 0; i < number; i++) {
             int m = scanner.nextInt();
             int n = scanner.nextInt();
+
             int first[] = new int[m];
-            int second[] = new int[n];
             for (int j = 0; j < m; j++) {
                 first[j] = scanner.nextInt();
             }
+            int second[] = new int[n];
             for (int j = 0; j < n; j++) {
                 second[j] = scanner.nextInt();
             }

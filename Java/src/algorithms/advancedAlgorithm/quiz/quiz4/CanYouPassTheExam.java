@@ -4,10 +4,7 @@ package algorithms.advancedAlgorithm.quiz.quiz4;
  * Created by thpffcj on 2019/11/21.
  */
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Description
@@ -38,8 +35,10 @@ public class CanYouPassTheExam {
     public static List<Integer> list = new ArrayList<>();
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         int numbers = Integer.parseInt(sc.nextLine());
+
         while (numbers > 0) {
             list = new ArrayList<>();
             String[] infos = sc.nextLine().split(" ");

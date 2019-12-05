@@ -1,5 +1,8 @@
 package algorithms.advancedAlgorithm.quiz.quiz3;
 
+import java.io.StringReader;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -56,7 +59,14 @@ public class CanItBeLooped {
                 line[i] = line[i].substring(0, 1) + line[i].substring(line[i].length() - 1);
             }
 
-            findAll("", line, flag);
+            if (line.length == 1) {
+                if (line[0].charAt(0) == line[0].charAt(line[0].length() - 1)) {
+                    findOut = true;
+                }
+            } else {
+                findAll("", line, flag);
+            }
+
             if (findOut) {
                 System.out.println(1);
             } else {
@@ -69,20 +79,11 @@ public class CanItBeLooped {
 
     public static void findAll(String s, String[] line, boolean[] flag) {
 
-        if (line.length == 1) {
-            if (line[0].charAt(0) == line[0].charAt(line[0].length() - 1)) {
-                findOut = true;
-                return;
-            } else {
-                return;
-            }
-        }
-
         if (s.length() == line.length * 2) {
             if (s.charAt(0) == s.charAt(s.length() - 1)) {
                 findOut = true;
+                return;
             }
-            return;
         }
 
         for (int i = 0; i < line.length; i++) {

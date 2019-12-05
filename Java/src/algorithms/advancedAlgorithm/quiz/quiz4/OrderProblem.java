@@ -16,26 +16,23 @@ import java.util.Scanner;
  * more than Y orders. It is guaranteed that X + Y is greater than or equal to N, which means that all the
  * orders can be handled by either Rahul or Ankit. Find out the maximum possible amount of total tip money
  * after processing all the orders.
- * <p>
+ *
  * Input
  * • The first line contains one integer, number of test cases.
- * <p>
  * • The second line contains three integers N, X, Y.
- * <p>
+ *
  * • The third line contains N integers. The ith integer represents Ai.
- * <p>
  * • The fourth line contains N integers. The ith integer represents Bi.
- * <p>
- * <p>
+ *
  * Output
  * Print a single integer representing the maximum tip money they would receive.
- * <p>
+ *
  * Sample Input 1
  * 1
  * 5 3 3
  * 1 2 3 4 5
  * 5 4 3 2 1
- * <p>
+ *
  * Sample Output 1
  * 21
  */
@@ -62,7 +59,7 @@ public class OrderProblem {
                 B[i] = sc.nextInt();
             }
 
-            // dp[i][j] 代表i个任务分配给第一个人，j个任务分配给第2个任务
+            // dp[i][j] 代表i个任务分配给第一个人，j个任务分配给第2个人
             int dp[][] = new int[X + 1][Y + 1];
 
             for (int i = 1; i <= X; i++) {

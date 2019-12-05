@@ -32,36 +32,38 @@ import java.util.Scanner;
 public class InfiniteRecursiveStringQuery {
 
     // TODO
-    public static char[] digits =  new char[]{'1', '2', '3', '4', '5', '$', '5', '4', '3', '2', '1'};
-
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
-
-        int numbers = sc.nextInt();
-        for (int number = 0; number < numbers; number++) {
-            long n = sc.nextLong();
-
-            boolean isDollar = false;
-            long end = 11;
-            int round = 1;
-            while (n > end) {
-                round++;
-                if (n < end + round) {
-                    System.out.println("$");
-                    isDollar = true;
-                }
-                end = end * 2 + round;
-            }
-
-            if (!isDollar) {
-                while (n > 11) {
-                    n = (int) (n - ((n - round) / 2 + round));
-                    round--;
-                }
-                System.out.println(digits[(int) (n - 1)]);
-            }
+        int case_num = Integer.parseInt(sc.nextLine());
+        for (int i = 0; i < case_num; i++) {
+            long query = Long.parseLong(sc.nextLine());
+            System.out.println(solution(query));
         }
     }
 
+    private static char solution(long pos) {
+        if (pos <= 0) {
+            return '\0';
+        }
+        long k = 1;
+        long len = 11;
+        String str = "112345$54321";
+        while (len < pos) {
+            k++;
+            len = 2 * len + k;
+        }
+        while (pos > 11) {
+            long cur = (len - k) / 2;
+            if (pos > cur) {
+                pos = pos - cur;
+                if (pos <= k) {
+                    return '$';
+                }
+                pos = pos - k;
+            }
+            len = cur;
+            k--;
+        }
+        return str.charAt((int) (pos % 11));
+    }
 }
