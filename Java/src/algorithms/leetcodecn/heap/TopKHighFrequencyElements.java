@@ -1,4 +1,4 @@
-package algorithms.leetcodecn.stack;
+package algorithms.leetcodecn.heap;
 
 /**
  * Created by thpffcj on 2019/11/14.

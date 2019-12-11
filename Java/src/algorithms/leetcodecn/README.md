@@ -177,8 +177,8 @@
 - 85 最大矩形
 - 18 四数之和
 - 94 二叉树的中序遍历
-- 136 只出现-次的数字
-- 739 每日温度
+- 136 只出现一次的数字
+- 739 * 每日温度 DailyTemperature
 - 694 不同岛屿的数量
 - 463 岛屿的周长
 - 349 两个数组的交集 TheIntersectionOfTwoArrays
@@ -223,7 +223,7 @@
 - 743 网络延迟时间
 - 407 接雨水2
 - 264 丑数2
-- 767 重构字符串
+- 767 重构字符串 ReconstructingAString
 - 358 K距离间隔重排字符串
 - 215 数组中的第K个最大元素 TheKthLargestElementInTheArray
 - 378 有序矩阵中第K小的元素
