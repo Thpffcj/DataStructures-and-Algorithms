@@ -75,12 +75,12 @@
 - 136 只出现一次的数字 ANumberThatOnlyAppearsOnce
 - 784 字母大小写全排列
 - 461 汉明距离
-- 371 两整数之和
+- 371 * 两整数之和 SumOfTwoIntegers
 - 169 求众数
 - 338 比特位计数
 - 401 二进制手表
 - 187 重复的DNA序列
-- 476 数字的补数
+- 476 数字的补数 ComplementOfNumbers
 
 ### 广度优先搜索
 
