@@ -30,7 +30,7 @@
 - 78 子集
 - 39 组合总和
 - 784 字母大小写全排列
-- 131 分割回文串
+- 131 * 分割回文串 SplitPalindrome
 
 ### 二分查找
 
@@ -76,10 +76,10 @@
 - 784 字母大小写全排列
 - 461 汉明距离
 - 371 * 两整数之和 SumOfTwoIntegers
-- 169 求众数
+- 169 求众数 MostElements
 - 338 比特位计数
 - 401 二进制手表
-- 187 重复的DNA序列
+- 187 重复的DNA序列 findRepeatedDnaSequences
 - 476 数字的补数 ComplementOfNumbers
 
 ### 广度优先搜索
@@ -112,8 +112,8 @@
 - 542 01矩阵
 - 490 迷宫
 - 101 对称二叉树 SymmetricBinaryTree
-- 394 字符串解码
-- 109 有序链表转换二叉搜索树
+- 394 * 字符串解码 StringDecoding
+- 109 * 有序链表转换二叉搜索树 OrderedLinkedListTransformationBinarySearchTree
 - 105 从前序与中序遍历序列构造二叉树
 
 ### 设计

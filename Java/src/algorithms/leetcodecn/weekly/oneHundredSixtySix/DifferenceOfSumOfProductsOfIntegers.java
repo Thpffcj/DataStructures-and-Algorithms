@@ -1,4 +1,4 @@
-package algorithms.leetcodecn.weekly;
+package algorithms.leetcodecn.weekly.oneHundredSixtySix;
 
 /**
  * Created by thpffcj on 2019/12/8.
