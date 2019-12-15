@@ -31,6 +31,10 @@ public class TakeawayFullReduction {
 
     public static List<Integer> list = new ArrayList<>();
 
+    /**
+     * 01背包
+     * 找大于等于X的最小可达状态
+     */
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -44,22 +48,6 @@ public class TakeawayFullReduction {
 
             System.out.println(getMinCost(n, X, digit));
         }
-    }
-
-    // 超时
-    public static void getArrangement(int[] digit, int position, int cost, int X) {
-
-        if (cost >= X) {
-            list.add(cost);
-            return;
-        }
-
-        if (position == digit.length) {
-            return;
-        }
-
-        getArrangement(digit, position + 1, cost + digit[position], X);
-        getArrangement(digit, position + 1, cost, X);
     }
 
     public static int getMinCost(int n, int X, int[] digit) {
@@ -80,7 +68,9 @@ public class TakeawayFullReduction {
                     v[i][j] = Math.min(digit[i - 1], v[i - 1][j]);
                 } else { // 当前物品价格 < 背包容量
                     // 选 min（之前的策略，把当前物品装入后剩余背包能装最少的物品） 两者最小值
-                    v[i][j] = Math.min(v[i - 1][j], digit[i - 1] + v[i - 1][j - digit[i - 1]]);
+                    v[i][j] = Math.min(
+                            v[i - 1][j],
+                            digit[i - 1] + v[i - 1][j - digit[i - 1]]);
                 }
             }
         }
@@ -110,5 +100,18 @@ public class TakeawayFullReduction {
         }
 
         return xs[X];
+    }
+
+    // 超时
+    public static void getArrangement(int[] digit, int position, int cost, int X) {
+        if (cost >= X) {
+            list.add(cost);
+            return;
+        }
+        if (position == digit.length) {
+            return;
+        }
+        getArrangement(digit, position + 1, cost + digit[position], X);
+        getArrangement(digit, position + 1, cost, X);
     }
 }
