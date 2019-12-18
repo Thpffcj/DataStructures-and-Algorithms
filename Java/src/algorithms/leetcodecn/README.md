@@ -29,7 +29,7 @@
 - 93 复原IP地址
 - 78 子集
 - 39 组合总和
-- 784 字母大小写全排列
+- 784 字母大小写全排列 AllLettersInUppercaseAndLowercase
 - 131 * 分割回文串 SplitPalindrome
 
 ### 二分查找
@@ -135,7 +135,7 @@
 
 ### 动态规划
 
-- 5 最长回文子串
+- 5 最长回文子串 LongestPalindromeSubstring
 - 53 最大子序和
 - 85 最大矩形 MaximumRectangle
 - 10 正则表达式匹配

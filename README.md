@@ -10,7 +10,7 @@
 - algorithms
   - advancedAlgorithm：NJU高级算法课程相关题目
   - algorithmGame：结合真实案例可视化算法
-  - algorithmInterview：**[leetcode标签分类算法题](https://github.com/Thpffcj/DataStructures-and-Algorithms/tree/master/Java/src/algorithms/leetcodeTag)**
+  - leetcodeTag：**[leetcode标签分类算法题](https://github.com/Thpffcj/DataStructures-and-Algorithms/tree/master/Java/src/algorithms/leetcodeTag)**
   - leetcode：leetcode算法题
   - leetcodecn：**[力扣标签分类算法题](https://github.com/Thpffcj/DataStructures-and-Algorithms/tree/master/Java/src/algorithms/leetcodecn)**
     - 数组
