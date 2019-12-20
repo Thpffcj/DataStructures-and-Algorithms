@@ -4,9 +4,7 @@ package algorithms.leetcodecn.weekly.oneHundredSixtySeven;
  * Created by thpffcj on 2019/12/15.
  */
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * 给你一个 m * n 的网格，其中每个单元格不是 0（空）就是 1（障碍物）。每一步，您都可以在空白单元格中上、下、左、右移动。
@@ -48,30 +46,28 @@ import java.util.List;
  */
 public class ShortestPathInTheGrid {
 
-    public static List<Integer> list = new ArrayList<>();
+    public static int result = Integer.MAX_VALUE;
 
-    // TODO 超时
-    public int shortestPath(int[][] grid, int k) {
+    // TODO 超时，因为状态太多了？
+    public int shortestPath2(int[][] grid, int k) {
 
         int m = grid.length;
         int n = grid[0].length;
         boolean[][] visit = new boolean[m][n];
-        list = new ArrayList<>();
+        result = m * n;
 
         getPath(grid, m, n, k, 0, 0, visit, 0);
 
-        Collections.sort(list);
-        if (list.size() == 0) {
+        if (result == m * n) {
             return -1;
         } else {
-            return list.get(0);
+            return result;
         }
-
     }
 
     public void getPath(int[][] grid, int m, int n, int k, int x, int y, boolean[][] visit, int step) {
 
-        if (x < 0 || x >= m || y < 0 || y >= n || k < 0) {
+        if (x < 0 || x >= m || y < 0 || y >= n || k < 0 || step >= result) {
             return;
         }
 
@@ -80,7 +76,7 @@ public class ShortestPathInTheGrid {
         }
 
         if (x == m - 1 && y == n - 1) {
-            list.add(step);
+            result = step;
             return;
         }
 
@@ -97,6 +93,88 @@ public class ShortestPathInTheGrid {
             getPath(grid, m, n, k - 1, x, y - 1, visit, step + 1);
         }
         visit[x][y] = false;
+    }
+
+    private int[][] dir = new int[][] {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+
+    class Point {
+
+        int x;
+        int y;
+        int z;
+
+        public Point(int x, int y, int z) {
+            this.x = x;
+            this.y = y;
+            this.z = z;
+        }
+    }
+
+    /**
+     * 广度优先遍历
+     * @param grid
+     * @param k
+     * @return
+     */
+    public int shortestPath(int[][] grid, int k) {
+
+        int m = grid.length;
+        int n = grid[0].length;
+        boolean[][][] visited = new boolean[m][n][k + 1];
+
+        Queue<Point> queue = new LinkedList<>();
+        queue.add(new Point(0, 0, 0));
+
+        // 访问记录二维扩展为三维
+        visited[0][0][0] = true;
+
+        int distance = 0;
+        while (!queue.isEmpty()) {
+            distance++;
+
+            int size = queue.size();
+
+            // 一层的distance都应该一致
+            for (int i = 0; i < size; i++) {
+                Point point = queue.poll();
+                int x = point.x;
+                int y = point.y;
+                int z = point.z;
+
+                // 广度优先找到的一定是最小的
+                if (x == m - 1 && y == n - 1) {
+                    return distance - 1;
+                }
+
+                // 4个方向移动
+                for (int j = 0; j < 4; j++) {
+                    int newX = x + dir[j][0];
+                    int newY = y + dir[j][1];
+                    int newZ = z;
+
+                    if (newX < 0 || newX >= m || newY < 0 || newY >= n) {
+                        continue;
+                    }
+
+                    if (grid[newX][newY] == 1) {
+                        // 没有消除 k 个障碍物，可以继续消除
+                        if (z < k) {
+                            newZ = z + 1;
+                        } else {
+                            // 已经消除 k 个障碍物
+                            continue;
+                        }
+                    }
+
+                    if (!visited[newX][newY][newZ]) {
+                        queue.add(new Point(newX, newY, newZ));
+                        visited[newX][newY][newZ] = true;
+                    }
+                }
+            }
+        }
+
+        return -1;
     }
 
     public static void main(String[] args) {
