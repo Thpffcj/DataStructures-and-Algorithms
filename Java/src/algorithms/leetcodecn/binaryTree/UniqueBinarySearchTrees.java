@@ -19,7 +19,7 @@ package algorithms.leetcodecn.binaryTree;
  *     /     /       \                 \
  *    2     1         2                 3
  */
-public class DifferentBinarySearchTrees {
+public class UniqueBinarySearchTrees {
 
     /**
      * 思路:

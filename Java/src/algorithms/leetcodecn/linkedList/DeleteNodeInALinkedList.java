@@ -25,7 +25,7 @@ import algorithms.leetcodecn.ListNode;
  * 给定的节点为非末尾节点并且一定是链表中的一个有效节点。
  * 不要从你的函数中返回任何结果。
  */
-public class DeleteNodesInALinkedList {
+public class DeleteNodeInALinkedList {
 
     public void deleteNode(ListNode node) {
 

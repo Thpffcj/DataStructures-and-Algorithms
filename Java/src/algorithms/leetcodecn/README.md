@@ -52,10 +52,10 @@
 ### 二叉树
 
 - 95 不同的二叉搜索树2
-- 96 * 不同的二叉搜索树 DifferentBinarySearchTrees
+- 96 * 不同的二叉搜索树 UniqueBinarySearchTrees
 - 94 二叉树的中序遍历 IntermediateOrderTraversalOfBinaryTrees
 - 226 翻转二叉树 FlipTheBinaryTree
-- 104 二叉树的最大深度 MaximumDepthOfTheBinaryTree
+- 104 二叉树的最大深度 MaximumDepthOfBinaryTree
 - 617 合并二叉树 
 - 107 二叉树的层次遍历2
 - 108 将有序数组转换为二叉搜索树
@@ -72,7 +72,7 @@
 - 751 IP到CIDR
 - 260 只出现一次的数字3
 - 137 * 只出现一次的数字2 ANumberThatOnlyAppearsOnce2
-- 136 只出现一次的数字 ANumberThatOnlyAppearsOnce
+- 136 只出现一次的数字 SingleNumber
 - 784 字母大小写全排列
 - 461 汉明距离
 - 371 * 两整数之和 SumOfTwoIntegers
@@ -103,14 +103,14 @@
 
 - 679 24点游戏
 - 753 破解保险箱
-- 104 二叉树的最大深度
+- 104 二叉树的最大深度 MaximumDepthOfBinaryTree
 - 743 网络延迟时间
 - 533 孤独像素2
 - 694 不同岛屿的数量
 - 108 将有序数组转换为二叉搜索树
 - 114 二叉树展开为链表
 - 542 01矩阵
-- 490 迷宫
+- 490 迷宫 *
 - 101 对称二叉树 SymmetricBinaryTree
 - 394 * 字符串解码 StringDecoding
 - 109 * 有序链表转换二叉搜索树 OrderedLinkedListTransformationBinarySearchTree
@@ -126,7 +126,7 @@
 - 232 用栈实现队列
 - 208 * 实现Trie (前缀树) Trie
 - 173 二叉搜索树迭代器
-- 379 电话目录管理系统
+- 379 电话目录管理系统 *
 - 284 顶端迭代器
 - 432 全0(1)的数据结构
 - 341 扁平化嵌套列表迭代器 
@@ -137,16 +137,16 @@
 
 - 5 最长回文子串 LongestPalindromeSubstring
 - 53 最大子序和
-- 85 最大矩形 MaximumRectangle
+- 85 最大矩形
 - 10 正则表达式匹配
 - 95 不同的二叉搜索树2
 - 351 安卓系统手势解锁
 - 72 编辑距离
-- 96 不同的二叉搜索树
+- 96 不同的二叉搜索树 UniqueBinarySearchTrees
 - 70 爬楼梯 ClimbingStairs
 - 818 赛车
 - 312 戳气球
-- 64 最小路径和 
+- 64 最小路径和 MinimumPathSum
 - 121 买卖股票的最佳时机 TheBestTimeToBuyAndSellStocks
 
 ### 贪心算法
@@ -171,13 +171,13 @@
 - 1 两数之和 SumOfTwoNumbers
 - 535 TinyURL的加密与解密
 - 771 宝石与石头 GemsAndStones
-- 3 无重复字符的最长子串
+- 3 无重复字符的最长子串 LongestSubstringWithoutRepeatingCharacters
 - 711 不同岛屿的数量2
 - 37 解数独
 - 85 最大矩形
 - 18 四数之和
 - 94 二叉树的中序遍历
-- 136 只出现一次的数字
+- 136 只出现一次的数字 SingleNumber
 - 739 * 每日温度 DailyTemperature
 - 694 不同岛屿的数量
 - 463 岛屿的周长
@@ -193,10 +193,10 @@
 - 92 反转链表2
 - 23 合并K个排序链表
 - 148 排序链表
-- 237 删除链表中的节点
-- 19 删除链表的倒数第N个节点
+- 237 删除链表中的节点 DeleteNodeInALinkedList
+- 19 删除链表的倒数第N个节点 RemoveNthNodeFromEndOfList
 - 143 重排链表 
-- 86 分隔链表
+- 86 分隔链表 DelimitedList
 - 203 移除链表元素 RemoveLinkedListElements
 - 109 有序链表转换二叉搜索树
 

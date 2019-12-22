@@ -16,7 +16,7 @@ package algorithms.leetcodecn.dynamicProgramming;
  * ]
  * 输出: 6
  */
-public class MaximumRectangle {
+public class MaximalRectangle {
 
     // TODO
     public int maximalRectangle(char[][] matrix) {

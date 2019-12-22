@@ -18,7 +18,7 @@ package algorithms.leetcodecn.bitOperation;
  * 输入: [4,1,2,1,2]
  * 输出: 4
  */
-public class ANumberThatOnlyAppearsOnce {
+public class SingleNumber {
 
     public int singleNumber(int[] nums) {
 

@@ -21,7 +21,7 @@ import algorithms.leetcodecn.TreeNode;
  *    15   7
  * 返回它的最大深度 3 。
  */
-public class MaximumDepthOfTheBinaryTree {
+public class MaximumDepthOfBinaryTree {
 
     public int maxDepth(TreeNode root) {
 
