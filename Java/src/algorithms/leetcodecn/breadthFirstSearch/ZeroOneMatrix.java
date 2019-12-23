@@ -90,7 +90,7 @@ public class ZeroOneMatrix {
     /**
      * DP（两次遍历，可 AC）
      */
-    public int[][] updateMatrix_1(int[][] matrix) {
+    public int[][] updateMatrix2(int[][] matrix) {
         row = matrix.length;
         col = matrix[0].length;
         // 第一次遍历，正向遍历，根据相邻左元素和上元素得出当前元素的对应结果
@@ -125,7 +125,7 @@ public class ZeroOneMatrix {
     /**
      * BFS（迭代实现，可 AC）
      */
-    public int[][] updateMatrix_2(int[][] matrix) {
+    public int[][] updateMatrix3(int[][] matrix) {
 
         row = matrix.length;
         col = matrix[0].length;
@@ -163,7 +163,7 @@ public class ZeroOneMatrix {
     /**
      * DFS（递归实现，解答正确，但是会超时，下方是优化版）
      */
-    public int[][] updateMatrix_3(int[][] matrix) {
+    public int[][] updateMatrix4(int[][] matrix) {
         row = matrix.length;
         col = matrix[0].length;
         for (int i = 0; i < row; i++) {
@@ -187,7 +187,7 @@ public class ZeroOneMatrix {
     /**
      * DFS（递归实现，优化版，可 AC）
      */
-    public int[][] updateMatrix_4(int[][] matrix) {
+    public int[][] updateMatrix5(int[][] matrix) {
         row = matrix.length;
         col = matrix[0].length;
         for (int i = 0; i < row; i++) {
@@ -233,6 +233,6 @@ public class ZeroOneMatrix {
 
         ZeroOneMatrix z = new ZeroOneMatrix();
         int[][] input = new int[][]{{0,1,0,1,1},{1,1,0,0,1},{0,0,0,1,0},{1,0,1,1,1},{1,0,0,0,1}};
-        z.updateMatrix_2(input);
+        z.updateMatrix2(input);
     }
 }

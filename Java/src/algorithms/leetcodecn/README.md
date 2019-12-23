@@ -57,7 +57,7 @@
 - 226 翻转二叉树 FlipTheBinaryTree
 - 104 二叉树的最大深度 MaximumDepthOfBinaryTree
 - 617 合并二叉树 
-- 107 二叉树的层次遍历2
+- 107 二叉树的层次遍历2 BinaryTreeLevelOrderTraversalII
 - 108 将有序数组转换为二叉搜索树
 - 114 二叉树展开为链表
 - 654 最大二叉树
@@ -86,15 +86,15 @@
 
 - 815 公交路线
 - 743 网络延迟时间 NetworkLatency
-- 107 二叉树的层次遍历2
+- 107 二叉树的层次遍历2 BinaryTreeLevelOrderTraversalII
 - 407 接雨水2
 - 542 * 01矩阵 ZeroOneMatrix
 - 847 访问所有节点的最短路径
-- 490 迷宫
+- 490 迷宫 *
 - 101 对称二叉树 SymmetricBinaryTree
 - 773 滑动谜题
 - 102 二叉树的层次遍历 HierarchicalTraversalOfBinaryTrees
-- 690 员工的重要性
+- 690 员工的重要性 EmployeeImportance
 - 199 二叉树的右视图 
 - 301 删除无效的括号
 - 279 完全平方数 CompleteSquareNumber
@@ -109,7 +109,7 @@
 - 694 不同岛屿的数量
 - 108 将有序数组转换为二叉搜索树
 - 114 二叉树展开为链表
-- 542 01矩阵
+- 542 01矩阵 ZeroOneMatrix
 - 490 迷宫 *
 - 101 对称二叉树 SymmetricBinaryTree
 - 394 * 字符串解码 StringDecoding
