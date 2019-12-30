@@ -23,8 +23,8 @@
 - 17 电话号码的字母组合 LetterCombinationOfPhoneNumber
 - 37 解数独
 - 10 正则表达式匹配
-- 351 安卓系统手势解锁
-- 411 最短特异单词缩写
+- 351 安卓系统手势解锁 *
+- 411 最短特异单词缩写 *
 - 51 N皇后
 - 93 复原IP地址
 - 78 子集
@@ -34,7 +34,7 @@
 
 ### 二分查找
 
-- 4 寻找两个有序数组的中位数 FindTheMedianOfTwoOrderedArrays
+- 4 寻找两个有序数组的中位数 MedianOfTwoSortedArrays
 - 644 最大平均子段和2
 - 349 两个数组的交集 TheIntersectionOfTwoArrays
 - 287 * 寻找重复数 LookingForDuplicates
@@ -46,7 +46,7 @@
 - 50 Pow(x, n)
 - 327 区间和的个数
 - 29 两数相除
-- 33 搜索旋转排序数组 
+- 33 搜索旋转排序数组
 - 174 地下城游戏
 
 ### 二叉树
@@ -59,7 +59,7 @@
 - 617 合并二叉树 
 - 107 二叉树的层次遍历2 BinaryTreeLevelOrderTraversalII
 - 108 将有序数组转换为二叉搜索树
-- 114 二叉树展开为链表
+- 114 * 二叉树展开为链表 flatten
 - 654 最大二叉树
 - 655 输出二叉树
 - 101 对称二叉树 SymmetricBinaryTree
@@ -108,7 +108,7 @@
 - 533 孤独像素2
 - 694 不同岛屿的数量
 - 108 将有序数组转换为二叉搜索树
-- 114 二叉树展开为链表
+- 114 * 二叉树展开为链表 FlattenBinaryTreeToLinkedList
 - 542 01矩阵 ZeroOneMatrix
 - 490 迷宫 *
 - 101 对称二叉树 SymmetricBinaryTree
@@ -160,7 +160,7 @@
 - 767 重构字符串
 - 358 K距离间隔重排字符串
 - 621 任务调度器
-- 55 跳跃游戏
+- 55 跳跃游戏 JumpGame
 - 321 拼接最大数
 - 861 翻转矩阵后的得分 ScoreAfterFlippingTheMatrix
 - 763 划分字母区间
@@ -239,13 +239,13 @@
 - 5 长回文子串
 - 22 括号生成
 - 13 罗马数字转整数
-- 6 Z字形变换
+- 6 Z字形变换 ZigzagConversion
 - 38 报数
 - 17 电话号码的字母组合
 - 10 正则表达式匹配
 - 20 有效的括号 ValidParentheses
 - 72 编辑距离
-- 12 整数转罗马数字
+- 12 整数转罗马数字 IntegerToRoman
 - 14 最长公共前缀 LongestCommonPrefix
 - 67 二进制求和 BinarySummation
 - 415 字符串相加 StringAddition
