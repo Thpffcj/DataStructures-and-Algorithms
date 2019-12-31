@@ -3,7 +3,7 @@
 ### 数组
 
 - 1 两数之和 SumOfTwoNumbers
-- 4 寻找两个有序数组的中位数
+- 4 寻找两个有序数组的中位数 MedianOfTwoSortedArrays
 - 15 三数之和 TheSumOfTheThreeNumbers
 - 42 接雨水
 - 11 盛最多水的容器 ContainerWithTheMostWater
@@ -34,7 +34,7 @@
 
 ### 二分查找
 
-- 4 寻找两个有序数组的中位数 MedianOfTwoSortedArrays
+- 4 * 寻找两个有序数组的中位数 MedianOfTwoSortedArrays
 - 644 最大平均子段和2
 - 349 两个数组的交集 TheIntersectionOfTwoArrays
 - 287 * 寻找重复数 LookingForDuplicates
