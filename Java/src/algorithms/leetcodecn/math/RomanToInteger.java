@@ -47,7 +47,7 @@ package algorithms.leetcodecn.math;
  * 输出: 1994
  * 解释: M = 1000, CM = 900, XC = 90, IV = 4.
  */
-public class RomanNumeralToInteger {
+public class RomanToInteger {
 
     public int romanToInt(String s) {
 

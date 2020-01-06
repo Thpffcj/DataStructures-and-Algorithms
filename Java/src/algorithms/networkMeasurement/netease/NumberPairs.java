@@ -30,28 +30,52 @@ public class NumberPairs {
 
     // 运行超时:您的程序未能在规定时间内运行结束，请检查是否循环有错或算法复杂度过大。
     // case通过率为20.00%
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        while (sc.hasNext()) {
+//            int n = sc.nextInt();
+//            int k = sc.nextInt();
+//
+//            long result = 0;
+//            for (int i = k; i <= n; i++) {
+//                for (int j = k; j <= n; j++) {
+//                    if (i < j) {
+//                        if (i >= k) {
+//                            result += n - i;
+//                            break;
+//                        }
+//                    }
+//
+//                    if (i % j >= k) {
+//                       result++;
+//                    }
+//                }
+//            }
+//            System.out.println(result);
+//        }
+//    }
+
+    // TODO
+    public static void main(String args[]) {
+
         Scanner sc = new Scanner(System.in);
-        while (sc.hasNext()) {
-            int n = sc.nextInt();
-            int k = sc.nextInt();
+        long n = sc.nextLong();
+        long k = sc.nextLong();
+        long count = 0;
 
-            long result = 0;
-            for (int i = k; i <= n; i++) {
-                for (int j = k; j <= n; j++) {
-                    if (i < j) {
-                        if (i >= k) {
-                            result += n - i;
-                            break;
-                        }
-                    }
-
-                    if (i % j >= k) {
-                       result++;
-                    }
+        // k为0的话直接就是n的平方
+        if (k == 0) { {
+            System.out.println(n * n);
+        }} else{
+            for (long i = k + 1; i <= n; i++) {
+                // 找前(n / i * i)个数里面有几个循环节，每一个节有(i - k)个数
+                count += (n / i) * (i - k);
+                if (n % i >= k) {
+                    // 剩下的数不足一个循环节，找第(n / i * i + 1 , n)里面有几个数满足题
+                    count += n % i - k + 1;
                 }
             }
-            System.out.println(result);
+            System.out.println(count);
         }
     }
 }

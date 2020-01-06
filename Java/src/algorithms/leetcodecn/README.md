@@ -40,7 +40,7 @@
 - 287 * 寻找重复数 LookingForDuplicates
 - 167 两数之和2-输入有序数组 TheSumOfTwoNumbersInputOrder
 - 363 矩形区域不超过K的最大数值和
-- 718 最长重复子数组
+- 718 * 最长重复子数组 MaximumLengthOfRepeatedSubarray
 - 862 和至少为K的最短子数组
 - 300 最长上升子序列 LongestRisingSubsequence
 - 50 Pow(x, n)
@@ -205,12 +205,12 @@
 - 2 两数相加 AddingTwoNumbers
 - 535 TinyURL的加密与解密
 - 7 整数反转 IntegerInversion
-- 13 罗马数字转整数 RomanNumeralToInteger
+- 13 罗马数字转整数 RomanToInteger
 - 9 回文数 NumberOfTracts
 - 458 可怜的小猪
 - 233 数字1的个数
 - 258 各位相加 AddYouAll
-- 12 整数转罗马数字
+- 12 整数转罗马数字 IntegerToRoman
 - 67 二进制求和
 - 782 变为棋盘
 - 753 破解保险箱
@@ -228,7 +228,7 @@
 - 215 数组中的第K个最大元素 TheKthLargestElementInTheArray
 - 378 有序矩阵中第K小的元素
 - 313 超级丑数
-- 871 最低加油次数 
+- 871 * 最低加油次数 MinimumNumberOfRefuelingStops
 - 786 第K个最小的素数分数
 - 347 前K个高频元素 TopKHighFrequencyElements
 - 218 天际线问题
@@ -238,10 +238,10 @@
 - 3 无重复字符的最长子串 LongestSubstringWithoutRepeatingCharacters
 - 5 长回文子串
 - 22 括号生成
-- 13 罗马数字转整数
+- 13 罗马数字转整数 RomanToInteger
 - 6 Z字形变换 ZigzagConversion
 - 38 报数
-- 17 电话号码的字母组合
+- 17 电话号码的字母组合 LetterCombinationOfPhoneNumber
 - 10 正则表达式匹配
 - 20 有效的括号 ValidParentheses
 - 72 编辑距离

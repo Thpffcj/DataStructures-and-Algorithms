@@ -4,6 +4,7 @@ package algorithms.networkMeasurement.netease;
  * Created by thpffcj on 2019/12/30.
  */
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -33,18 +34,53 @@ public class NiuniuBackpackProblem {
 
     // 运行超时:您的程序未能在规定时间内运行结束，请检查是否循环有错或算法复杂度过大。
     // case通过率为80.00%
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        while (sc.hasNext()) {
+//            int n = sc.nextInt();
+//            int w = sc.nextInt();
+//            int[] digit = new int[n];
+//            for (int i = 0; i < n; i++) {
+//                digit[i] = sc.nextInt();
+//            }
+//
+//            int result = backpack(digit, 0, 0, w);
+//            System.out.println(result);
+//        }
+//    }
+//
+//    public static int backpack(int[] digit, int position, long current, int w) {
+//
+//        if (current > w) {
+//            return 0;
+//        }
+//        if (position == digit.length) {
+//            return 1;
+//        }
+//
+//        return backpack(digit, position + 1, digit[position] + current, w)
+//                + backpack(digit, position + 1, current, w);
+//    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
             int n = sc.nextInt();
             int w = sc.nextInt();
             int[] digit = new int[n];
+            long sum = 0;
             for (int i = 0; i < n; i++) {
                 digit[i] = sc.nextInt();
+                sum += digit[i];
             }
 
-            int result = backpack(digit, 0, 0, w);
-            System.out.println(result);
+            // TODO 技巧？
+            if (w >= sum) {
+                System.out.println((int)Math.pow(2, n));
+            } else {
+                int result = backpack(digit, 0, 0, w);
+                System.out.println(result);
+            }
         }
     }
 

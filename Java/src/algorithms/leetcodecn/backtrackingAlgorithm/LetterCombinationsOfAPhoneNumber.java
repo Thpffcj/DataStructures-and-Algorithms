@@ -17,7 +17,7 @@ import java.util.List;
  * 说明:
  * 尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。
  */
-public class LetterCombinationOfPhoneNumber {
+public class LetterCombinationsOfAPhoneNumber {
 
     public List<String> result = new ArrayList<>();
 
@@ -47,7 +47,7 @@ public class LetterCombinationOfPhoneNumber {
     }
 
     public static void main(String[] args) {
-        LetterCombinationOfPhoneNumber l = new LetterCombinationOfPhoneNumber();
+        LetterCombinationsOfAPhoneNumber l = new LetterCombinationsOfAPhoneNumber();
         l.letterCombinations("23");
     }
 }
