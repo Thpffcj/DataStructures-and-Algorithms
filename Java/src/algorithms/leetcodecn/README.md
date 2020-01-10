@@ -53,7 +53,7 @@
 
 - 95 不同的二叉搜索树2
 - 96 * 不同的二叉搜索树 UniqueBinarySearchTrees
-- 94 二叉树的中序遍历 IntermediateOrderTraversalOfBinaryTrees
+- 94 二叉树的中序遍历 BinaryTreeInorderTraversal
 - 226 翻转二叉树 FlipTheBinaryTree
 - 104 二叉树的最大深度 MaximumDepthOfBinaryTree
 - 617 合并二叉树 
@@ -169,14 +169,14 @@
 ### 哈希表
 
 - 1 两数之和 SumOfTwoNumbers
-- 535 TinyURL的加密与解密
+- 535 TinyURL的加密与解密 EncodeAndDecodeTinyurl
 - 771 宝石与石头 GemsAndStones
 - 3 无重复字符的最长子串 LongestSubstringWithoutRepeatingCharacters
 - 711 不同岛屿的数量2
 - 37 解数独
 - 85 最大矩形
 - 18 四数之和
-- 94 二叉树的中序遍历
+- 94 二叉树的中序遍历 BinaryTreeInorderTraversal
 - 136 只出现一次的数字 SingleNumber
 - 739 * 每日温度 DailyTemperature
 - 694 不同岛屿的数量
@@ -203,7 +203,7 @@
 ### 数学
 
 - 2 两数相加 AddingTwoNumbers
-- 535 TinyURL的加密与解密
+- 535 * TinyURL的加密与解密 EncodeAndDecodeTinyurl
 - 7 整数反转 IntegerInversion
 - 13 罗马数字转整数 RomanToInteger
 - 9 回文数 NumberOfTracts
