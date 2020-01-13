@@ -9,6 +9,31 @@ package algorithms.swordRefersToOffer;
 public class RegularExpressionMatching {
 
     public boolean match(char[] str, char[] pattern) {
-        return false;
+
+       return isMatch(new String(str), new String(pattern));
+    }
+
+    public boolean isMatch(String text, String pattern) {
+        System.out.println(text + " " + pattern);
+        if (pattern.isEmpty()) {
+            return text.isEmpty();
+        }
+
+        boolean firstMatch = (!text.isEmpty() &&
+                (pattern.charAt(0) == text.charAt(0) || pattern.charAt(0) == '.'));
+
+        if (pattern.length() >= 2 && pattern.charAt(1) == '*'){
+            return (isMatch(text, pattern.substring(2)) ||
+                    (firstMatch && isMatch(text.substring(1), pattern)));
+        } else {
+            return firstMatch && isMatch(text.substring(1), pattern.substring(1));
+        }
+    }
+
+    public static void main(String[] args) {
+        RegularExpressionMatching r = new RegularExpressionMatching();
+        char[] str = new char[]{};
+        char[] pattern = new char[]{};
+        System.out.println(r.match(str, pattern));
     }
 }

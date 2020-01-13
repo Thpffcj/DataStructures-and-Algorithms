@@ -110,7 +110,7 @@ public class RegularExpressionMatching {
 
     /**
      * 动态规划
-     * 因为题目拥有 最优子结构 ，一个自然的想法是将中间结果保存起来。
+     * 因为题目拥有最优子结构 ，一个自然的想法是将中间结果保存起来。
      * 我们通过用 dp(i,j) 表示 text[i:] 和 pattern[j:] 是否能匹配。我们可以用更短的字符串匹配问题来表示原本的问题。
      */
     public boolean isMatch3(String text, String pattern) {
