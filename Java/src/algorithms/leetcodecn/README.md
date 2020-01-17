@@ -9,10 +9,10 @@
 - 11 盛最多水的容器 ContainerWithTheMostWater
 - 53 最大子序和 MaximumSubsequenceSum
 - 644 最大平均子段和2
-- 16 最接近的三数之和
+- 16 最接近的三数之和 ThreeSumClosest
 - 85 最大矩形
 - 26 删除排序数组中的重复项 DeleteDuplicatesInSortedArray
-- 717 1比特与2比特字符
+- 717 1比特与2比特字符 OneBitAndTwoBitCharacters
 - 782 变为棋盘
 - 832 翻转图像 FlipImage
 
@@ -28,7 +28,7 @@
 - 51 N皇后
 - 93 复原IP地址
 - 78 子集
-- 39 组合总和
+- 39 组合总和 CombinationSum
 - 784 字母大小写全排列 AllLettersInUppercaseAndLowercase
 - 131 * 分割回文串 SplitPalindrome
 
@@ -222,7 +222,7 @@
 - 818 赛车
 - 743 网络延迟时间
 - 407 接雨水2
-- 264 丑数2
+- 264 * 丑数2 UglyNumberII
 - 767 重构字符串 ReconstructingAString
 - 358 K距离间隔重排字符串
 - 215 数组中的第K个最大元素 TheKthLargestElementInTheArray
