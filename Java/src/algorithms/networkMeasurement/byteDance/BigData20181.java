@@ -1,5 +1,7 @@
 package algorithms.networkMeasurement.byteDance;
 
+import java.util.*;
+
 /**
  * Created by thpffcj on 2020/1/17.
  *
@@ -29,4 +31,49 @@ package algorithms.networkMeasurement.byteDance;
  *
  */
 public class BigData20181 {
+
+    /**
+     * 运行超时:您的程序未能在规定时间内运行结束，请检查是否循环有错或算法复杂度过大。
+     * case通过率为60.00%
+     */
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNext()) {
+            int N = sc.nextInt();
+            Map<Integer, Integer> map = new HashMap<>();
+            for (int i = 0; i < N; i++) {
+                int x = sc.nextInt();
+                int y = sc.nextInt();
+                if (map.containsKey(x)) {
+                    if (map.get(x) < y) {
+                        map.put(x, y);
+                    }
+                } else {
+                    map.put(x, y);
+                }
+            }
+
+            List<Map.Entry<Integer, Integer>> list = new ArrayList<>(map.entrySet());
+            Collections.sort(list, new Comparator<Map.Entry<Integer, Integer>>() {
+                @Override
+                public int compare(Map.Entry<Integer, Integer> o1, Map.Entry<Integer, Integer> o2) {
+                    return o2.getKey() - o1.getKey();
+                }
+            });
+
+            List<String> result = new ArrayList<>();
+            int high = list.get(0).getValue();
+            for (Map.Entry<Integer, Integer> entry : list) {
+                if (entry.getValue() >= high) {
+                    high = entry.getValue();
+                    result.add(entry.getKey() + " " + entry.getValue());
+                }
+            }
+            Collections.reverse(result);
+            for (int i = 0; i < result.size(); i++) {
+                System.out.println(result.get(i));
+            }
+        }
+    }
 }

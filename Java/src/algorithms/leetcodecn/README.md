@@ -95,8 +95,8 @@
 - 773 滑动谜题
 - 102 二叉树的层次遍历 HierarchicalTraversalOfBinaryTrees
 - 690 员工的重要性 EmployeeImportance
-- 199 二叉树的右视图 
-- 301 删除无效的括号
+- 199 二叉树的右视图 BinaryTreeRightSideView
+- 301 * 删除无效的括号 RemoveInvalidParentheses
 - 279 完全平方数 CompleteSquareNumber
 
 ### 深度优先搜索
@@ -192,10 +192,10 @@
 - 25 K个组翻转链表
 - 92 反转链表2
 - 23 合并K个排序链表
-- 148 排序链表
+- 148 * 排序链表 SortList
 - 237 删除链表中的节点 DeleteNodeInALinkedList
 - 19 删除链表的倒数第N个节点 RemoveNthNodeFromEndOfList
-- 143 重排链表 
+- 143 * 重排链表 ReorderList
 - 86 分隔链表 DelimitedList
 - 203 移除链表元素 RemoveLinkedListElements
 - 109 有序链表转换二叉搜索树
@@ -211,7 +211,7 @@
 - 233 数字1的个数
 - 258 各位相加 AddYouAll
 - 12 整数转罗马数字 IntegerToRoman
-- 67 二进制求和
+- 67 二进制求和 BinarySummation
 - 782 变为棋盘
 - 753 破解保险箱
 - 728 自除数 SelfDivisor
