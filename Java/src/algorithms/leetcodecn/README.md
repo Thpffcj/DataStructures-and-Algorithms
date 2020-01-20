@@ -106,7 +106,7 @@
 - 104 二叉树的最大深度 MaximumDepthOfBinaryTree
 - 743 网络延迟时间
 - 533 孤独像素2
-- 694 不同岛屿的数量
+- 694 不同岛屿的数量 *
 - 108 将有序数组转换为二叉搜索树
 - 114 * 二叉树展开为链表 FlattenBinaryTreeToLinkedList
 - 542 01矩阵 ZeroOneMatrix
@@ -118,8 +118,8 @@
 
 ### 设计
 
-- 225 队列实现栈
-- 146 LRU缓存机制
+- 225 队列实现栈 MyStack
+- 146 * LRU缓存机制 LRUCache
 - 588 设计内存文件系统
 - 460 LFU缓存
 - 155 最小栈 MinimumStack
@@ -179,8 +179,8 @@
 - 94 二叉树的中序遍历 BinaryTreeInorderTraversal
 - 136 只出现一次的数字 SingleNumber
 - 739 * 每日温度 DailyTemperature
-- 694 不同岛屿的数量
-- 463 岛屿的周长
+- 694 不同岛屿的数量 *
+- 463 岛屿的周长 IslandPerimeter
 - 349 两个数组的交集 TheIntersectionOfTwoArrays
 
 ### 链表
