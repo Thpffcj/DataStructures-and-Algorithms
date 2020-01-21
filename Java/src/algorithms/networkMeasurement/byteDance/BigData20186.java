@@ -29,8 +29,6 @@ import java.util.Scanner;
 public class BigData20186 {
 
     /**
-     * 两个要点
-     *
      * 对所有字母遍历，每次只考虑当前字母，也就是记录当前字母的位置。
      * 动态递归。对每一种可能的长度（从2开始，因为结果必定大于等于1），递推关系式为：
      * dp[i][i + len - 1] = dp[i + 1][i + len - 2] + pos.get(i + len - 1) - pos.get(i) + 1 - len
@@ -51,20 +49,23 @@ public class BigData20186 {
                     pos.add(i);
                 }
             }
+
             if (pos.size() < 2) {
                 continue;
             }
+
             int ans = 1;
             int[][] dp = new int[pos.size()][pos.size()];
             for (int len = 2; len <= pos.size(); len++) {
                 for (int i = 0; i + len - 1 < pos.size(); i++) {
                     dp[i][i + len - 1] = dp[i + 1][i + len - 2] + pos.get(i + len - 1) - pos.get(i) + 1 - len;
+
                     if (dp[i][i + len - 1] <= m) {
                         ans = len;
                     }
                 }
             }
-            res = res > ans ? res : ans;
+            res = Math.max(res, ans);
         }
         System.out.println(res);
     }

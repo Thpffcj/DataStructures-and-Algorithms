@@ -1,5 +1,8 @@
 package algorithms.networkMeasurement.byteDance;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -40,36 +43,82 @@ import java.util.Scanner;
 public class BigData20184 {
 
     /**
-     * 答案错误:您提交的程序没有通过所有的测试用例
-     * case通过率为30.00%
+     * 运行超时:您的程序未能在规定时间内运行结束，请检查是否循环有错或算法复杂度过大。
+     * case通过率为50.00%
+     */
+//    public static void main(String[] args) {
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        int n = sc.nextInt();
+//        int[] digit = new int[n];
+//        for (int i = 0; i < n; i++) {
+//            digit[i] = sc.nextInt();
+//        }
+//
+//        int q = sc.nextInt();
+//        while (q > 0) {
+//            int l = sc.nextInt();
+//            int r = sc.nextInt();
+//            int k = sc.nextInt();
+//
+//            q--;
+//
+//            int result = 0;
+//            for (int i = l - 1; i < r; i++) {
+//                if (digit[i] == k) {
+//                    result++;
+//                }
+//            }
+//            System.out.println(result);
+//        }
+//    }
+
+    /**
+     * 本题主要在于设计数据结构，数据结构设计错误整个题目会陷入超时的状态
+     * 首先关于用户喜好和用户标号对应，其次我们结果需要查询的是根据喜好查询用户标号个数，
+     * 那么我们可以将喜好-用户号设计为字典的键值对数据结构，对于同一个喜好的k值作为键，
+     * 而键对应的value是同一个喜好的用户值。然后根据输入的用户值起始值和终点值，
+     * 以及用户的喜好值可以从这个HashMap中解析出数量。
+     * 解析方法：首先根据喜好值取出这个list然后对其遍历找到对应区间即可
      */
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        while (sc.hasNext()) {
+        int userTotal = sc.nextInt();
+        HashMap<Integer, List<Integer>> like = new HashMap<>();
 
-            int n = sc.nextInt();
-            int[] digit = new int[n];
-            for (int i = 0; i < n; i++) {
-                digit[i] = sc.nextInt();
+        for (int i = 1; i <= userTotal; i++) {
+            int k = sc.nextInt();
+            if (like.containsKey(k)) {
+                List<Integer> list = like.get(k);
+                list.add(i);
+            } else {
+                List<Integer> list = new ArrayList<>();
+                list.add(i);
+                like.put(k, list);
             }
+        }
 
-            int q = sc.nextInt();
-            while (q > 0) {
-                int l = sc.nextInt();
-                int r = sc.nextInt();
-                int k = sc.nextInt();
-
-                q--;
-
-                int result = 0;
-                for (int i = l - 1; i < r - 1; i++) {
-                    if (digit[i] == k) {
-                        result++;
+        int groupTotal = sc.nextInt();
+        List<Integer> result = new ArrayList<>();
+        for(int i = 0; i < groupTotal; i++) {
+            int low = sc.nextInt();
+            int high = sc.nextInt();
+            int k = sc.nextInt();
+            int total = 0;
+            List<Integer> list = like.get(k);
+            if (list != null) {
+                for (Integer integer : list) {
+                    if (integer >= low && integer <= high) {
+                        total++;
                     }
                 }
-                System.out.println(result);
             }
+            result.add(total);
+        }
+        for (Integer integer : result) {
+            System.out.println(integer);
         }
     }
 }

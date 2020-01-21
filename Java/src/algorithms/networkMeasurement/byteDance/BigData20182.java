@@ -1,6 +1,5 @@
 package algorithms.networkMeasurement.byteDance;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -40,33 +39,70 @@ public class BigData20182 {
      * 运行超时:您的程序未能在规定时间内运行结束，请检查是否循环有错或算法复杂度过大。
      * case通过率为60.00%
      */
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+//
+//        Scanner sc = new Scanner(System.in);
+//        while (sc.hasNext()) {
+//            int n = sc.nextInt();
+//            int[] digit = new int[n];
+//            for (int i = 0; i < n; i++) {
+//                digit[i] = sc.nextInt();
+//            }
+//
+//            int max = Integer.MIN_VALUE;
+//            for (int i = 0; i < digit.length; i++) {
+//                int min = digit[i];
+//                int sum = 0;
+//                for (int j = i; j < digit.length; j++) {
+//                    if (digit[j] < min) {
+//                        min = digit[j];
+//                    }
+//                    sum += digit[j];
+//                    int number = min * sum;
+//                    if (number > max) {
+//                        max = number;
+//                    }
+//                }
+//            }
+//
+//            System.out.println(max);
+//        }
+//    }
+
+    /**
+     * 最大值区间的最小值必定是数组的某个数。对于数组的第 i 个数，以该数为中心，分别向左右两边探测直到遇到比该数小的数停止，探测过程中
+     * 可同时累加探测到的数，探测结束后累加得到的和乘以该数便得到了以该数为最小值所能得到的区间的最大值。依次遍历数组的每个数，更新得
+     * 到的最大值即可。
+     */
+    public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
-        while (sc.hasNext()) {
-            int n = sc.nextInt();
-            int[] digit = new int[n];
-            for (int i = 0; i < n; i++) {
-                digit[i] = sc.nextInt();
-            }
+        int size = sc.nextInt();
 
-            int max = Integer.MIN_VALUE;
-            for (int i = 0; i < digit.length; i++) {
-                int min = digit[i];
-                int sum = 0;
-                for (int j = i; j < digit.length; j++) {
-                    if (digit[j] < min) {
-                        min = digit[j];
-                    }
-                    sum += digit[j];
-                    int number = min * sum;
-                    if (number > max) {
-                        max = number;
-                    }
-                }
-            }
-
-            System.out.println(max);
+        int[] arr = new int[size];
+        for(int i = 0; i < arr.length;i++){
+            arr[i] = sc.nextInt();
         }
+
+        int max = Integer.MIN_VALUE;
+        for(int i = 0; i < arr.length; i++){
+            int count = arr[i];
+            int j = i + 1;
+            while(j < arr.length && arr[j] >= arr[i]){
+                count += arr[j];
+                j++;
+            }
+
+            j = i - 1;
+            while(j >= 0 && arr[j] >= arr[i]){
+                count += arr[j];
+                j--;
+            }
+
+            count *= arr[i];
+            max = Math.max(max, count);
+        }
+
+        System.out.println(max);
     }
 }

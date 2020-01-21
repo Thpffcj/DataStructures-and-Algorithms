@@ -1,8 +1,6 @@
 package algorithms.networkMeasurement.byteDance;
 
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by thpffcj on 2020/1/19.
@@ -43,57 +41,95 @@ public class BigData20185 {
      * 答案错误:您提交的程序没有通过所有的测试用例
      * case通过率为0.00%
      */
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+//
+//        Scanner sc = new Scanner(System.in);
+//        while (sc.hasNext()) {
+//            int n = sc.nextInt();
+//            int m = sc.nextInt();
+//            int c = sc.nextInt();
+//
+//            int[][] digit = new int[n][c + 1];
+//            boolean[] visit = new boolean[c + 1];
+//            int result = 0;
+//
+//            for (int i = 0; i < n; i++) {
+//                Set<Integer> set = new HashSet<>();
+//                int num = sc.nextInt();
+//                while (num > 0) {
+//                    set.add(sc.nextInt());
+//                    num--;
+//                }
+//
+//                for (int j = 1; j <= c; j++) {
+//                    if (!visit[j] && set.contains(j)) {
+//                        if (i > 0) {
+//                            digit[i][j] = digit[i - 1][j] + 1;
+//                        } else {
+//                            digit[i][j] = 1;
+//                        }
+//
+//                        if (digit[i][j] >= m) {
+//                            result++;
+//                            visit[j] = true;
+//                        }
+//                    } else {
+//                        digit[i][j] = 0;
+//                    }
+//                }
+//            }
+//
+//            for (int i = 0; i < n; i++) {
+//                for (int j = 1; j <= c; j++) {
+//                    if (!visit[j] && digit[i][j] != 0) {
+//                        digit[i][j] += digit[n - 1][j];
+//                        if (digit[i][j] >= m) {
+//                            result++;
+//                            visit[j] = true;
+//                        }
+//                    }
+//                }
+//            }
+//
+//            System.out.println(result);
+//        }
+//    }
 
+    public static void main(String []args){
+        int n, m, c;
         Scanner sc = new Scanner(System.in);
-        while (sc.hasNext()) {
-            int n = sc.nextInt();
-            int m = sc.nextInt();
-            int c = sc.nextInt();
+        n = sc.nextInt();
+        m = sc.nextInt();
+        c = sc.nextInt();
+        Map<Integer, List<Integer>> map = new HashMap<>();
+        List<Integer> list;
 
-            int[][] digit = new int[n][c + 1];
-            boolean[] visit = new boolean[c + 1];
-            int result = 0;
-
-            for (int i = 0; i < n; i++) {
-                Set<Integer> set = new HashSet<>();
-                int num = sc.nextInt();
-                while (num > 0) {
-                    set.add(sc.nextInt());
-                    num--;
+        int num, color;
+        for(int i = 0; i < n; i++){
+            num = sc.nextInt();
+            for(int j = 0; j < num; j++){
+                color = sc.nextInt();
+                if(map.get(color) == null){
+                    list = new LinkedList<>();
+                    list.add(i);
+                    map.put(color, list);
                 }
-
-                for (int j = 1; j <= c; j++) {
-                    if (!visit[j] && set.contains(j)) {
-                        if (i > 0) {
-                            digit[i][j] = digit[i - 1][j] + 1;
-                        } else {
-                            digit[i][j] = 1;
-                        }
-
-                        if (digit[i][j] >= m) {
-                            result++;
-                            visit[j] = true;
-                        }
-                    } else {
-                        digit[i][j] = 0;
-                    }
+                else{
+                    list = map.get(color);
+                    list.add(i);
                 }
             }
-
-            for (int i = 0; i < n; i++) {
-                for (int j = 1; j <= c; j++) {
-                    if (!visit[j] && digit[i][j] != 0) {
-                        digit[i][j] += digit[n - 1][j];
-                        if (digit[i][j] >= m) {
-                            result++;
-                            visit[j] = true;
-                        }
-                    }
-                }
-            }
-
-            System.out.println(result);
         }
+
+        int count = 0;
+        for(List<Integer> value : map.values()){
+            for(int i = 0; i < value.size() - 1; i++){
+                if((value.get(i) + m - 1) >= value.get(i + 1)){
+                    count++;
+                    break;
+                }
+            }
+        }
+        System.out.println(count);
     }
 }

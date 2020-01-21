@@ -50,11 +50,9 @@ package algorithms.leetcodecn.string;
 public class RegularExpressionMatching {
 
     public boolean isMatch(String s, String p) {
-
         if (s == null || p == null) {
             return false;
         }
-
         return isMatch(s, 0, p, 0);
     }
 
@@ -63,7 +61,6 @@ public class RegularExpressionMatching {
         if (m == s.length() && n == p.length()) {
             return true;
         }
-
         if (m != s.length() && n == p.length()) {
             return false;
         }
@@ -82,7 +79,6 @@ public class RegularExpressionMatching {
         if (m < s.length() && (p.charAt(n) == '.' || s.charAt(m) == p.charAt(n))) {
             return isMatch(s, m + 1, p, n + 1);
         }
-
         return false;
     }
 

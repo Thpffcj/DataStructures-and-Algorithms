@@ -208,7 +208,7 @@
 - 13 罗马数字转整数 RomanToInteger
 - 9 回文数 NumberOfTracts
 - 458 可怜的小猪
-- 233 数字1的个数
+- 233 * 数字1的个数 NumberOfDigitOne
 - 258 各位相加 AddYouAll
 - 12 整数转罗马数字 IntegerToRoman
 - 67 二进制求和 BinarySummation

@@ -10,6 +10,28 @@ package algorithms.swordRefersToOffer;
 public class TheNumberOfOccurrencesOf1InTheInteger {
 
     public int NumberOf1Between1AndN_Solution(int n) {
-        return 0;
+
+        if (n <= 0) {
+            return 0;
+        }
+        if (n < 10) {
+            return 1;
+        }
+
+        int high = Integer.parseInt(String.valueOf(n).substring(0, 1));
+        int last = Integer.parseInt(String.valueOf(n).substring(1));
+        int power = (int) Math.pow(10, String.valueOf(n).length() - 1);
+
+        if (high == 1) {
+            return NumberOf1Between1AndN_Solution(last) + NumberOf1Between1AndN_Solution(power - 1)
+                    + last + 1;
+        } else {
+            return power + high * NumberOf1Between1AndN_Solution(power - 1) + NumberOf1Between1AndN_Solution(last);
+        }
+    }
+
+    public static void main(String[] args) {
+        TheNumberOfOccurrencesOf1InTheInteger t = new TheNumberOfOccurrencesOf1InTheInteger();
+        System.out.println(t.NumberOf1Between1AndN_Solution(10));
     }
 }
