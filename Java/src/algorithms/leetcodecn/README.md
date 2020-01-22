@@ -151,15 +151,15 @@
 
 ### 贪心算法
 
-- 406 根据身高重建队列
+- 406 * 根据身高重建队列 QueueReconstructionByHeight
 - 45 跳跃游戏2
 - 765 情侣牵手
 - 316 去除重复字母
 - 135 * 分发糖果 DistributingCandy
-- 122 买卖股票的最佳时机2
+- 122 买卖股票的最佳时机2 BestTimeToBuyAndSellStockII
 - 767 重构字符串
 - 358 K距离间隔重排字符串
-- 621 任务调度器
+- 621 * 任务调度器 TaskScheduler
 - 55 跳跃游戏 JumpGame
 - 321 拼接最大数
 - 861 翻转矩阵后的得分 ScoreAfterFlippingTheMatrix
@@ -172,10 +172,10 @@
 - 535 TinyURL的加密与解密 EncodeAndDecodeTinyurl
 - 771 宝石与石头 GemsAndStones
 - 3 无重复字符的最长子串 LongestSubstringWithoutRepeatingCharacters
-- 711 不同岛屿的数量2
+- 711 不同岛屿的数量2 *
 - 37 解数独
 - 85 最大矩形
-- 18 四数之和
+- 18 四数之和 FourSum
 - 94 二叉树的中序遍历 BinaryTreeInorderTraversal
 - 136 只出现一次的数字 SingleNumber
 - 739 * 每日温度 DailyTemperature
@@ -190,7 +190,7 @@
 - 206 反转链表 ReverseList
 - 24 两两交换链表中的节点
 - 25 K个组翻转链表
-- 92 反转链表2
+- 92 反转链表2 ReverseLinkedListII
 - 23 合并K个排序链表
 - 148 * 排序链表 SortList
 - 237 删除链表中的节点 DeleteNodeInALinkedList
