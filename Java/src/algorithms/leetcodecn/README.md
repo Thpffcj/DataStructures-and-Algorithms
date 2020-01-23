@@ -8,9 +8,9 @@
 - 42 接雨水
 - 11 盛最多水的容器 ContainerWithTheMostWater
 - 53 最大子序和 MaximumSubsequenceSum
-- 644 最大平均子段和2
+- 644 最大平均子段和2 *
 - 16 最接近的三数之和 ThreeSumClosest
-- 85 最大矩形
+- 85 * 最大矩形 MaximalRectangle
 - 26 删除排序数组中的重复项 DeleteDuplicatesInSortedArray
 - 717 1比特与2比特字符 OneBitAndTwoBitCharacters
 - 782 变为棋盘
@@ -22,7 +22,7 @@
 - 46 全排列 FullyArranged
 - 17 电话号码的字母组合 LetterCombinationOfPhoneNumber
 - 37 解数独
-- 10 正则表达式匹配
+- 10 正则表达式匹配 RegularExpressionMatching
 - 351 安卓系统手势解锁 *
 - 411 最短特异单词缩写 *
 - 51 N皇后
@@ -136,9 +136,9 @@
 ### 动态规划
 
 - 5 最长回文子串 LongestPalindromeSubstring
-- 53 最大子序和
-- 85 最大矩形
-- 10 正则表达式匹配
+- 53 最大子序和 MaximumSubsequenceSum
+- 85 * 最大矩形 MaximalRectangle
+- 10 正则表达式匹配 RegularExpressionMatching
 - 95 不同的二叉搜索树2
 - 351 安卓系统手势解锁
 - 72 编辑距离
@@ -174,7 +174,7 @@
 - 3 无重复字符的最长子串 LongestSubstringWithoutRepeatingCharacters
 - 711 不同岛屿的数量2 *
 - 37 解数独
-- 85 最大矩形
+- 85 * 最大矩形 MaximalRectangle
 - 18 四数之和 FourSum
 - 94 二叉树的中序遍历 BinaryTreeInorderTraversal
 - 136 只出现一次的数字 SingleNumber
@@ -236,11 +236,11 @@
 ### 字符串
 
 - 3 无重复字符的最长子串 LongestSubstringWithoutRepeatingCharacters
-- 5 长回文子串
+- 5 长回文子串 LongestPalindromeSubstring
 - 22 括号生成
 - 13 罗马数字转整数 RomanToInteger
 - 6 Z字形变换 ZigzagConversion
-- 38 报数
+- 38 外观数列 CountAndSay
 - 17 电话号码的字母组合 LetterCombinationOfPhoneNumber
 - 10 * 正则表达式匹配 RegularExpressionMatching
 - 20 有效的括号 ValidParentheses
