@@ -13,7 +13,7 @@
 - 85 * 最大矩形 MaximalRectangle
 - 26 删除排序数组中的重复项 DeleteDuplicatesInSortedArray
 - 717 1比特与2比特字符 OneBitAndTwoBitCharacters
-- 782 变为棋盘
+- 782 * 变为棋盘 TransformToChessboard
 - 832 翻转图像 FlipImage
 
 ### 回溯算法
@@ -102,10 +102,10 @@
 ### 深度优先搜索
 
 - 679 24点游戏
-- 753 破解保险箱
+- 753 * 破解保险箱 CrackingTheSafe
 - 104 二叉树的最大深度 MaximumDepthOfBinaryTree
-- 743 网络延迟时间
-- 533 孤独像素2
+- 743 网络延迟时间 NetworkLatency
+- 533 孤独像素2 *
 - 694 不同岛屿的数量 *
 - 108 将有序数组转换为二叉搜索树
 - 114 * 二叉树展开为链表 FlattenBinaryTreeToLinkedList
@@ -191,7 +191,7 @@
 - 24 两两交换链表中的节点
 - 25 K个组翻转链表
 - 92 反转链表2 ReverseLinkedListII
-- 23 合并K个排序链表
+- 23 合并K个排序链表 MergeKSortedLists
 - 148 * 排序链表 SortList
 - 237 删除链表中的节点 DeleteNodeInALinkedList
 - 19 删除链表的倒数第N个节点 RemoveNthNodeFromEndOfList
@@ -207,18 +207,18 @@
 - 7 整数反转 IntegerInversion
 - 13 罗马数字转整数 RomanToInteger
 - 9 回文数 NumberOfTracts
-- 458 可怜的小猪
+- 458 * 可怜的小猪 PoorPigs
 - 233 * 数字1的个数 NumberOfDigitOne
 - 258 各位相加 AddYouAll
 - 12 整数转罗马数字 IntegerToRoman
 - 67 二进制求和 BinarySummation
-- 782 变为棋盘
-- 753 破解保险箱
+- 782 * 变为棋盘 TransformToChessboard
+- 753 * 破解保险箱 CrackingTheSafe
 - 728 自除数 SelfDivisor
 
 ### 堆
 
-- 23 合并K个排序链表
+- 23 合并K个排序链表 MergeKSortedLists
 - 818 赛车
 - 743 网络延迟时间
 - 407 接雨水2
