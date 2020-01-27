@@ -120,10 +120,10 @@
 
 - 225 队列实现栈 MyStack
 - 146 * LRU缓存机制 LRUCache
-- 588 设计内存文件系统
+- 588 设计内存文件系统 *
 - 460 LFU缓存
 - 155 最小栈 MinimumStack
-- 232 用栈实现队列
+- 232 用栈实现队列 MyQueue
 - 208 * 实现Trie (前缀树) Trie
 - 173 二叉搜索树迭代器
 - 379 电话目录管理系统 *
@@ -152,9 +152,9 @@
 ### 贪心算法
 
 - 406 * 根据身高重建队列 QueueReconstructionByHeight
-- 45 跳跃游戏2
+- 45 跳跃游戏2 JumpGameII
 - 765 情侣牵手
-- 316 去除重复字母
+- 316 * 去除重复字母 RemoveDuplicateLetters
 - 135 * 分发糖果 DistributingCandy
 - 122 买卖股票的最佳时机2 BestTimeToBuyAndSellStockII
 - 767 重构字符串
@@ -220,7 +220,7 @@
 
 - 23 合并K个排序链表 MergeKSortedLists
 - 818 赛车
-- 743 网络延迟时间
+- 743 网络延迟时间 NetworkLatency
 - 407 接雨水2
 - 264 * 丑数2 UglyNumberII
 - 767 重构字符串 ReconstructingAString

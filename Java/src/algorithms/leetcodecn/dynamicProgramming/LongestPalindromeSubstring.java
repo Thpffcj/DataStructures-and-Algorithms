@@ -137,6 +137,6 @@ public class LongestPalindromeSubstring {
 
     public static void main(String[] args) {
         LongestPalindromeSubstring l = new LongestPalindromeSubstring();
-        l.longestPalindrome("aaaa");
+        System.out.println(l.longestPalindrome("abcda"));
     }
 }
