@@ -1,5 +1,7 @@
 package algorithms.networkMeasurement.tencent;
 
+import java.util.Scanner;
+
 /**
  * Created by thpffcj on 2020/1/26.
  *
@@ -24,5 +26,17 @@ package algorithms.networkMeasurement.tencent;
  */
 public class InterestingNumbers {
 
+    public static void main(String[] args) {
 
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNext()) {
+            int n = sc.nextInt();
+            int[] digit = new int[n];
+            for (int i = 0; i < n; i++) {
+                digit[i] = sc.nextInt();
+            }
+
+
+        }
+    }
 }
