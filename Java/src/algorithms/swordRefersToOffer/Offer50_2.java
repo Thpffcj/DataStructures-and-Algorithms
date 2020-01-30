@@ -12,7 +12,7 @@ import java.util.Map;
  * 输出描述:
  * 如果当前字符流没有存在出现一次的字符，返回#字符。
  */
-public class Offer0_1 {
+public class Offer50_2 {
 
     public String stream = "";
     public Map<Character, Integer> map = new HashMap<>();
