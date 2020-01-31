@@ -2,9 +2,7 @@ package algorithms.leetcodecn.binaryTree;
 
 /**
  * Created by thpffcj on 2019/10/10.
- */
-
-/**
+ *
  * 给定一个整数 n，求以 1 ... n 为节点组成的二叉搜索树有多少种？
  *
  * 示例:
@@ -30,9 +28,6 @@ public class UniqueBinarySearchTrees {
      * n为根节点，当i为根节点时，其左子树节点个数为[1,2,3,...,i-1]，右子树节点个数为[i+1,i+2,...n]，所以当i为根节点时，
      * 其左子树节点个数为i-1个，右子树节点为n-i，即f(i) = G(i-1)*G(n-i),
      * 上面两式可得:G(n) = G(0)*G(n-1)+G(1)*(n-2)+...+G(n-1)*G(0)
-     *
-     * @param n
-     * @return
      */
     public int numTrees(int n) {
 

@@ -25,7 +25,7 @@
 - 10 正则表达式匹配 RegularExpressionMatching
 - 351 安卓系统手势解锁 *
 - 411 最短特异单词缩写 *
-- 51 N皇后
+- 51 * N皇后 NQueens
 - 93 复原IP地址
 - 78 子集 Subsets
 - 39 组合总和 CombinationSum
@@ -43,10 +43,10 @@
 - 718 * 最长重复子数组 MaximumLengthOfRepeatedSubarray
 - 862 和至少为K的最短子数组
 - 300 最长上升子序列 LongestRisingSubsequence
-- 50 Pow(x, n)
+- 50 * Pow(x, n) PowxN
 - 327 区间和的个数
 - 29 两数相除
-- 33 搜索旋转排序数组
+- 33 搜索旋转排序数组 SearchInRotatedSortedArray
 - 174 地下城游戏
 
 ### 二叉树
@@ -59,7 +59,7 @@
 - 617 合并二叉树 
 - 107 二叉树的层次遍历2 BinaryTreeLevelOrderTraversalII
 - 108 将有序数组转换为二叉搜索树
-- 114 * 二叉树展开为链表 flatten
+- 114 * 二叉树展开为链表 FlattenBinaryTreeToLinkedList
 - 654 最大二叉树
 - 655 输出二叉树
 - 101 对称二叉树 SymmetricBinaryTree
@@ -188,7 +188,7 @@
 - 2 两数相加 AddingTwoNumbers
 - 21 合并两个有序链表 MergingTwoOrderedLinkedLists
 - 206 反转链表 ReverseList
-- 24 两两交换链表中的节点
+- 24 两两交换链表中的节点 SwapNodesInPairs
 - 25 K个组翻转链表
 - 92 反转链表2 ReverseLinkedListII
 - 23 合并K个排序链表 MergeKSortedLists

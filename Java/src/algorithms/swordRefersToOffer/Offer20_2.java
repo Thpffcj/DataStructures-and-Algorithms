@@ -31,11 +31,9 @@ public class Offer20_2 {
         int result = 0;
         boolean negative = false;
         int i = 0, len = str.length();
-        /**
-         * limit 默认初始化为 负的 最大正整数 ，假如字符串表示的是正数
-         * 那么result(在返回之前一直是负数形式)就必须和这个最大正数的负数来比较，
-         * 判断是否溢出
-         */
+
+        // limit 默认初始化为负的最大正整数，假如字符串表示的是正数那么result(在返回之前一直是负数形式)就必须和这个最大正数的负数来
+        // 比较，判断是否溢出
         int limit = -Integer.MAX_VALUE;
         int multmin;
         int digit;
@@ -45,25 +43,29 @@ public class Offer20_2 {
             if (firstChar < '0') {
                 if (firstChar == '-') {
                     negative = true;
-                    limit = Integer.MIN_VALUE;//在负号的情况下，判断溢出的值就变成了 整数的 最小负数了
-                } else if (firstChar != '+')//第一位不是数字和-只能是+
+                    // 在负号的情况下，判断溢出的值就变成了整数的最小负数了
+                    limit = Integer.MIN_VALUE;
+                } else if (firstChar != '+')  // 第一位不是数字和-只能是+
                     return 0;
                 if (len == 1) // Cannot have lone "+" or "-"
                     return 0;
                 i++;
             }
+
             multmin = limit / 10;
             while (i < len) {
-                // Accumulating negatively avoids surprises near MAX_VALUE
-                digit = str.charAt(i++)-'0';//char转int
-                if (digit < 0 || digit > 9)//0到9以外的数字
+                // 负积累可避免在MAX_VALUE附近出现意外
+                digit = str.charAt(i++) - '0';  // char转int
+                if (digit < 0 || digit > 9)  // 0到9以外的数字
                     return 0;
 
-                //判断溢出
+                // 判断溢出
                 if (result < multmin) {
                     return 0;
                 }
+
                 result *= 10;
+
                 if (result < limit + digit) {
                     return 0;
                 }
@@ -72,7 +74,7 @@ public class Offer20_2 {
         } else {
             return 0;
         }
-        //如果是正数就返回-result（result一直是负数）
+        // 如果是正数就返回-result（result一直是负数）
         return negative ? result : -result;
     }
 
