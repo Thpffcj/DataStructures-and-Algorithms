@@ -1,5 +1,7 @@
 package algorithms.networkMeasurement.byteDance;
 
+import java.util.Scanner;
+
 /**
  * Created by thpffcj on 2020/1/29.
  *
@@ -22,4 +24,50 @@ package algorithms.networkMeasurement.byteDance;
  * 4 4 4
  */
 public class BigData20189 {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNext()) {
+            int n = sc.nextInt();
+            int x = sc.nextInt();
+            long[] room = new long[n];
+            for (int i = 0; i < n; i++) {
+                room[i] = sc.nextLong();
+            }
+
+            x--;
+            int last = x;
+            long min = room[x];
+            // 寻找最后分配房间，如果最小的不唯一，则最后一人房间为最后分配
+            for (int i = x + n; i > x; i--) {
+                if (room[i % n] < min) {
+                    min = room[i % n];
+                    last = i % n;
+                }
+            }
+
+            if (last > x) {
+                x += n;
+            }
+            // 处理多一轮循环
+            for (int i = last + 1; i <= x; i++) {
+                room[i % n]--;
+            }
+
+            long cycle = room[last];
+            // 处理所有房间
+            for (int i = 0; i < n; i++) {
+                room[i] -= cycle;
+            }
+            // 恢复分配房间人数
+            room[last] = cycle * n + x - last;
+
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < room.length; i++) {
+                sb.append(room[i]).append(" ");
+            }
+            System.out.println(sb.subSequence(0, sb.length() - 1));
+        }
+    }
 }

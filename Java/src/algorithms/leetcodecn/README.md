@@ -5,7 +5,7 @@
 - 1 两数之和 SumOfTwoNumbers
 - 4 寻找两个有序数组的中位数 MedianOfTwoSortedArrays
 - 15 三数之和 TheSumOfTheThreeNumbers
-- 42 接雨水
+- 42 * 接雨水 TrappingRainWater
 - 11 盛最多水的容器 ContainerWithTheMostWater
 - 53 最大子序和 MaximumSubsequenceSum
 - 644 最大平均子段和2 *
@@ -45,7 +45,7 @@
 - 300 最长上升子序列 LongestRisingSubsequence
 - 50 * Pow(x, n) PowxN
 - 327 区间和的个数
-- 29 两数相除
+- 29 * 两数相除 DivideTwoIntegers
 - 33 搜索旋转排序数组 SearchInRotatedSortedArray
 - 174 地下城游戏
 
@@ -164,7 +164,7 @@
 - 321 拼接最大数
 - 861 翻转矩阵后的得分 ScoreAfterFlippingTheMatrix
 - 763 划分字母区间
-- 714 买卖股票的最佳时机含手续费
+- 714 * 买卖股票的最佳时机含手续费 BestTimeToBuyAndSellStockWithTransactionFee
 
 ### 哈希表
 
@@ -198,7 +198,7 @@
 - 143 * 重排链表 ReorderList
 - 86 分隔链表 DelimitedList
 - 203 移除链表元素 RemoveLinkedListElements
-- 109 有序链表转换二叉搜索树
+- 109 * 有序链表转换二叉搜索树 ConvertSortedListToBinarySearchTree
 
 ### 数学
 
@@ -237,7 +237,7 @@
 
 - 3 无重复字符的最长子串 LongestSubstringWithoutRepeatingCharacters
 - 5 长回文子串 LongestPalindromeSubstring
-- 22 括号生成
+- 22 括号生成 BracketGeneration
 - 13 罗马数字转整数 RomanToInteger
 - 6 Z字形变换 ZigzagConversion
 - 38 外观数列 CountAndSay
