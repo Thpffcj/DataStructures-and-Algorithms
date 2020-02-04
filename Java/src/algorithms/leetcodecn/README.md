@@ -47,7 +47,7 @@
 - 327 区间和的个数
 - 29 * 两数相除 DivideTwoIntegers
 - 33 搜索旋转排序数组 SearchInRotatedSortedArray
-- 174 地下城游戏
+- 174 地下城游戏 DungeonGame
 
 ### 二叉树
 
@@ -56,11 +56,11 @@
 - 94 二叉树的中序遍历 BinaryTreeInorderTraversal
 - 226 翻转二叉树 FlipTheBinaryTree
 - 104 二叉树的最大深度 MaximumDepthOfBinaryTree
-- 617 合并二叉树 
+- 617 合并二叉树 MergeTwoBinaryTrees
 - 107 二叉树的层次遍历2 BinaryTreeLevelOrderTraversalII
 - 108 将有序数组转换为二叉搜索树
 - 114 * 二叉树展开为链表 FlattenBinaryTreeToLinkedList
-- 654 最大二叉树
+- 654 最大二叉树 MaximumBinaryTree
 - 655 输出二叉树
 - 101 对称二叉树 SymmetricBinaryTree
 - 105 从前序与中序遍历序列构造二叉树
@@ -69,11 +69,11 @@
 
 - 78 子集 Subsets
 - 421 数组中两个数的最大异或值
-- 751 IP到CIDR
-- 260 只出现一次的数字3
+- 751 IP到CIDR *
+- 260 只出现一次的数字3 SingleNumberIII
 - 137 * 只出现一次的数字2 ANumberThatOnlyAppearsOnce2
 - 136 只出现一次的数字 SingleNumber
-- 784 字母大小写全排列
+- 784 字母大小写全排列 LetterCasePermutation
 - 461 汉明距离
 - 371 * 两整数之和 SumOfTwoIntegers
 - 169 求众数 MostElements

@@ -24,7 +24,7 @@ import java.util.List;
  * S 的长度不超过12。
  * S 仅由数字和字母组成。
  */
-public class AllLettersInUppercaseAndLowercase {
+public class LetterCasePermutation {
 
     public static List<String> list = new ArrayList<>();
 
@@ -106,7 +106,7 @@ public class AllLettersInUppercaseAndLowercase {
     }
 
     public static void main(String[] args) {
-        AllLettersInUppercaseAndLowercase a = new AllLettersInUppercaseAndLowercase();
+        LetterCasePermutation a = new LetterCasePermutation();
         a.letterCasePermutation("a1b2");
     }
 }
