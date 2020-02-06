@@ -1,5 +1,7 @@
 package algorithms.networkMeasurement.byteDance;
 
+import java.util.Scanner;
+
 /**
  * Created by thpffcj on 2020/2/1.
  *
@@ -29,5 +31,28 @@ package algorithms.networkMeasurement.byteDance;
  */
 public class BigData201812 {
 
+    /**
+     * 思路：我想去更高的i+1房间，我一定需要偶数次访问i房间，我在访问i房间的时候，我必然是访问了偶数次i-1房间。
+     * 递归方程：dp[i+1] = dp[i] + 1 + dp[Pi~i] + 1。
+     * 这个方程的意思是：我第一次来到i+1房间，我必然是已经先第一次来到过i房间（dp[i]），然后跳转到Pi房间(1)，然后从Pi到i（dp[Pi~i]）,
+     * 然后再从i到i+1（1）。
+     * 这里有一个dp[Pi~i]，就需要用到刚刚的思路，因为Pi到i的每一次迭代都是一次状态重启的迭代，所以dp[Pi~i] = dp[i]-dp[Pi]。
+     * dp[i+1] = 2 * dp[i] + 2 - dp[Pi]
+     */
+    public static void main(String[] args) {
 
+        Scanner sc = new Scanner(System.in);
+        long mod = 1000000007;
+        int n = sc.nextInt();
+        int[] next = new int[n + 1];
+        for (int i = 1; i <= n; i++) {
+            next[i] = sc.nextInt();
+        }
+
+        long[] dp = new long[n + 1];
+        for (int i = 1; i <= n; i++) {
+            dp[i] = ((dp[i - 1] * 2) % mod - dp[next[i] - 1] + 2) % mod;
+        }
+        System.out.println((dp[n]) % mod);
+    }
 }

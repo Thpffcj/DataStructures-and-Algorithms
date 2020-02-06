@@ -1,5 +1,7 @@
 package algorithms.networkMeasurement.byteDance;
 
+import java.util.Scanner;
+
 /**
  * Created by thpffcj on 2020/2/1.
  *
@@ -28,4 +30,62 @@ package algorithms.networkMeasurement.byteDance;
  * case2: 球队1和球队2差3分，球队2和球队3差3分，所以可能的得分是 球队1得0分，球队2得3分, 球队3 得0分，比赛已经全部结束因此最终不能打平。
  */
 public class BigData201810 {
+
+    // https://blog.csdn.net/ansizhong9191/article/details/88365119
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+
+        for (int i = 0; i < t; i++) {
+            long n = sc.nextLong();
+            long k = sc.nextLong();
+            long d1 = sc.nextLong();
+            long d2 = sc.nextLong();
+
+            // 1. a > b > c
+            long m = k + d2 + 2 * d1;
+            long need;
+            if (m >= 0 && m % 3 == 0) {
+                need = (n - k) - (2 * d1 + d2);
+                if (need >= 0 && need % 3 == 0) {
+                    System.out.println("yes");
+                    continue;
+                }
+            }
+            // 2. a < b < c
+            m = k - d2 - 2 * d1;
+            if (m >= 0 && m % 3 == 0) {
+                need = (n - k) - (d1 + 2 * d2);
+                if (need >= 0 && need % 3 == 0) {
+                    System.out.println("yes");
+                    continue;
+                }
+            }
+            // 3. a < b, b > c
+            m = k + d2 - 2 * d1;
+            if (m >= 0 && m % 3 == 0) {
+                need = (n - k) - (d1 + d2);
+                if (need >= 0 && need % 3 == 0) {
+                    System.out.println("yes");
+                    continue;
+                }
+            }
+            // 4. a > b, b < c
+            m = k - d2 + 2 * d1;
+            if (m >= 0 && m % 3 == 0) {
+                if (d2 > d1) {
+                    need = (n - k) - (2 * d2 - d1);
+                } else {
+                    need = (n - k) - (2 * d1 - d2);
+                }
+
+                if (need >= 0 && need % 3 == 0) {
+                    System.out.println("yes");
+                    continue;
+                }
+            }
+            System.out.println("no");
+        }
+    }
 }

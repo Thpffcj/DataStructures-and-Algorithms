@@ -77,7 +77,7 @@
 - 461 汉明距离
 - 371 * 两整数之和 SumOfTwoIntegers
 - 169 求众数 MostElements
-- 338 比特位计数
+- 338 * 比特位计数 CountingBits
 - 401 二进制手表
 - 187 重复的DNA序列 findRepeatedDnaSequences
 - 476 数字的补数 ComplementOfNumbers
@@ -129,7 +129,7 @@
 - 379 电话目录管理系统 *
 - 284 顶端迭代器 PeekingIterator
 - 432 全0(1)的数据结构
-- 341 扁平化嵌套列表迭代器 
+- 341 * 扁平化嵌套列表迭代器 NestedIterator
 - 244 最短单词距离2
 - 211 添加与搜索单词-数据结构设计 WordDictionary
 
@@ -140,12 +140,12 @@
 - 85 * 最大矩形 MaximalRectangle
 - 10 正则表达式匹配 RegularExpressionMatching
 - 95 不同的二叉搜索树2
-- 351 安卓系统手势解锁
+- 351 安卓系统手势解锁 *
 - 72 编辑距离
 - 96 不同的二叉搜索树 UniqueBinarySearchTrees
 - 70 爬楼梯 ClimbingStairs
 - 818 赛车
-- 312 戳气球
+- 312 * 戳气球 BurstBalloons
 - 64 最小路径和 MinimumPathSum
 - 121 买卖股票的最佳时机 TheBestTimeToBuyAndSellStocks
 
