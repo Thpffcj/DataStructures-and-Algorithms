@@ -141,7 +141,7 @@
 - 10 正则表达式匹配 RegularExpressionMatching
 - 95 不同的二叉搜索树2
 - 351 安卓系统手势解锁 *
-- 72 编辑距离
+- 72 * 编辑距离 EditDistance
 - 96 不同的二叉搜索树 UniqueBinarySearchTrees
 - 70 爬楼梯 ClimbingStairs
 - 818 赛车
@@ -227,9 +227,9 @@
 - 358 K距离间隔重排字符串
 - 215 数组中的第K个最大元素 TheKthLargestElementInTheArray
 - 378 有序矩阵中第K小的元素
-- 313 超级丑数
+- 313 超级丑数 SuperUglyNumber
 - 871 * 最低加油次数 MinimumNumberOfRefuelingStops
-- 786 第K个最小的素数分数
+- 786 * 第K个最小的素数分数 KThSmallestPrimeFraction
 - 347 前K个高频元素 TopKHighFrequencyElements
 - 218 天际线问题
 
@@ -244,7 +244,7 @@
 - 17 电话号码的字母组合 LetterCombinationOfPhoneNumber
 - 10 * 正则表达式匹配 RegularExpressionMatching
 - 20 有效的括号 ValidParentheses
-- 72 编辑距离
+- 72 * 编辑距离 EditDistance
 - 12 整数转罗马数字 IntegerToRoman
 - 14 最长公共前缀 LongestCommonPrefix
 - 67 二进制求和 BinarySummation

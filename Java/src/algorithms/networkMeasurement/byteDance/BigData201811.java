@@ -1,5 +1,9 @@
 package algorithms.networkMeasurement.byteDance;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 /**
  * Created by thpffcj on 2020/2/1.
  *
@@ -24,5 +28,47 @@ package algorithms.networkMeasurement.byteDance;
  */
 public class BigData201811 {
 
+    /**
+     * 利用前缀和数组
+     * 例如：
+     * n=10, m=1, s=baabaabaab
+     * b a a b a a b a a b
+     * 0 1 2 3 4 5 6 7 8 9
+     *
+     * 将 b-->a
+     * b 的前缀和数组为
+     *   sums={ 0, 3, 6, 9, 10}//10 为字符串长度
+     * 计算长度分别为:
+     *         3  6-0-1=5   9-3-1=5  10-6-1=3
+     *    ==>>max = max{ max, sums[i]-sum[i-m-1]-1}
+     */
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        String s = sc.next();
+        System.out.println(Math.max(maxLength(n, m, s, 'a'), maxLength(n, m, s, 'b')));
+    }
+
+    public static int maxLength(int n, int m, String s, char k) {
+
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            if (s.charAt(i) == k) {
+                list.add(i);
+            }
+        }
+        list.add(n);
+
+        if (list.size() < m) {
+            return n;
+        }
+
+        int max = list.get(m);
+        for (int i = m + 1; i < list.size(); i++) {
+            max = Math.max(max, list.get(i) - list.get(i - m - 1) - 1);
+        }
+        return max;
+    }
 
 }
