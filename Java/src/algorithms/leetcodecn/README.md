@@ -114,7 +114,7 @@
 - 101 对称二叉树 SymmetricBinaryTree
 - 394 * 字符串解码 StringDecoding
 - 109 * 有序链表转换二叉搜索树 ConvertSortedListToBinarySearchTree
-- 105 从前序与中序遍历序列构造二叉树
+- 105 * 从前序与中序遍历序列构造二叉树 ConstructBinaryTreeFromPreorderAndInorderTraversal
 
 ### 设计
 

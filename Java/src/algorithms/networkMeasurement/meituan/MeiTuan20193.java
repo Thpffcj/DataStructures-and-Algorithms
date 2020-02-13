@@ -30,8 +30,7 @@ public class MeiTuan20193 {
     public static List<Integer> list = new ArrayList<>();
 
     /**
-     * 01背包
-     * 找大于等于X的最小可达状态
+     * 01背包：找大于等于X的最小可达状态
      */
     public static void main(String[] args) {
 
