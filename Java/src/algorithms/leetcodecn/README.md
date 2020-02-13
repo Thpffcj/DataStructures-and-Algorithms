@@ -26,7 +26,7 @@
 - 351 安卓系统手势解锁 *
 - 411 最短特异单词缩写 *
 - 51 * N皇后 NQueens
-- 93 复原IP地址
+- 93 复原IP地址 RestoreIpAddresses
 - 78 子集 Subsets
 - 39 组合总和 CombinationSum
 - 784 字母大小写全排列 AllLettersInUppercaseAndLowercase
@@ -35,13 +35,13 @@
 ### 二分查找
 
 - 4 * 寻找两个有序数组的中位数 MedianOfTwoSortedArrays
-- 644 最大平均子段和2
+- 644 最大平均子段和2 *
 - 349 两个数组的交集 TheIntersectionOfTwoArrays
 - 287 * 寻找重复数 LookingForDuplicates
 - 167 两数之和2-输入有序数组 TheSumOfTwoNumbersInputOrder
 - 363 矩形区域不超过K的最大数值和
 - 718 * 最长重复子数组 MaximumLengthOfRepeatedSubarray
-- 862 和至少为K的最短子数组
+- 862 * 和至少为K的最短子数组 ShortestSubarrayWithSumAtLeastK
 - 300 最长上升子序列 LongestRisingSubsequence
 - 50 * Pow(x, n) PowxN
 - 327 区间和的个数
@@ -113,7 +113,7 @@
 - 490 迷宫 *
 - 101 对称二叉树 SymmetricBinaryTree
 - 394 * 字符串解码 StringDecoding
-- 109 * 有序链表转换二叉搜索树 OrderedLinkedListTransformationBinarySearchTree
+- 109 * 有序链表转换二叉搜索树 ConvertSortedListToBinarySearchTree
 - 105 从前序与中序遍历序列构造二叉树
 
 ### 设计

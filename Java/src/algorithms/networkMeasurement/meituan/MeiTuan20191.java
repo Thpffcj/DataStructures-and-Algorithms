@@ -1,12 +1,10 @@
 package algorithms.networkMeasurement.meituan;
 
-/**
- * Created by thpffcj on 2019/12/23.
- */
-
 import java.util.Scanner;
 
 /**
+ * Created by thpffcj on 2019/12/23.
+ *
  * 给定一张包含N个点、N-1条边的无向连通图，节点从1到N编号，每条边的长度均为1。假设你从1号节点出发并打算遍历所有节点，那么总路程至少是
  * 多少？
  *
@@ -26,7 +24,7 @@ import java.util.Scanner;
  * 输出例子1:
  * 4
  */
-public class GraphTraversal {
+public class MeiTuan20191 {
 
     // TODO
     public static void main(String[] args) {

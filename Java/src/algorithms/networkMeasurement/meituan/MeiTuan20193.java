@@ -1,15 +1,13 @@
 package algorithms.networkMeasurement.meituan;
 
-/**
- * Created by thpffcj on 2019/12/11.
- */
-
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
+
 /**
+ * Created by thpffcj on 2019/12/11.
+ *
  * 你打开了美了么外卖，选择了一家店，你手里有一张满X元减10元的券，店里总共有n种菜，第i种菜一份需要A_i元，因为你不想吃太多份同一种菜，
  * 所以每种菜你最多只能点一份，现在问你最少需要选择多少元的商品才能使用这张券。
  *
@@ -27,7 +25,7 @@ import java.util.Scanner;
  * 输出例子1:
  * 23
  */
-public class TakeawayFullReduction {
+public class MeiTuan20193 {
 
     public static List<Integer> list = new ArrayList<>();
 
