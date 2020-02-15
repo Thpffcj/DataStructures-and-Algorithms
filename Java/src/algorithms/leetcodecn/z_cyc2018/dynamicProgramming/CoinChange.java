@@ -1,4 +1,4 @@
-package algorithms.leetcodecn.cyc2018;
+package algorithms.leetcodecn.z_cyc2018.dynamicProgramming;
 
 import java.util.Arrays;
 
