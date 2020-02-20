@@ -125,7 +125,7 @@
 - 155 最小栈 MinimumStack
 - 232 用栈实现队列 MyQueue
 - 208 * 实现Trie (前缀树) Trie
-- 173 二叉搜索树迭代器
+- 173 二叉搜索树迭代器 BSTIterator
 - 379 电话目录管理系统 *
 - 284 顶端迭代器 PeekingIterator
 - 432 全0(1)的数据结构
@@ -144,7 +144,7 @@
 - 72 * 编辑距离 EditDistance
 - 96 不同的二叉搜索树 UniqueBinarySearchTrees
 - 70 爬楼梯 ClimbingStairs
-- 818 赛车
+- 818 * 赛车 RaceCar
 - 312 * 戳气球 BurstBalloons
 - 64 最小路径和 MinimumPathSum
 - 121 买卖股票的最佳时机 TheBestTimeToBuyAndSellStocks
@@ -153,17 +153,17 @@
 
 - 406 * 根据身高重建队列 QueueReconstructionByHeight
 - 45 跳跃游戏2 JumpGameII
-- 765 情侣牵手
+- 765 * 情侣牵手 CouplesHoldingHands
 - 316 * 去除重复字母 RemoveDuplicateLetters
 - 135 * 分发糖果 DistributingCandy
 - 122 买卖股票的最佳时机2 BestTimeToBuyAndSellStockII
 - 767 重构字符串
-- 358 K距离间隔重排字符串
+- 358 K距离间隔重排字符串 *
 - 621 * 任务调度器 TaskScheduler
 - 55 跳跃游戏 JumpGame
-- 321 拼接最大数
+- 321 * 拼接最大数 CreateMaximumNumber
 - 861 翻转矩阵后的得分 ScoreAfterFlippingTheMatrix
-- 763 划分字母区间
+- 763 * 划分字母区间 PartitionLabels
 - 714 * 买卖股票的最佳时机含手续费 BestTimeToBuyAndSellStockWithTransactionFee
 
 ### 哈希表
@@ -219,12 +219,12 @@
 ### 堆
 
 - 23 合并K个排序链表 MergeKSortedLists
-- 818 赛车
+- 818 * 赛车 RaceCar
 - 743 网络延迟时间 NetworkLatency
 - 407 接雨水2
 - 264 * 丑数2 UglyNumberII
 - 767 重构字符串 ReconstructingAString
-- 358 K距离间隔重排字符串
+- 358 K距离间隔重排字符串 *
 - 215 数组中的第K个最大元素 TheKthLargestElementInTheArray
 - 378 有序矩阵中第K小的元素
 - 313 超级丑数 SuperUglyNumber
