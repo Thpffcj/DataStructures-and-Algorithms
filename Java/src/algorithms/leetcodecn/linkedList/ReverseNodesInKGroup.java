@@ -1,6 +1,7 @@
 package algorithms.leetcodecn.linkedList;
 
 import algorithms.leetcodecn.ListNode;
+import algorithms.leetcodecn.TreeNode;
 
 /**
  * Created by thpffcj on 2020/2/2.
@@ -20,8 +21,40 @@ import algorithms.leetcodecn.ListNode;
  */
 public class ReverseNodesInKGroup {
 
-    public ListNode reverseKGroup(ListNode head, int k) {
+    public int diameterOfBinaryTree(TreeNode root) {
 
-        return null;
+        if (root == null) {
+            return 0;
+        }
+
+        int left = maxDepth(root.left);
+        int right = maxDepth(root.right);
+        return Math.max(left + right,
+                Math.max(diameterOfBinaryTree(root.left), diameterOfBinaryTree(root.right)));
+    }
+
+    public int maxDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+
+        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+    }
+
+    int ans;
+    public int diameterOfBinaryTree2(TreeNode root) {
+        ans = 1;
+        depth(root);
+        return ans - 1;
+    }
+
+    public int depth(TreeNode node) {
+        if (node == null) {
+            return 0;
+        }
+        int L = depth(node.left);
+        int R = depth(node.right);
+        ans = Math.max(ans, L + R + 1);
+        return Math.max(L, R) + 1;
     }
 }
