@@ -1,12 +1,10 @@
 package algorithms.advancedAlgorithm.homework.homework1;
 
-/**
- * Created by thpffcj on 2019/10/10.
- */
-
 import java.util.*;
 
 /**
+ * Created by thpffcj on 2019/10/10.
+ *
  * Description
  * 有两个序列 a,b，大小都为 n,序列元素的值任意整数，无序； 要求：通过交换 a,b 中的元素，使[序列 a 元素的和]与
  * [序列 b 元素的和]之间的差最小。
@@ -48,24 +46,30 @@ public class AdjustTheArrayToMinimizeTheDifference {
                 sum += digit[i];
             }
             int x = sum / 2;
-            int n = digit.length;
+            int n = digit.length /2;
 
-            int[] xs = new int[x + 1];
-            for (int i = 0; i <= x; i++) {
-                xs[i] = 10001;
-            }
+            // dp[i][j][v]表示在前i个物体中将j个物体放入到容量为v的背包中所获得的最大价值。
+            // 其中dp[2n][n][sum(array)/2]便是其中一个划分部分的和。
+//            int[][][] dp = new int[2 * n + 1][n + 1][x + 1];
+//            for (int i = 1; i <= 2 * n; i++) {
+//                for (int j = 1; j <= n; j++) {
+//                    for(int v = digit[i - 1]; v <= x; v++) {
+//                        dp[i][j][v] = Math.max(dp[i - 1][j][v], dp[i - 1][j - 1][v - digit[i - 1]] + digit[i - 1]);
+//                    }
+//                }
+//            }
+//
+//            System.out.println(Math.abs(sum - dp[2 * n][n][x] - dp[2 * n][n][x]));
 
-            for (int i = 0; i < n; i++) {
-                int price = digit[i];
-                for (int j = x; j >= 0; j--) {
-                    if (j > price) {
-                        xs[j] = Math.min(xs[j], xs[j - price] + price);
-                    } else {
-                        xs[j] = Math.min(xs[j], price);
+            int[][] dp = new int[n + 1][x + 1];
+            for (int i = 1; i <= 2 * n; i++) {
+                for (int j = n; j >= 1; j--) {
+                    for (int v = x; v >= digit[i - 1]; v--) {
+                        dp[j][v] = Math.max(dp[j][v], dp[j - 1][v - digit[i - 1]] + digit[i - 1]);
                     }
                 }
             }
-            System.out.println(Math.abs(sum - xs[x] - xs[x]));
+            System.out.println(Math.abs(sum - dp[n][x] - dp[n][x]));
         }
     }
 

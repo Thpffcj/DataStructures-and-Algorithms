@@ -1,5 +1,8 @@
 package algorithms.networkMeasurement.tencent;
 
+import java.util.Scanner;
+import java.util.Stack;
+
 /**
  * Created by thpffcj on 2020/3/3.
  *
@@ -28,5 +31,40 @@ package algorithms.networkMeasurement.tencent;
  */
 public class Tencent20202 {
 
-    
+    /**
+     * 使用单调栈实现，开辟一个数组rightLook 保留往右看得到的数量，从右往左遍历，利用单调栈将看得到的数量保留在数组 rightLook 中 ，
+     * 再从左往右遍历，获取往左看的计数。
+     */
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] digit = new int[n];
+        for (int i = 0; i < n; i++) {
+            digit[i] = sc.nextInt();
+        }
+
+        int[] result = new int[n];
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < n; i++) {
+            result[i] += stack.size();
+            while (!stack.isEmpty() && stack.peek() <= digit[i]) {
+                stack.pop();
+            }
+            stack.push(digit[i]);
+        }
+        stack.clear();
+        for (int i = n - 1; i >= 0; i--) {
+            result[i] += stack.size() + 1;
+            while (!stack.isEmpty() && stack.peek() <= digit[i]) {
+                stack.pop();
+            }
+            stack.push(digit[i]);
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int i : result) {
+            sb.append(i).append(" ");
+        }
+        System.out.println(sb.substring(0, sb.length() - 1));
+    }
 }

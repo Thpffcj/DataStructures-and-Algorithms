@@ -42,7 +42,7 @@
 - 363 矩形区域不超过K的最大数值和
 - 718 * 最长重复子数组 MaximumLengthOfRepeatedSubarray
 - 862 * 和至少为K的最短子数组 ShortestSubarrayWithSumAtLeastK
-- 300 最长上升子序列 LongestRisingSubsequence
+- 300 最长上升子序列 LongestIncreasingSubsequence
 - 50 * Pow(x, n) PowxN
 - 327 区间和的个数
 - 29 * 两数相除 DivideTwoIntegers
@@ -84,7 +84,7 @@
 
 ### 广度优先搜索
 
-- 815 公交路线
+- 815 * 公交路线 BusRoutes
 - 743 网络延迟时间 NetworkLatency
 - 107 二叉树的层次遍历2 BinaryTreeLevelOrderTraversalII
 - 407 接雨水2
@@ -157,7 +157,7 @@
 - 316 * 去除重复字母 RemoveDuplicateLetters
 - 135 * 分发糖果 DistributingCandy
 - 122 买卖股票的最佳时机2 BestTimeToBuyAndSellStockII
-- 767 重构字符串
+- 767 重构字符串 ReconstructingAString
 - 358 K距离间隔重排字符串 *
 - 621 * 任务调度器 TaskScheduler
 - 55 跳跃游戏 JumpGame
