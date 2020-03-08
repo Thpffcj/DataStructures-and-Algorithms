@@ -4,9 +4,9 @@
 
 - 1 两数之和 SumOfTwoNumbers
 - 4 寻找两个有序数组的中位数 MedianOfTwoSortedArrays
-- 15 三数之和 TheSumOfTheThreeNumbers
+- 15 三数之和 ThreeSum
 - 42 * 接雨水 TrappingRainWater
-- 11 盛最多水的容器 ContainerWithTheMostWater
+- 11 盛最多水的容器 ContainerWithMostWater
 - 53 最大子序和 MaximumSubsequenceSum
 - 644 最大平均子段和2 *
 - 16 最接近的三数之和 ThreeSumClosest
@@ -51,17 +51,17 @@
 
 ### 二叉树
 
-- 95 不同的二叉搜索树2
+- 95 * 不同的二叉搜索树2 UniqueBinarySearchTreesII
 - 96 * 不同的二叉搜索树 UniqueBinarySearchTrees
 - 94 二叉树的中序遍历 BinaryTreeInorderTraversal
 - 226 翻转二叉树 FlipTheBinaryTree
 - 104 二叉树的最大深度 MaximumDepthOfBinaryTree
 - 617 合并二叉树 MergeTwoBinaryTrees
 - 107 二叉树的层次遍历2 BinaryTreeLevelOrderTraversalII
-- 108 将有序数组转换为二叉搜索树
+- 108 将有序数组转换为二叉搜索树 ConvertSortedArrayToBinarySearchTree
 - 114 * 二叉树展开为链表 FlattenBinaryTreeToLinkedList
 - 654 最大二叉树 MaximumBinaryTree
-- 655 输出二叉树
+- 655 * 输出二叉树 PrintBinaryTree
 - 101 对称二叉树 SymmetricBinaryTree
 - 105 从前序与中序遍历序列构造二叉树
 
@@ -185,8 +185,8 @@
 
 ### 链表
 
-- 2 两数相加 AddingTwoNumbers
-- 21 合并两个有序链表 MergingTwoOrderedLinkedLists
+- 2 两数相加 AddTwoNumbers
+- 21 合并两个有序链表 MergeTwoSortedLists
 - 206 反转链表 ReverseList
 - 24 两两交换链表中的节点 SwapNodesInPairs
 - 25 K个组翻转链表
@@ -202,7 +202,7 @@
 
 ### 数学
 
-- 2 两数相加 AddingTwoNumbers
+- 2 两数相加 AddTwoNumbers
 - 535 * TinyURL的加密与解密 EncodeAndDecodeTinyurl
 - 7 整数反转 IntegerInversion
 - 13 罗马数字转整数 RomanToInteger

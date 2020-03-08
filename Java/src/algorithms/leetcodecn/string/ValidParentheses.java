@@ -1,12 +1,10 @@
 package algorithms.leetcodecn.string;
 
-/**
- * Created by thpffcj on 2019/10/13.
- */
-
 import java.util.Stack;
 
 /**
+ * Created by thpffcj on 2019/10/13.
+ *
  * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
  *
  * 有效字符串需满足：
@@ -61,10 +59,6 @@ public class ValidParentheses {
                 }
             }
         }
-        if (stack.isEmpty()) {
-            return true;
-        } else {
-            return false;
-        }
+        return stack.isEmpty();
     }
 }

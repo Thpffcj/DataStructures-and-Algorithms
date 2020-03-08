@@ -1,12 +1,10 @@
 package algorithms.leetcodecn.linkedList;
 
-/**
- * Created by thpffcj on 2019/12/20.
- */
-
 import algorithms.leetcodecn.ListNode;
 
 /**
+ * Created by thpffcj on 2019/12/20.
+ *
  * 给定一个链表，删除链表的倒数第 n 个节点，并且返回链表的头结点。
  *
  * 示例：
