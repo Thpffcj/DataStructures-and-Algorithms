@@ -14,6 +14,11 @@ package algorithms.leetcodecn.z_hot;
  */
 public class NextPermutation {
 
+    /**
+     * 我们需要从右边找到第一对两个连续的数字 a[i]a[i] 和 a[i-1]a[i−1]，它们满足 a[i]>a[i-1]a[i]>a[i−1]。
+     * 现在，什么样子的重新排列将产生下一个更大的数字呢？我们想要创建比当前更大的排列。因此，我们需要将数字 a[i-1]a[i−1] 替
+     * 换为位于其右侧区域的数字中比它更大的数字，例如 a[j]a[j]。
+     */
     public void nextPermutation(int[] nums) {
         int i = nums.length - 2;
         while (i >= 0 && nums[i + 1] <= nums[i]) {

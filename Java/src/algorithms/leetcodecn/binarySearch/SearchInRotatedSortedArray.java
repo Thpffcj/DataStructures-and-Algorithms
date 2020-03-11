@@ -35,13 +35,13 @@ public class SearchInRotatedSortedArray {
             return mid;
         }
         if (nums[mid] >= nums[left]) {
-            if (nums[left] <= target && target <= nums[mid]) {
+            if (nums[left] <= target && target < nums[mid]) {
                 index = binarySearch(nums, left, mid - 1, target);
             } else {
                 index = binarySearch(nums, mid + 1, right, target);
             }
         } else {
-            if (nums[mid] <= target && target <= nums[right]) {
+            if (nums[mid] < target && target <= nums[right]) {
                 index = binarySearch(nums, mid + 1, right, target);
             } else {
                 index = binarySearch(nums, left, mid - 1, target);

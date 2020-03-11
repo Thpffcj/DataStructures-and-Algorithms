@@ -21,27 +21,6 @@ import java.util.Queue;
  */
 public class MergeKSortedLists {
 
-    public ListNode mergeKLists(ListNode[] lists) {
-
-        Queue<Integer> queue = new PriorityQueue<>();
-        for (ListNode node : lists) {
-            while (node != null) {
-                queue.add(node.val);
-                node = node.next;
-            }
-        }
-
-        ListNode guard = new ListNode(0);
-        ListNode head = guard;
-        while (!queue.isEmpty()) {
-            ListNode node = new ListNode(queue.poll());
-            head.next = node;
-            head = head.next;
-        }
-
-        return guard.next;
-    }
-
     // 典型的归并分治思想，自底向上，依次合并(可结合归并排序理解，将每个链表理解成排序的值)
     public ListNode mergeKLists2(ListNode[] lists) {
         if(lists.length == 0) {
@@ -73,9 +52,30 @@ public class MergeKSortedLists {
         if(node1.val < node2.val){
             node1.next = merge(node1.next, node2);
             return node1;
-        }else{
+        } else {
             node2.next = merge(node1, node2.next);
             return node2;
         }
+    }
+
+    public ListNode mergeKLists(ListNode[] lists) {
+
+        Queue<Integer> queue = new PriorityQueue<>();
+        for (ListNode node : lists) {
+            while (node != null) {
+                queue.add(node.val);
+                node = node.next;
+            }
+        }
+
+        ListNode guard = new ListNode(0);
+        ListNode head = guard;
+        while (!queue.isEmpty()) {
+            ListNode node = new ListNode(queue.poll());
+            head.next = node;
+            head = head.next;
+        }
+
+        return guard.next;
     }
 }

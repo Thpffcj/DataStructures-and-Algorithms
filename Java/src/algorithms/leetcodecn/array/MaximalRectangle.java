@@ -22,8 +22,6 @@ public class MaximalRectangle {
 
     /**
      * 动态规划 - 使用柱状图的优化暴力方法
-     * @param matrix
-     * @return
      */
     public int maximalRectangle(char[][] matrix) {
 
@@ -36,7 +34,6 @@ public class MaximalRectangle {
         for(int i = 0; i < matrix.length; i++){
             for(int j = 0; j < matrix[0].length; j++){
                 if (matrix[i][j] == '1'){
-
                     if (j == 0) {
                         dp[i][j] = 1;
                     } else {
@@ -58,8 +55,6 @@ public class MaximalRectangle {
 
     /**
      * 使用柱状图 - 栈
-     * @param matrix
-     * @return
      */
     public int maximalRectangle2(char[][] matrix) {
 
@@ -74,7 +69,6 @@ public class MaximalRectangle {
 
                 // update the state of this row's histogram using the last row's histogram
                 // by keeping track of the number of consecutive ones
-
                 dp[j] = matrix[i][j] == '1' ? dp[j] + 1 : 0;
             }
             // update maxarea with the maximum area from this row's histogram

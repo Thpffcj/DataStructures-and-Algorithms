@@ -45,6 +45,8 @@ public class BinaryTreeMaximumPathSum {
 
         max_sum = Math.max(max_sum, price_newpath);
 
+        // 这个是自底向上求的，对于某节点来说，它这点的最大值是left + right + node.val。
+        // 再考虑到该节点的父节点，父节点直接能选择子节点中相对大的一个，因为不能走回头路
         return node.val + Math.max(left_gain, right_gain);
     }
 

@@ -1,10 +1,10 @@
 package algorithms.leetcodecn.greedyAlgorithm;
 
-/**
- * Created by thpffcj on 2019/12/27.
- */
+import java.util.Arrays;
 
 /**
+ * Created by thpffcj on 2019/12/27.
+ *
  * 给定一个非负整数数组，你最初位于数组的第一个位置。
  * 数组中的每个元素代表你在该位置可以跳跃的最大长度。
  * 判断你是否能够到达最后一个位置。
@@ -21,32 +21,25 @@ package algorithms.leetcodecn.greedyAlgorithm;
  */
 public class JumpGame {
 
-    boolean flag;
-
     public boolean canJump(int[] nums) {
-
-        flag = false;
-        boolean[] visited = new boolean[nums.length];
-        canJump(nums, 0, visited);
-        return flag;
+        return canJumpFromPosition(0, nums);
     }
 
-    public void canJump(int[] nums, int position, boolean[] visited) {
-
-        if (position >= nums.length || visited[position]) {
-            return;
-        }
+    public boolean canJumpFromPosition(int position, int[] nums) {
         if (position == nums.length - 1) {
-            flag = true;
-            return;
+            return true;
         }
 
-        visited[position] = true;
-        int digit = nums[position];
-        for (int i = digit; i > 0; i--) {
-            canJump(nums, position + i, visited);
+        int furthestJump = Math.min(position + nums[position], nums.length - 1);
+        for (int nextPosition = position + 1; nextPosition <= furthestJump; nextPosition++) {
+            if (canJumpFromPosition(nextPosition, nums)) {
+                return true;
+            }
         }
+
+        return false;
     }
+
 
     enum Index {
         GOOD, BAD, UNKNOWN
@@ -61,21 +54,19 @@ public class JumpGame {
      */
     public boolean canJump2(int[] nums) {
         memo = new Index[nums.length];
-        for (int i = 0; i < memo.length; i++) {
-            memo[i] = Index.UNKNOWN;
-        }
+        Arrays.fill(memo, Index.UNKNOWN);
         memo[memo.length - 1] = Index.GOOD;
-        return canJumpFromPosition(0, nums);
+        return canJumpFromPosition2(0, nums);
     }
 
-    public boolean canJumpFromPosition(int position, int[] nums) {
+    public boolean canJumpFromPosition2(int position, int[] nums) {
         if (memo[position] != Index.UNKNOWN) {
             return memo[position] == Index.GOOD ? true : false;
         }
 
         int furthestJump = Math.min(position + nums[position], nums.length - 1);
         for (int nextPosition = position + 1; nextPosition <= furthestJump; nextPosition++) {
-            if (canJumpFromPosition(nextPosition, nums)) {
+            if (canJumpFromPosition2(nextPosition, nums)) {
                 memo[position] = Index.GOOD;
                 return true;
             }
@@ -94,9 +85,7 @@ public class JumpGame {
     public boolean canJump3(int[] nums) {
 
         Index[] memo = new Index[nums.length];
-        for (int i = 0; i < memo.length; i++) {
-            memo[i] = Index.UNKNOWN;
-        }
+        Arrays.fill(memo, Index.UNKNOWN);
         memo[memo.length - 1] = Index.GOOD;
 
         for (int i = nums.length - 2; i >= 0; i--) {

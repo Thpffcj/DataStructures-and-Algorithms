@@ -21,8 +21,8 @@ package algorithms.leetcodecn.dynamicProgramming;
 public class BurstBalloons {
 
     /**
-     * dp[i][j]代表扎破i+1号气球～j-1号气球能获得的金币数，i和j是不能被扎破的，因为是两端，并且当前气球k不能被扎破，要分别考虑k的左
-     * 侧（i～k-1）和右侧（k+1～j），
+     * dp[i][j]代表扎破i+1号气球～j-1号气球能获得的金币数，i和j是不能被扎破的，因为是两端，并且当前气球k不能被扎破，要分别考
+     * 虑k的左侧（i～k-1）和右侧（k+1～j），
      *
      * 状态转移方程为：
      * dp[i][j] = max{dp[i][k] + dp[k][j] + a[i] * a[k] * a[j]},k∈(i,j)
@@ -60,5 +60,61 @@ public class BurstBalloons {
             }
         }
         return dp[0][n - 1];
+    }
+
+    int max = 0;
+    // 回溯法，超时
+    public int maxCoins2(int[] nums) {
+        int[] state = new int[nums.length];
+        tryGetCoins(nums, state,0);
+        return max;
+    }
+
+    void tryGetCoins(int[] nums, int[] state,int current){
+        int[] tempState = state.clone();
+        int i = 0;
+        if(finished(state)){
+            max = Math.max(max,current);
+            return;
+        }
+        for(i=0;i<nums.length;i++){
+            if(state[i] == 1)
+                continue;
+            tempState[i] = 1;
+            tryGetCoins(nums,tempState,current+getCoinsAt(nums,state,i));
+            copyArray(tempState,state);
+        }
+    }
+
+    int getCoinsAt(int[] nums,int[] state,int i){
+        int j = 0,result = nums[i];
+        for(j = i-1;j>-1;j--){
+            if(state[j] == 0){
+                result *= nums[j];
+                break;
+            }
+        }
+        for(j = i+1;j<state.length;j++){
+            if(state[j] == 0){
+                result *= nums[j];
+                break;
+            }
+        }
+        return result;
+    }
+
+    void copyArray(int[] dest,int[] origin){
+        for(int i = 0; i<dest.length;i++){
+            dest[i] = origin[i];
+        }
+    }
+
+    boolean finished(int[] state){
+        boolean finished = true;
+        for(int i = 0; i < state.length;i++){
+            if(state[i] == 0)
+                finished = false;
+        }
+        return  finished;
     }
 }

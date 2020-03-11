@@ -1,4 +1,4 @@
-package algorithms.leetcodecn.z_cyc2018.dynamicProgramming;
+package algorithms.leetcodecn.z_hot;
 
 import java.util.*;
 
@@ -38,7 +38,6 @@ public class WordBreak {
                 int len = word.length();
                 if (i >= len) {
                     dp[i] = dp[i] || (dp[i - len] && s.substring(i - len, len).equals(word));
-
                 }
             }
         }

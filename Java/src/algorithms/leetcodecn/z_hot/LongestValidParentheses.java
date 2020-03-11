@@ -19,10 +19,11 @@ import java.util.Stack;
  */
 public class LongestValidParentheses {
 
+    // 暴力
     public int longestValidParentheses(String s) {
         int maxlen = 0;
         for (int i = 0; i < s.length(); i++) {
-            for (int j = i + 2; j <= s.length(); j+=2) {
+            for (int j = i + 2; j <= s.length(); j += 2) {
                 if (isValid(s.substring(i, j))) {
                     maxlen = Math.max(maxlen, j - i);
                 }
@@ -45,20 +46,58 @@ public class LongestValidParentheses {
         return stack.empty();
     }
 
+    /**
+     * 我们定义一个 dp 数组，其中第 i 个元素表示以下标为 i 的字符结尾的最长有效子字符串的长度。
+     */
     public int longestValidParentheses2(String s) {
         int maxans = 0;
-        int dp[] = new int[s.length()];
+        int[] dp = new int[s.length()];
         for (int i = 1; i < s.length(); i++) {
             if (s.charAt(i) == ')') {
                 if (s.charAt(i - 1) == '(') {
-                    dp[i] = (i >= 2 ? dp[i - 2] : 0) + 2;
-                } else if (i - dp[i - 1] > 0 && s.charAt(i - dp[i - 1] - 1) == '(') {
-                    dp[i] = dp[i - 1] + ((i - dp[i - 1]) >= 2 ? dp[i - dp[i - 1] - 2] : 0) + 2;
+                    if (i >= 2) {
+                        dp[i] = dp[i - 2] + 2;
+                    } else {
+                        dp[i] = 2;
+                    }
+                } else {
+                    if (i - dp[i - 1] > 0 && s.charAt(i - dp[i - 1] - 1) == '(') {
+                        if (i - dp[i - 1] - 2 >= 0) {
+                            dp[i] = dp[i - 1] + dp[i - dp[i - 1] - 2] + 2;
+                        } else {
+                            dp[i] = dp[i - 1] + 2;
+                        }
+                    }
                 }
                 maxans = Math.max(maxans, dp[i]);
             }
         }
+
         return maxans;
+    }
+
+    public int longestValidParentheses3(String s) {
+        int maxans = 0;
+        Stack<Integer> stack = new Stack<>();
+        stack.push(-1);
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                stack.push(i);
+            } else {
+                stack.pop();
+                if (stack.empty()) {
+                    stack.push(i);
+                } else {
+                    maxans = Math.max(maxans, i - stack.peek());
+                }
+            }
+        }
+        return maxans;
+    }
+
+    public static void main(String[] args) {
+        LongestValidParentheses l = new LongestValidParentheses();
+        System.out.println(l.longestValidParentheses3("()()"));
     }
 
 }

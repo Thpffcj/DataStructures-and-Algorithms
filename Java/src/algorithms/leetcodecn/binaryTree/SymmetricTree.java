@@ -1,12 +1,13 @@
 package algorithms.leetcodecn.binaryTree;
 
-/**
- * Created by thpffcj on 2019/10/12.
- */
-
 import algorithms.leetcodecn.TreeNode;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
+ * Created by thpffcj on 2019/10/12.
+ *
  * 给定一个二叉树，检查它是否是镜像对称的。
  *
  * 例如，二叉树 [1,2,2,3,4,4,3] 是对称的。
@@ -21,10 +22,11 @@ import algorithms.leetcodecn.TreeNode;
  *   2   2
  *    \   \
  *    3    3
+ *
  * 说明:
  * 如果你可以运用递归和迭代两种方法解决这个问题，会很加分。
  */
-public class SymmetricBinaryTree {
+public class SymmetricTree {
 
     public boolean isSymmetric(TreeNode root) {
 
@@ -46,5 +48,23 @@ public class SymmetricBinaryTree {
             return symmetric(r1.left, r2.right) & symmetric(r1.right, r2.left);
         }
         return false;
+    }
+
+    public boolean isSymmetric2(TreeNode root) {
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        q.add(root);
+        while (!q.isEmpty()) {
+            TreeNode t1 = q.poll();
+            TreeNode t2 = q.poll();
+            if (t1 == null && t2 == null) continue;
+            if (t1 == null || t2 == null) return false;
+            if (t1.val != t2.val) return false;
+            q.add(t1.left);
+            q.add(t2.right);
+            q.add(t1.right);
+            q.add(t2.left);
+        }
+        return true;
     }
 }

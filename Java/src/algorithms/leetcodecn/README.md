@@ -19,7 +19,7 @@
 ### 回溯算法
 
 - 22 括号生成 BracketGeneration
-- 46 全排列 FullyArranged
+- 46 全排列 Permutations
 - 17 电话号码的字母组合 LetterCombinationOfPhoneNumber
 - 37 解数独
 - 10 正则表达式匹配 RegularExpressionMatching
@@ -62,7 +62,7 @@
 - 114 * 二叉树展开为链表 FlattenBinaryTreeToLinkedList
 - 654 最大二叉树 MaximumBinaryTree
 - 655 * 输出二叉树 PrintBinaryTree
-- 101 对称二叉树 SymmetricBinaryTree
+- 101 对称二叉树 SymmetricTree
 - 105 从前序与中序遍历序列构造二叉树
 
 ### 位运算
@@ -76,7 +76,7 @@
 - 784 字母大小写全排列 LetterCasePermutation
 - 461 汉明距离
 - 371 * 两整数之和 SumOfTwoIntegers
-- 169 求众数 MostElements
+- 169 多数元素 MajorityElement
 - 338 * 比特位计数 CountingBits
 - 401 二进制手表
 - 187 重复的DNA序列 findRepeatedDnaSequences
@@ -91,9 +91,9 @@
 - 542 * 01矩阵 ZeroOneMatrix
 - 847 访问所有节点的最短路径
 - 490 迷宫 *
-- 101 对称二叉树 SymmetricBinaryTree
+- 101 对称二叉树 SymmetricTree
 - 773 滑动谜题
-- 102 二叉树的层次遍历 HierarchicalTraversalOfBinaryTrees
+- 102 二叉树的层次遍历 BinaryTreeLevelOrderTraversal
 - 690 员工的重要性 EmployeeImportance
 - 199 二叉树的右视图 BinaryTreeRightSideView
 - 301 * 删除无效的括号 RemoveInvalidParentheses
@@ -111,7 +111,7 @@
 - 114 * 二叉树展开为链表 FlattenBinaryTreeToLinkedList
 - 542 01矩阵 ZeroOneMatrix
 - 490 迷宫 *
-- 101 对称二叉树 SymmetricBinaryTree
+- 101 对称二叉树 SymmetricTree
 - 394 * 字符串解码 StringDecoding
 - 109 * 有序链表转换二叉搜索树 ConvertSortedListToBinarySearchTree
 - 105 * 从前序与中序遍历序列构造二叉树 ConstructBinaryTreeFromPreorderAndInorderTraversal
@@ -147,7 +147,7 @@
 - 818 * 赛车 RaceCar
 - 312 * 戳气球 BurstBalloons
 - 64 最小路径和 MinimumPathSum
-- 121 买卖股票的最佳时机 TheBestTimeToBuyAndSellStocks
+- 121 买卖股票的最佳时机 BestTimeToBuyAndSellStock
 
 ### 贪心算法
 

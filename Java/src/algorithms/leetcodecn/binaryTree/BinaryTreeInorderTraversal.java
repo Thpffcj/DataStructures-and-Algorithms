@@ -1,14 +1,12 @@
 package algorithms.leetcodecn.binaryTree;
 
-/**
- * Created by thpffcj on 2019/10/20.
- */
-
 import algorithms.leetcodecn.TreeNode;
 
 import java.util.*;
 
 /**
+ * Created by thpffcj on 2019/10/20.
+ *
  * 给定一个二叉树，返回它的中序遍历。
  *
  * 示例:
@@ -24,36 +22,26 @@ import java.util.*;
  */
 public class BinaryTreeInorderTraversal {
 
-    public List<Integer> inorderTraversal(TreeNode root) {
-
-        List<Integer> result = new ArrayList<>();
-        if (root == null) {
-            return result;
-        }
-
-        Stack<TreeNode> stack = new Stack<>();
-        stack.add(root);
-        while (!stack.isEmpty()) {
-            TreeNode current = stack.pop();
-            if (current.left != null) {
-                stack.add(current);
-                stack.add(current.left);
-            } else {
-                result.add(current.val);
-                if (!stack.isEmpty()) {
-                    TreeNode temp = stack.pop();
-                    temp.left = null;
-                    stack.add(temp);
-                }
-                if (current.right != null) {
-                    stack.add(current.right);
-                }
-            }
-        }
-
-        return result;
+    // 递归
+    public List <Integer> inorderTraversal(TreeNode root) {
+        List <Integer> res = new ArrayList<>();
+        helper(root, res);
+        return res;
     }
 
+    public void helper(TreeNode root, List < Integer > res) {
+        if (root != null) {
+            if (root.left != null) {
+                helper(root.left, res);
+            }
+            res.add(root.val);
+            if (root.right != null) {
+                helper(root.right, res);
+            }
+        }
+    }
+
+    // 基于栈的遍历
     public List <Integer> inorderTraversal2(TreeNode root) {
         List <Integer> res = new ArrayList<>();
         Stack <TreeNode> stack = new Stack<>();
@@ -71,27 +59,9 @@ public class BinaryTreeInorderTraversal {
         return res;
     }
 
+
+    // 莫里斯遍历
     public List <Integer> inorderTraversal3(TreeNode root) {
-        List <Integer> res = new ArrayList<>();
-        helper(root, res);
-        return res;
-    }
-
-    public void helper(TreeNode root, List < Integer > res) {
-        if (root != null) {
-            if (root.left != null) {
-                helper(root.left, res);
-            }
-
-            res.add(root.val);
-
-            if (root.right != null) {
-                helper(root.right, res);
-            }
-        }
-    }
-
-    public List <Integer> inorderTraversal4(TreeNode root) {
         List <Integer> res = new ArrayList<>();
         TreeNode curr = root;
         TreeNode pre;
@@ -112,7 +82,6 @@ public class BinaryTreeInorderTraversal {
                 temp.left = null;
             }
         }
-
         return res;
     }
 
@@ -123,6 +92,6 @@ public class BinaryTreeInorderTraversal {
         TreeNode node2 = new TreeNode(4);
         root.left = node1;
         node1.left = node2;
-        i.inorderTraversal(root);
+        i.inorderTraversal2(root);
     }
 }

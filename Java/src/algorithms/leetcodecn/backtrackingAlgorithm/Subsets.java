@@ -28,12 +28,9 @@ import java.util.Set;
 public class Subsets {
 
     Set<List<Integer>> set;
-
     public List<List<Integer>> subsets(int[] nums) {
-
         set = new HashSet<>();
         getSubsets(nums, new ArrayList<>(), 0);
-
         List<List<Integer>> result = new ArrayList<>();
         result.addAll(set);
         return result;
@@ -46,7 +43,6 @@ public class Subsets {
         }
 
         getSubsets(nums, list, position + 1);
-
         list.add(nums[position]);
         getSubsets(nums, list, position + 1);
         list.remove(list.size() - 1);
@@ -73,25 +69,18 @@ public class Subsets {
         return res;
     }
 
-    List<List<Integer>> lists = new ArrayList<>();
-
     public List<List<Integer>> subsets3(int[] nums) {
-        if(nums == null || nums.length ==0){
-            return lists;
-        }
-        List<Integer> list = new ArrayList<>();
-        process(list, nums, 0);
-        return lists;
-
+        List<List<Integer>> res = new ArrayList<>();
+        backtrack(0, nums, res, new ArrayList<Integer>());
+        return res;
     }
 
-    private void process(List<Integer>list, int[] nums, int start){
-
-        lists.add(new ArrayList(list));
-        for(int i = start; i < nums.length; i++){
-            list.add(nums[i]);
-            process(list, nums, i + 1);
-            list.remove(list.size() - 1);
+    private void backtrack(int i, int[] nums, List<List<Integer>> res, ArrayList<Integer> tmp) {
+        res.add(new ArrayList<>(tmp));
+        for (int j = i; j < nums.length; j++) {
+            tmp.add(nums[j]);
+            backtrack(j + 1, nums, res, tmp);
+            tmp.remove(tmp.size() - 1);
         }
     }
 }

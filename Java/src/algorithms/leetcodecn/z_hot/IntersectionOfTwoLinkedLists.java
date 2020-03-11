@@ -35,6 +35,27 @@ import algorithms.leetcodecn.ListNode;
 public class IntersectionOfTwoLinkedLists {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) {
+            return null;
+        }
+        ListNode pA = headA;
+        ListNode pB = headB;
+        while (pA != pB) {
+            if (pA == null) {
+                pA = headB;
+            } else {
+                pA = pA.next;;
+            }
+            if (pB == null) {
+                pB = headA;
+            } else {
+                pB = pB.next;
+            }
+        }
+        return pA;
+    }
+
+    public ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
 
         ListNode p1 = headA;
         ListNode p2 = headB;
@@ -65,26 +86,5 @@ public class IntersectionOfTwoLinkedLists {
             fast = fast.next;
         }
         return null;
-    }
-
-    public ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
-        if (headA == null || headB == null) {
-            return null;
-        }
-        ListNode pA = headA;
-        ListNode pB = headB;
-        while (pA != pB) {
-            if (pA == null) {
-                pA = headB;
-            } else {
-                pA = pA.next;;
-            }
-            if (pB == null) {
-                pB = headA;
-            } else {
-                pB = pB.next;
-            }
-        }
-        return pA;
     }
 }

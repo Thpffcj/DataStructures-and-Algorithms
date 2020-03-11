@@ -1,8 +1,5 @@
 package algorithms.leetcodecn.z_hot;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Created by thpffcj on 2020/2/24.
  *
@@ -47,14 +44,14 @@ public class MinimumWindowSubstring {
             // 当候选字符数等于t的长度时，说明滑动窗口中的字符串包含T，开始移动l，缩小窗口
             // 直到不满足count == plength时，继续扩展窗口
             while (count == plength){
-                ch = s.charAt(l);
-                if (needs[ch] > 0 && needs[ch] >= window[ch]){
-                    count--;
-                }
                 // 找出长度最短符合条件的结果 (r-l)+1计算当前窗口大小
                 if ((r - l) + 1 < minLength){
                     minLength = (r - l) + 1;
                     result = s.substring(l, r + 1);
+                }
+                ch = s.charAt(l);
+                if (needs[ch] > 0 && needs[ch] >= window[ch]){
+                    count--;
                 }
                 window[ch] = window[ch] - 1;
                 l++;
@@ -64,47 +61,8 @@ public class MinimumWindowSubstring {
         return result;
     }
 
-    public String minWindow2(String s, String t) {
-
-        int[] needs = new int[128];
-        int[] window = new int[128];
-        for (char ch : t.toCharArray()) {
-            needs[ch] = needs[ch] + 1;
-        }
-
-        int length = t.length();
-        int l = 0;
-        int r = 0;
-        int count = 0;
-        int minLength = s.length() + 1;
-        String result = "";
-
-        while (r < s.length()) {
-            char c = s.charAt(r);
-            window[c]++;
-            if (needs[c] != 0 && needs[c] >= window[c]) {
-                count++;
-            }
-            while (count == length){
-                if (r - l + 1 < minLength) {
-                    minLength = r - l + 1;
-                    result = s.substring(l, r + 1);
-                }
-                c = s.charAt(l);
-                if (needs[c] != 0 && needs[c] == window[c]) {
-                    count--;
-                }
-                window[c]--;
-                l++;
-            }
-            r++;
-        }
-
-        return result;
-    }
-
     public static void main(String[] args) {
         MinimumWindowSubstring m = new MinimumWindowSubstring();
-        m.minWindow2("ADOBECODEBANC", "ABC");
+        m.minWindow("ADOBECODEBANC", "ABC");
     }
 }

@@ -40,6 +40,11 @@ public class TrappingRainWater {
         return sum;
     }
 
+    /**
+     * 对于每一列，我们求它左边最高的墙和右边最高的墙，都是重新遍历一遍所有高度，这里我们可以优化一下。
+     * 首先用两个数组，max_left [i] 代表第 i 列左边最高的墙的高度，max_right[i] 代表第 i 列右边最高的墙的高度。
+     * 一定要注意下，第 i 列左（右）边最高的墙，是不包括自身的
+     */
     public int trap2(int[] height) {
         int sum = 0;
         // 首先用两个数组，max_left [i] 代表第 i 列左边最高的墙的高度，max_right[i] 代表第 i 列右边最高的墙的高度。
@@ -66,8 +71,6 @@ public class TrappingRainWater {
      * 动态规划中，我们常常可以对空间复杂度进行进一步的优化。
      * 例如这道题中，可以看到，max_left [ i ] 和 max_right [ i ] 数组中的元素我们其实只用一次，然后就再也不会用到了。所以我们可
      * 以不用数组，只用一个元素就行了。
-     * @param height
-     * @return
      */
     public int trap3(int[] height) {
         int sum = 0;

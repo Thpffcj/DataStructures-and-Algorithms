@@ -19,45 +19,8 @@ import java.util.List;
  */
 public class BracketGeneration {
 
-    // 这个回溯写的很混乱
-    public static String LEFT = "(";
-    public static String RIGHT = ")";
-    List<String> result = new ArrayList<>();
-
-    public List<String> generateParenthesis(int n) {
-        if (n < 1) {
-            return null;
-        }
-        generateParenthesis("", LEFT, n, n, 0);
-        return result;
-    }
-
-    public void generateParenthesis(String s, String bracket, int left, int right, int pos) {
-        if (left == 0 && right == 0 && pos == 0) {
-            result.add(s);
-        }
-
-        if (bracket.equals(LEFT)) {
-            s = s + LEFT;
-            pos++;
-        } else {
-            s = s + RIGHT;
-            pos--;
-            if (pos < 0) {
-                return;
-            }
-        }
-
-        if (left > 0) {
-            generateParenthesis(s, LEFT, left - 1, right, pos);
-        }
-        if (right > 0) {
-            generateParenthesis(s, RIGHT, left, right - 1, pos);
-        }
-    }
-
     // 回溯法
-    public List<String> generateParenthesis2(int n) {
+    public List<String> generateParenthesis(int n) {
         List<String> ans = new ArrayList();
         backtrack(ans, "", 0, 0, n);
         return ans;
@@ -82,10 +45,8 @@ public class BracketGeneration {
      * 定义状态 dp[i]：使用 i 对括号能够生成的组合。
      * dp[i] = "(" + dp[可能的括号对数] + ")" + dp[剩下的括号对数]
      * dp[i] = "(" + dp[j] + ")" + dp[i- j - 1] , j = 0, 1, ..., i - 1
-     * @param n
-     * @return
      */
-    public List<String> generateParenthesis3(int n) {
+    public List<String> generateParenthesis2(int n) {
 
         if (n == 0) {
             return new ArrayList<>();

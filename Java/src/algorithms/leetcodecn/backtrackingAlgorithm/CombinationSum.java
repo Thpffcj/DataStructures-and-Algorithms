@@ -79,7 +79,6 @@ public class CombinationSum {
 
     private void findCombinationSum(int residue, int start, Stack<Integer> pre) {
         if (residue == 0) {
-            // Java 中可变对象是引用传递，因此需要将当前 path 里的值拷贝出来
             res.add(new ArrayList<>(pre));
             return;
         }

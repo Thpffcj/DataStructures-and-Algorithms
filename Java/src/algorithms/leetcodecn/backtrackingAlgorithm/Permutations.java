@@ -1,13 +1,11 @@
 package algorithms.leetcodecn.backtrackingAlgorithm;
 
-/**
- * Created by thpffcj on 2019/10/12.
- */
-
 import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Created by thpffcj on 2019/10/12.
+ *
  * 给定一个没有重复数字的序列，返回其所有可能的全排列。
  *
  * 示例:
@@ -22,16 +20,11 @@ import java.util.List;
  *   [3,2,1]
  * ]
  */
-public class FullyArranged {
+public class Permutations {
 
     List<List<Integer>> result = new ArrayList<>();
 
     public List<List<Integer>> permute(int[] nums) {
-
-        if (nums == null || nums.length <= 0) {
-            return result;
-        }
-
         List<Integer> list = new ArrayList<>();
         boolean[] visited = new boolean[nums.length];
         findArrange(list, nums, visited);
@@ -41,13 +34,12 @@ public class FullyArranged {
     public void findArrange(List<Integer> list, int[] nums, boolean[] visited) {
 
         if (list.size() == nums.length) {
-            List<Integer> temp = new ArrayList<>(list);
-            result.add(temp);
+            result.add(new ArrayList<>(list));
             return;
         }
 
         for (int i = 0; i < nums.length; i++) {
-            if (visited[i] == false) {
+            if (!visited[i]) {
                 list.add(nums[i]);
                 visited[i] = true;
                 findArrange(list, nums, visited);
