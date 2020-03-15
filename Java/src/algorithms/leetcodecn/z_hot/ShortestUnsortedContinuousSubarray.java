@@ -42,6 +42,11 @@ public class ShortestUnsortedContinuousSubarray {
         return end - start + 1;
     }
 
+    /**
+     * 为了达到这一目的，此方法中，我们使用 栈栈 。我们从头遍历 numsnums 数组，如果遇到的数字大小一直是升序的，我们就不断把
+     * 对应的下标压入栈中，这么做的目的是因为这些元素在目前都是处于正确的位置上。一旦我们遇到前面的数比后面的数大，也就是
+     * nums[j]nums[j] 比栈顶元素小，我们可以知道 nums[j]nums[j] 一定不在正确的位置上。
+     */
     public int findUnsortedSubarray2(int[] nums) {
         Stack < Integer > stack = new Stack< Integer >();
         int l = nums.length, r = 0;

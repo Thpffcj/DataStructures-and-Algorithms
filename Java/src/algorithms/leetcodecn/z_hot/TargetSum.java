@@ -1,4 +1,4 @@
-package algorithms.leetcodecn.z_cyc2018.dynamicProgramming;
+package algorithms.leetcodecn.z_hot;
 
 /**
  * Created by thpffcj on 2020/2/13.
@@ -25,6 +25,7 @@ package algorithms.leetcodecn.z_cyc2018.dynamicProgramming;
  */
 public class TargetSum {
 
+    // 背包问题
     public int findTargetSumWays(int[] nums, int S) {
 
         int sum = 0;
@@ -32,10 +33,9 @@ public class TargetSum {
             sum += num;
         }
 
-        int result = 0;
         int target = S + sum;
         if (target % 2 == 1 || sum < S) {
-            return result;
+            return 0;
         }
         target = target / 2;
 

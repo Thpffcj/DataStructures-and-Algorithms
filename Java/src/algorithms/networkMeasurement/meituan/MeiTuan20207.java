@@ -1,5 +1,8 @@
 package algorithms.networkMeasurement.meituan;
 
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
 /**
  * Created by thpffcj on 2020/3/9.
  *
@@ -35,4 +38,46 @@ package algorithms.networkMeasurement.meituan;
  * 订单1被派给司机2，订单2被派给司机1，订单3被派给司机3。使得A12+ A21+ A33= 1.25 + 1.5 + 2.5 = 5.25在所有的组合中最大。
  */
 public class MeiTuan20207 {
+
+    public static double sum = Integer.MIN_VALUE;
+    public static int[] result;
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        double[][] digit = new double[N][N];
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                digit[i][j] = sc.nextDouble();
+            }
+        }
+
+        DecimalFormat df = new DecimalFormat("0.00");
+        int[] order = new int[N];
+        boolean[] visited = new boolean[N];
+        arrange(digit, order, visited, 0, 0);
+
+        System.out.println(df.format(sum));
+        for (int i = 1; i <= N; i++) {
+            System.out.println(i + " " + result[i - 1]);
+        }
+    }
+
+    public static void arrange(double[][] digit, int[] order, boolean[] visited, int start, double cur) {
+        if (start == order.length) {
+            if (cur > sum) {
+                sum = cur;
+                result = order.clone();
+            }
+            return;
+        }
+
+        for (int i = 0; i < order.length; i++) {
+            if (!visited[i]) {
+                visited[i] = true;
+                order[start] = i + 1;
+                arrange(digit, order, visited, start + 1, cur + digit[start][i]);
+                visited[i] = false;
+            }
+        }
+    }
 }

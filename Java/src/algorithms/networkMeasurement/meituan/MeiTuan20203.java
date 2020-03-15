@@ -1,5 +1,6 @@
 package algorithms.networkMeasurement.meituan;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -31,32 +32,35 @@ import java.util.Scanner;
 public class MeiTuan20203 {
 
     public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] nums = new int[n];
-        for (int i = 0; i < n; i++) {
-            nums[i] = sc.nextInt();
+        Scanner in = new Scanner(System.in);
+        int N = in.nextInt();
+        int[] nums = new int[N];
+        for(int i = 0; i < N; i++) {
+            nums[i] = in.nextInt();
         }
 
-        int[][] dp = new int[n][n];
-
-        // 初始化
-        for (int i = 0; i < n - 1; i++) {
-            dp[i][i + 1] = 0;
+        int[] sum = new int[N + 1];
+        for (int i = 1; i <= N; i++){
+            sum[i] = nums[i - 1] + sum[i - 1];
+        }
+        int money[][] = new int[N + 1][N + 1];
+        //先设置最大值
+        for (int i = 1; i <= N; i++){
+            Arrays.fill(money[i],Integer.MAX_VALUE);
         }
 
-        // 区间型dp标准格式
-        for (int len = 3; len <= n; len++) {
-            for (int i = 0; i <= n - len; i++) {
-                int j = i + len - 1;
-                dp[i][j] = Integer.MAX_VALUE;
-                // 枚举中间的气球
-                for (int k = i + 1; k <= j - 1; k++) {
-                    dp[i][j] = Math.max(dp[i][j], dp[i][k] + dp[k][j]);
+        for (int len = 0; len < N; len++){
+            for (int i = 1; i <= N - len; i++){
+                int j = i + len;
+                if (len == 0) {  // i==j的情况
+                    money[i][j] = 0;
+                }
+                for (int k = i; k < j; k++){
+                    money[i][j] = Math.min(
+                            money[i][j], money[i][k] + money[k + 1][j] + sum[j] - sum[i - 1]);
                 }
             }
         }
-        System.out.println(dp[0][n - 1]);
+        System.out.println(money[1][N]);
     }
 }

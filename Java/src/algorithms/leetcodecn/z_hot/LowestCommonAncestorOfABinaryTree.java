@@ -2,6 +2,8 @@ package algorithms.leetcodecn.z_hot;
 
 import algorithms.leetcodecn.TreeNode;
 
+import java.util.Stack;
+
 /**
  * Created by thpffcj on 2020/2/26.
  *
@@ -43,6 +45,50 @@ public class LowestCommonAncestorOfABinaryTree {
             return leftCommonAncestor;
         }
         // 不在左子树，也不在右子树，那说明是根节点
+        return root;
+    }
+
+    public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == p || root == q) {
+            return root;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        // 中序遍历判断两个节点是否在左子树
+        TreeNode cur = root.left;
+        boolean pLeft = false;
+        boolean qLeft = false;
+        while (cur != null || !stack.isEmpty()) {
+            // 节点不为空一直压栈
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left; // 考虑左子树
+            }
+            // 节点为空，就出栈
+            cur = stack.pop();
+            // 判断是否等于 p 节点
+            if (cur == p) {
+                pLeft = true;
+            }
+            // 判断是否等于 q 节点
+            if (cur == q) {
+                qLeft = true;
+            }
+
+            if(pLeft && qLeft){
+                break;
+            }
+            // 考虑右子树
+            cur = cur.right;
+        }
+
+        // 两个节点都在左子树
+        if (pLeft && qLeft) {
+            return lowestCommonAncestor2(root.left, p, q);
+            // 两个节点都在右子树
+        } else if (!pLeft && !qLeft) {
+            return lowestCommonAncestor2(root.right, p, q);
+        }
+        // 一左一右
         return root;
     }
 }

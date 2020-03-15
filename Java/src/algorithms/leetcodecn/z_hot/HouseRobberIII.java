@@ -37,7 +37,9 @@ import java.util.HashMap;
 public class HouseRobberIII {
 
     public int rob(TreeNode root) {
-        if (root == null) return 0;
+        if (root == null) {
+            return 0;
+        }
 
         int money = root.val;
         if (root.left != null) {

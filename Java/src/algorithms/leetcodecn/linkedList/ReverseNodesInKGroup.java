@@ -21,40 +21,42 @@ import algorithms.leetcodecn.TreeNode;
  */
 public class ReverseNodesInKGroup {
 
-    public int diameterOfBinaryTree(TreeNode root) {
+    public ListNode reverseKGroup(ListNode head, int k) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
 
-        if (root == null) {
-            return 0;
+        ListNode pre = dummy;
+        ListNode end = dummy;
+
+        while (end.next != null) {
+            for (int i = 0; i < k && end != null; i++) {
+                end = end.next;
+            }
+            if (end == null) {
+                break;
+            }
+            ListNode start = pre.next;
+            ListNode next = end.next;
+            end.next = null;
+
+            pre.next = reverse(start);
+            start.next = next;
+
+            pre = start;
+            end = pre;
         }
-
-        int left = maxDepth(root.left);
-        int right = maxDepth(root.right);
-        return Math.max(left + right,
-                Math.max(diameterOfBinaryTree(root.left), diameterOfBinaryTree(root.right)));
+        return dummy.next;
     }
 
-    public int maxDepth(TreeNode root) {
-        if (root == null) {
-            return 0;
+    private ListNode reverse(ListNode head) {
+        ListNode pre = null;
+        ListNode curr = head;
+        while (curr != null) {
+            ListNode next = curr.next;
+            curr.next = pre;
+            pre = curr;
+            curr = next;
         }
-
-        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
-    }
-
-    int ans;
-    public int diameterOfBinaryTree2(TreeNode root) {
-        ans = 1;
-        depth(root);
-        return ans - 1;
-    }
-
-    public int depth(TreeNode node) {
-        if (node == null) {
-            return 0;
-        }
-        int L = depth(node.left);
-        int R = depth(node.right);
-        ans = Math.max(ans, L + R + 1);
-        return Math.max(L, R) + 1;
+        return pre;
     }
 }

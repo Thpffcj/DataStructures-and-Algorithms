@@ -1,4 +1,4 @@
-package algorithms.leetcodecn.z_hot;
+package algorithms.leetcodecn.bitOperation;
 
 /**
  * Created by thpffcj on 2020/3/1.

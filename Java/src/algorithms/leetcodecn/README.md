@@ -30,14 +30,14 @@
 - 78 子集 Subsets
 - 39 组合总和 CombinationSum
 - 784 字母大小写全排列 AllLettersInUppercaseAndLowercase
-- 131 * 分割回文串 SplitPalindrome
+- 131 * 分割回文串 PalindromePartitioning
 
 ### 二分查找
 
 - 4 * 寻找两个有序数组的中位数 MedianOfTwoSortedArrays
 - 644 最大平均子段和2 *
 - 349 两个数组的交集 TheIntersectionOfTwoArrays
-- 287 * 寻找重复数 LookingForDuplicates
+- 287 * 寻找重复数 FindTheDuplicateNumber
 - 167 两数之和2-输入有序数组 TheSumOfTwoNumbersInputOrder
 - 363 矩形区域不超过K的最大数值和
 - 718 * 最长重复子数组 MaximumLengthOfRepeatedSubarray
@@ -54,7 +54,7 @@
 - 95 * 不同的二叉搜索树2 UniqueBinarySearchTreesII
 - 96 * 不同的二叉搜索树 UniqueBinarySearchTrees
 - 94 二叉树的中序遍历 BinaryTreeInorderTraversal
-- 226 翻转二叉树 FlipTheBinaryTree
+- 226 翻转二叉树 InvertBinaryTree
 - 104 二叉树的最大深度 MaximumDepthOfBinaryTree
 - 617 合并二叉树 MergeTwoBinaryTrees
 - 107 二叉树的层次遍历2 BinaryTreeLevelOrderTraversalII
@@ -74,7 +74,7 @@
 - 137 * 只出现一次的数字2 ANumberThatOnlyAppearsOnce2
 - 136 只出现一次的数字 SingleNumber
 - 784 字母大小写全排列 LetterCasePermutation
-- 461 汉明距离
+- 461 * 汉明距离 HammingDistance
 - 371 * 两整数之和 SumOfTwoIntegers
 - 169 多数元素 MajorityElement
 - 338 * 比特位计数 CountingBits
@@ -187,7 +187,7 @@
 
 - 2 两数相加 AddTwoNumbers
 - 21 合并两个有序链表 MergeTwoSortedLists
-- 206 反转链表 ReverseList
+- 206 反转链表 ReverseLinkedList
 - 24 两两交换链表中的节点 SwapNodesInPairs
 - 25 K个组翻转链表
 - 92 反转链表2 ReverseLinkedListII
@@ -225,12 +225,12 @@
 - 264 * 丑数2 UglyNumberII
 - 767 重构字符串 ReconstructingAString
 - 358 K距离间隔重排字符串 *
-- 215 数组中的第K个最大元素 TheKthLargestElementInTheArray
+- 215 数组中的第K个最大元素 KthLargestElementInAnArray
 - 378 有序矩阵中第K小的元素
 - 313 超级丑数 SuperUglyNumber
 - 871 * 最低加油次数 MinimumNumberOfRefuelingStops
 - 786 * 第K个最小的素数分数 KThSmallestPrimeFraction
-- 347 前K个高频元素 TopKHighFrequencyElements
+- 347 前K个高频元素 TopKFrequentElements
 - 218 天际线问题
 
 ### 字符串

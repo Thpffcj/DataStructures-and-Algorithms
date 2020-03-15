@@ -49,46 +49,13 @@ package algorithms.leetcodecn.string;
  */
 public class RegularExpressionMatching {
 
-    public boolean isMatch(String s, String p) {
-        if (s == null || p == null) {
-            return false;
-        }
-        return isMatch(s, 0, p, 0);
-    }
-
-    public boolean isMatch(String s, int m, String p, int n) {
-
-        if (m == s.length() && n == p.length()) {
-            return true;
-        }
-        if (m != s.length() && n == p.length()) {
-            return false;
-        }
-
-        if (n < p.length() - 1 && p.charAt(n + 1) == '*') {
-            if ((m < s.length() && s.charAt(m) == p.charAt(n))
-                    || (p.charAt(n) == '.' && m < s.length())) {
-                return isMatch(s, m + 1, p, n)
-                        || isMatch(s, m + 1, p, n + 2)
-                        || isMatch(s, m, p, n + 2);
-            } else {
-                return isMatch(s, m, p, n + 2);
-            }
-        }
-
-        if (m < s.length() && (p.charAt(n) == '.' || s.charAt(m) == p.charAt(n))) {
-            return isMatch(s, m + 1, p, n + 1);
-        }
-        return false;
-    }
-
     /**
      * 回溯
      * 如果模式串中有星号，它会出现在第二个位置，即 pattern[1] 。这种情况下，我们可以直接忽略模式串中这一部分，或者删除匹配串
      * 的第一个字符，前提是它能够匹配模式串当前位置字符，即 pattern[0] 。如果两种操作中有任何一种使得剩下的字符串能匹配，那么初
      * 始时，匹配串和模式串就可以被匹配。
      */
-    public boolean isMatch2(String text, String pattern) {
+    public boolean isMatch(String text, String pattern) {
         if (pattern.isEmpty()) {
             return text.isEmpty();
         }

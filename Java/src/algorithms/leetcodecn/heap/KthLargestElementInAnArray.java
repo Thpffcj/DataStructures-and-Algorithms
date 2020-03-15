@@ -1,5 +1,7 @@
 package algorithms.leetcodecn.heap;
 
+import java.util.PriorityQueue;
+
 /**
  * Created by thpffcj on 2019/11/13.
  *
@@ -16,9 +18,70 @@ package algorithms.leetcodecn.heap;
  * 说明:
  * 你可以假设 k 总是有效的，且 1 ≤ k ≤ 数组的长度。
  */
-public class TheKthLargestElementInTheArray {
+public class KthLargestElementInAnArray {
 
     public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> heap = new PriorityQueue<Integer>((n1, n2) -> n1 - n2);
+
+        for (int n: nums) {
+            heap.add(n);
+            if (heap.size() > k) {
+                heap.poll();
+            }
+        }
+
+        return heap.poll();
+    }
+
+    public int findKthLargest2(int[] nums, int k) {
+        int len = nums.length;
+        int left = 0;
+        int right = len - 1;
+
+        // 转换一下，第 k 大元素的索引是 len - k
+        int target = len - k;
+
+        while (left <= right) {
+            int index = partition(nums, left, right);
+            if (index == target) {
+                return nums[index];
+            } else if (index < target) {
+                left = index + 1;
+            } else {
+                right = index - 1;
+            }
+        }
+
+        return -1;
+    }
+
+    private int partition(int[] nums, int l, int h) {
+        int v = nums[l];
+        int i = l + 1;
+        int j = h;
+        while (i <= j) {
+            while (nums[i] <= v && i != h) {
+                i++;
+            }
+            while (v < nums[j] && j != l) {
+                j--;
+            }
+            if (i >= j) {
+                break;
+            }
+            swap(nums, i, j);
+        }
+        swap(nums, l, j);
+        return j;
+    }
+
+    private void swap(int[] nums, int index1, int index2) {
+        int temp = nums[index1];
+        nums[index1] = nums[index2];
+        nums[index2] = temp;
+    }
+
+    public int findKthLargest3(int[] nums, int k) {
 
         int[] digits = new int[nums.length + 1];
         digits[0] = -1;

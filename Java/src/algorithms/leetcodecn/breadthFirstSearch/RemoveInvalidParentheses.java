@@ -53,13 +53,11 @@ public class RemoveInvalidParentheses {
     }
 
     /**
-     * @param s
      * @param index 它表示我们必须在原始字符串中处理的当前字符
      * @param leftCount 它表示添加到我们正在构建的表达式中的左括号数
      * @param rightCount 它表示添加到我们正在构建的表达式中的右括号数
      * @param leftRem 是要删除的左括号数
      * @param rightRem 表示要删除的右括号数
-     * @param expression
      */
     private void recurse(String s, int index, int leftCount, int rightCount,
             int leftRem, int rightRem, StringBuilder expression) {
@@ -89,14 +87,11 @@ public class RemoveInvalidParentheses {
             if (character != '(' && character != ')') {
                 this.recurse(s, index + 1, leftCount, rightCount, leftRem, rightRem, expression);
             } else if (character == '(') {
-                // Consider an opening bracket.
                 this.recurse(s, index + 1, leftCount + 1, rightCount, leftRem, rightRem, expression);
             } else if (rightCount < leftCount) {
-                // Consider a closing bracket.
                 this.recurse(s, index + 1, leftCount, rightCount + 1, leftRem, rightRem, expression);
             }
 
-            // Delete for backtracking.
             expression.deleteCharAt(length);
         }
     }

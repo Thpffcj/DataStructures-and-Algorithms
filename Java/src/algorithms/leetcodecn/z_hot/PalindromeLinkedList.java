@@ -48,24 +48,16 @@ public class PalindromeLinkedList {
         return true;
     }
 
-    public ListNode reverse(ListNode head) {
-        if (head == null) {
-            return head;
+    private ListNode reverse(ListNode head) {
+        ListNode prev = null;
+        ListNode curr = head;
+        while (curr != null) {
+            ListNode nextTemp = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = nextTemp;
         }
-        ListNode guard = new ListNode(-1);
-        guard.next = head;
-
-        ListNode pre = head.next;
-        ListNode cur = pre;
-        while (pre != null) {
-            pre = pre.next;
-            cur.next = guard.next;
-            guard.next = cur;
-            head.next = pre;
-
-            cur = pre;
-        }
-        return guard.next;
+        return prev;
     }
 
     public static void main(String[] args) {

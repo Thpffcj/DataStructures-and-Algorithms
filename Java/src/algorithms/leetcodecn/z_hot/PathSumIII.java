@@ -2,9 +2,6 @@ package algorithms.leetcodecn.z_hot;
 
 import algorithms.leetcodecn.TreeNode;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Created by thpffcj on 2020/3/1.
  *
@@ -28,7 +25,7 @@ import java.util.Map;
  * 2.  5 -> 2 -> 1
  * 3.  -3 -> 11
  */
-public class ProblemsPathSumIII {
+public class PathSumIII {
 
     public int pathSum(TreeNode root, int sum) {
         if (root == null) {
@@ -52,10 +49,8 @@ public class ProblemsPathSumIII {
             res++;
         }
 
-        res += pathSum(root.left, 0, sum);
-        res += pathSum(root.right, 0, sum);
+        res += pathSum(root.left, cur, sum);
+        res += pathSum(root.right, cur, sum);
         return res;
     }
-
-
 }

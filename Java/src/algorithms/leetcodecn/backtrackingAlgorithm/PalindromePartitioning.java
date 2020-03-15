@@ -1,13 +1,11 @@
 package algorithms.leetcodecn.backtrackingAlgorithm;
 
-/**
- * Created by thpffcj on 2019/12/14.
- */
-
 import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Created by thpffcj on 2019/12/14.
+ *
  * 给定一个字符串 s，将 s 分割成一些子串，使每个子串都是回文串。
  * 返回 s 所有可能的分割方案。
  *
@@ -19,10 +17,9 @@ import java.util.List;
  *   ["a","a","b"]
  * ]
  */
-public class SplitPalindrome {
+public class PalindromePartitioning {
 
     List<List<String>> result = new ArrayList<>();
-
     public List<List<String>> partition(String s) {
 
         result = new ArrayList<>();

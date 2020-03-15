@@ -22,49 +22,13 @@ package algorithms.leetcodecn.z_hot;
 public class WordSearch {
 
     private int[][] direction = {{-1, 0}, {0, -1}, {0, 1}, {1, 0}};
-    public boolean exist(char[][] board, String word) {
-        boolean[][] visited = new boolean[board.length][board[0].length];
-        for (int i = 0 ; i < board.length; i++) {
-            for (int j = 0; j < board[0].length; j++) {
-                if (exist(board, visited, i, j, 0, word)) {
-                    return true;
-                }
-            }
-        }
-        return false;
-    }
-
-    public boolean exist(char[][] board, boolean[][] visited, int x, int y, int position, String word) {
-        if (x < 0 || x >= board.length || y < 0 || y >= board[0].length || position >= word.length()) {
-            return false;
-        }
-
-        if (!visited[x][y]) {
-            if (board[x][y] == word.charAt(position)) {
-                visited[x][y] = true;
-                if (position == word.length() - 1) {
-                    return true;
-                }
-                for (int k = 0; k < 4; k++) {
-                    int newX = x + direction[k][0];
-                    int newY = y + direction[k][1];
-                    if (exist(board, visited, newX, newY, position + 1, word)) {
-                        return true;
-                    }
-                }
-                visited[x][y] = false;
-            }
-        }
-        return false;
-    }
-
     private boolean[][] marked;
     private int m;
     private int n;
     private String word;
     private char[][] board;
 
-    public boolean exist2(char[][] board, String word) {
+    public boolean exist(char[][] board, String word) {
         m = board.length;
         if (m == 0) {
             return false;

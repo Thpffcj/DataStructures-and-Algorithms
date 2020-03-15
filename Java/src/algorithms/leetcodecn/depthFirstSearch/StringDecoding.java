@@ -1,12 +1,10 @@
 package algorithms.leetcodecn.depthFirstSearch;
 
+import java.util.Stack;
+
 /**
  * Created by thpffcj on 2019/12/13.
- */
-
-import java.util.LinkedList;
-
-/**
+ *
  * 给定一个经过编码的字符串，返回它解码后的字符串。
  * 编码规则为: k[encoded_string]，表示其中方括号内部的 encoded_string 正好重复 k 次。注意 k 保证为正整数。
  *
@@ -41,8 +39,8 @@ public class StringDecoding {
 
         StringBuilder res = new StringBuilder();
         int multi = 0;
-        LinkedList<Integer> stackMulti = new LinkedList<>();
-        LinkedList<String> stackRes = new LinkedList<>();
+        Stack<Integer> stackMulti = new Stack<>();
+        Stack<String> stackRes = new Stack<>();
 
         for(Character c : s.toCharArray()) {
             if(c == '[') {

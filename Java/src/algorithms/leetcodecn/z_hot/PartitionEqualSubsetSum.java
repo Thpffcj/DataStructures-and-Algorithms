@@ -1,4 +1,4 @@
-package algorithms.leetcodecn.z_cyc2018.dynamicProgramming;
+package algorithms.leetcodecn.z_hot;
 
 /**
  * Created by thpffcj on 2020/2/13.
@@ -38,5 +38,35 @@ public class PartitionEqualSubsetSum {
             }
         }
         return dp[w];
+    }
+
+    public boolean canPartition2(int[] nums) {
+        int sum = 0;
+        int len = nums.length;
+        for (int num : nums) {
+            sum += num;
+        }
+        if ((sum & 1) == 1) {
+            return false;
+        }
+        int target = sum / 2;
+
+        boolean[][] dp = new boolean[len][target + 1];
+        // 初始化成为 true 虽然不符合状态定义，但是从状态转移来说是完全可以的
+        dp[0][0] = true;
+        for (int i = 1; i < len; i++) {
+            for (int j = 0; j <= target; j++) {
+                dp[i][j] = dp[i - 1][j];
+                if (nums[i] <= j) {
+                    dp[i][j] = dp[i - 1][j] || dp[i - 1][j - nums[i]];
+                }
+            }
+
+            // 由于状态转移方程的特殊性，提前结束，可以认为是剪枝操作
+            if (dp[i][target]) {
+                return true;
+            }
+        }
+        return dp[len - 1][target];
     }
 }
