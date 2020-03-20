@@ -1,6 +1,6 @@
 package algorithms.leetcodecn.z_sort;
 
-import java.util.Random;
+import java.util.*;
 
 /**
  * Created by thpffcj on 2020/3/13.
@@ -15,6 +15,14 @@ public class PondSampling {
         for (int r = 0;r < N; r ++){
             S[r] = random.nextInt(10000);
         }
+
+        List<InsertSort> list = new ArrayList<>();
+        Collections.sort(list, new Comparator<InsertSort>() {
+            @Override
+            public int compare(InsertSort o1, InsertSort o2) {
+                return 0;
+            }
+        });
 
         int k = 10;
         int[] R = new int[k];

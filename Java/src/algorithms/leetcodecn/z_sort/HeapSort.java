@@ -54,4 +54,13 @@ public class HeapSort<T extends Comparable<T>> extends Sort<T> {
     private boolean less(T[] nums, int i, int j) {
         return nums[i].compareTo(nums[j]) < 0;
     }
+
+    public static void main(String[] args) {
+        HeapSort h = new HeapSort();
+        Integer[] nums = new Integer[]{4, 1, 3, 2};
+        h.sort(nums);
+        for (Integer i : nums) {
+            System.out.println(i);
+        }
+    }
 }

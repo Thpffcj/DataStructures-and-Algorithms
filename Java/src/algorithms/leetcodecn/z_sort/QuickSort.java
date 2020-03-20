@@ -49,6 +49,26 @@ public class QuickSort<T extends Comparable<T>> extends Sort<T> {
         return j;
     }
 
+    private int partition(int[] nums, int l, int h) {
+        int i = l + 1;
+        int j = h;
+        int v = nums[l];
+        while (i <= j) {
+            while (nums[i] <= v && i != h) {
+                i++;
+            }
+            while (v < nums[j] && j != l) {
+                j--;
+            }
+            if (i >= j) {
+                break;
+            }
+//            swap(nums, i, j);
+        }
+//        swap(nums, l, j);
+        return j;
+    }
+
     private void shuffle(T[] nums) {
         List<Comparable> list = Arrays.asList(nums);
         Collections.shuffle(list);
