@@ -1,5 +1,8 @@
 package algorithms.networkMeasurement.kuaishou;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 /**
  * Created by thpffcj on 2020/3/19.
  *
@@ -21,4 +24,36 @@ package algorithms.networkMeasurement.kuaishou;
  * 5
  */
 public class KuaiShou20206 {
+
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+
+        int[] arr = new int[num];
+        for(int i = 0; i < num; i++) {
+            arr[i] = sc.nextInt();
+        }
+        Arrays.sort(arr);
+
+        int maxLen = 1;
+        int interval = 0;
+        int max = 1;
+        for(int i = 0; i < num; i++){
+            while(interval <= arr[num - 1] - arr[i]){
+                int cur = arr[i];
+                for(int j = 1; j < num; j++){
+                    if(arr[j] == cur + interval){
+                        cur = arr[j];
+                        max++;
+                    }
+                }
+
+                maxLen = max > maxLen ? max : maxLen;
+                max = 1;
+                interval++;
+            }
+            interval = 0;
+        }
+        System.out.println(maxLen);
+    }
 }

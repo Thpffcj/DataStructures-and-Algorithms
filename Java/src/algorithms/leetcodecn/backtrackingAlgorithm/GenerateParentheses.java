@@ -17,7 +17,7 @@ import java.util.List;
  *   "()()()"
  * ]
  */
-public class BracketGeneration {
+public class GenerateParentheses {
 
     // 回溯法
     public List<String> generateParenthesis(int n) {
@@ -77,7 +77,7 @@ public class BracketGeneration {
     }
 
     public static void main(String[] args) {
-        BracketGeneration b = new BracketGeneration();
+        GenerateParentheses b = new GenerateParentheses();
         b.generateParenthesis(3);
     }
 }

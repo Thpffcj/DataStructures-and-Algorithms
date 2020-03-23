@@ -76,6 +76,7 @@ public class LongestValidParentheses {
         return maxans;
     }
 
+    // 栈
     public int longestValidParentheses3(String s) {
         int maxans = 0;
         Stack<Integer> stack = new Stack<>();

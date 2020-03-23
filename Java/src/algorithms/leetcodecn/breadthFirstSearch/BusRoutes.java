@@ -29,57 +29,7 @@ import java.util.List;
  */
 public class BusRoutes {
 
-    // 超时44/45
     public int numBusesToDestination(int[][] routes, int S, int T) {
-
-        if (S == T) {
-            return 0;
-        }
-        int m = routes.length;
-        Map<Integer, Set<Integer>> map = new HashMap<>();
-        Queue<Integer> queue = new LinkedList<>();
-        boolean[] visited = new boolean[m];
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < routes[i].length; j++) {
-                if (map.containsKey(routes[i][j])) {
-                    map.get(routes[i][j]).add(i);
-                } else {
-                    Set<Integer> set = new HashSet<>();
-                    set.add(i);
-                    map.put(routes[i][j], set);
-                }
-                if (routes[i][j] == S) {
-                    queue.add(i);
-                    visited[i] = true;
-                }
-            }
-        }
-
-        int result = 0;
-        while (!queue.isEmpty()) {
-            result++;
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                int index = queue.poll();
-                visited[index] = true;
-                for (int route : routes[index]) {
-                    if (route == T) {
-                        return result;
-                    }
-                    Set<Integer> set = map.get(route);
-                    for (int j : set) {
-                        if (!visited[j]) {
-                            queue.add(j);
-                        }
-                    }
-                }
-            }
-        }
-
-        return -1;
-    }
-
-    public int numBusesToDestination2(int[][] routes, int S, int T) {
         if (S == T) {
             return 0;
         }

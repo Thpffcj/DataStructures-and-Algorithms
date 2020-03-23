@@ -29,7 +29,6 @@ import java.util.Queue;
 public class SymmetricTree {
 
     public boolean isSymmetric(TreeNode root) {
-
         if (root == null) {
             return true;
         }
@@ -37,7 +36,6 @@ public class SymmetricTree {
     }
 
     public boolean symmetric(TreeNode r1, TreeNode r2) {
-
         if (r1 == null && r2 == null) {
             return true;
         }
@@ -57,9 +55,15 @@ public class SymmetricTree {
         while (!q.isEmpty()) {
             TreeNode t1 = q.poll();
             TreeNode t2 = q.poll();
-            if (t1 == null && t2 == null) continue;
-            if (t1 == null || t2 == null) return false;
-            if (t1.val != t2.val) return false;
+            if (t1 == null && t2 == null) {
+                continue;
+            }
+            if (t1 == null || t2 == null) {
+                return false;
+            }
+            if (t1.val != t2.val) {
+                return false;
+            }
             q.add(t1.left);
             q.add(t2.right);
             q.add(t1.right);

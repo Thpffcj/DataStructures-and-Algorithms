@@ -34,7 +34,6 @@ import java.util.Stack;
 public class CombinationSum {
 
     List<List<Integer>> result = new ArrayList<>();
-
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         result = new ArrayList<>();
         getAllCandidates(new ArrayList<>(), candidates, 0, target, 0);

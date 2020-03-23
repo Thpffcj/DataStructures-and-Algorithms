@@ -46,7 +46,7 @@ public class MeiTuan20203 {
         int money[][] = new int[N + 1][N + 1];
         //先设置最大值
         for (int i = 1; i <= N; i++){
-            Arrays.fill(money[i],Integer.MAX_VALUE);
+            Arrays.fill(money[i], Integer.MAX_VALUE);
         }
 
         for (int len = 0; len < N; len++){

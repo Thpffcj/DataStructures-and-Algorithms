@@ -68,45 +68,8 @@ public class StringDecoding {
         return res.toString();
     }
 
-    /**
-     * 总体思路与辅助栈法一致，不同点在于将 [ 和 ] 分别作为递归的开启与终止条件：
-     *
-     * 当 s[i] == ']' 时，返回当前括号内记录的 res 字符串与 ] 的索引 i （更新上层递归指针位置）；
-     * 当 s[i] == '[' 时，开启新一层递归，记录此 [...] 内字符串 tmp 和递归后的最新索引 i，并执行 res + multi * tmp 拼接字符串。
-     * 遍历完毕后返回 res。
-     */
-    public String decodeString2(String s) {
-        return dfs(s, 0)[0];
-    }
-
-    private String[] dfs(String s, int i) {
-
-        StringBuilder res = new StringBuilder();
-        int multi = 0;
-
-        while(i < s.length()) {
-            if(s.charAt(i) >= '0' && s.charAt(i) <= '9') {
-                multi = multi * 10 + Integer.parseInt(String.valueOf(s.charAt(i)));
-            } else if(s.charAt(i) == '[') {
-                String[] tmp = dfs(s, i + 1);
-                // tmp[0] 是 ] 的位置
-                i = Integer.parseInt(tmp[0]);
-                while(multi > 0) {
-                    res.append(tmp[1]);
-                    multi--;
-                }
-            } else if(s.charAt(i) == ']') {
-                return new String[] { String.valueOf(i), res.toString() };
-            } else {
-                res.append(s.charAt(i));
-            }
-            i++;
-        }
-        return new String[] { res.toString() };
-    }
-
     public static void main(String[] args) {
         StringDecoding s = new StringDecoding();
-        System.out.println(s.decodeString2("3[a2[c]]"));
+        System.out.println(s.decodeString("3[a2[c]]"));
     }
 }

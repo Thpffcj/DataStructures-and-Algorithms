@@ -28,20 +28,16 @@ public class RemoveInvalidParentheses {
     private Set<String> validExpressions = new HashSet<String>();
 
     public List<String> removeInvalidParentheses(String s) {
-
         int left = 0;
         int right = 0;
-
         // 首先，我们找出左括号和右括号错放的数量
         for (int i = 0; i < s.length(); i++) {
-
             if (s.charAt(i) == '(') {
                 left++;
             } else if (s.charAt(i) == ')') {
                 if (left == 0) {
                     right++;
                 }
-
                 if (left > 0) {
                    left--;
                 }

@@ -24,7 +24,6 @@ public class JumpGame {
     public boolean canJump(int[] nums) {
         return canJumpFromPosition(0, nums);
     }
-
     public boolean canJumpFromPosition(int position, int[] nums) {
         if (position == nums.length - 1) {
             return true;
@@ -36,10 +35,8 @@ public class JumpGame {
                 return true;
             }
         }
-
         return false;
     }
-
 
     enum Index {
         GOOD, BAD, UNKNOWN
@@ -114,6 +111,21 @@ public class JumpGame {
             }
         }
         return lastPos == 0;
+    }
+
+    public boolean canJump5(int[] nums) {
+        boolean[] dp = new boolean[nums.length];
+        dp[0] = true;
+
+        for (int i = 0; i < dp.length; i++) {
+            for (int j = 1; j <= nums[i]; j++) {
+                if (i + j < dp.length) {
+                    dp[i + j] = dp[i] || dp[i + j];
+                }
+            }
+        }
+
+        return dp[nums.length - 1];
     }
 
     public static void main(String[] args) {

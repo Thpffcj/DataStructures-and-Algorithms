@@ -17,65 +17,6 @@ import algorithms.leetcodecn.ListNode;
 public class AddTwoNumbers {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-
-        ListNode result = new ListNode(-1);
-        ListNode current = result;
-        int digit = 0;
-        int carry = 0;
-
-        while (l1 != null && l2 != null) {
-            digit = l1.val + l2.val + carry;
-            l1 = l1.next;
-            l2 = l2.next;
-            carry = 0;
-            if (digit >= 10) {
-                digit -= 10;
-                carry = 1;
-            }
-            current.next = new ListNode(digit);
-            current = current.next;
-        }
-
-        digit = 0;
-        while (l1 != null) {
-            if (carry == 0) {
-                current.next = l1;
-                break;
-            } else {
-                digit = l1.val + carry;
-                carry = 0;
-                if (digit >= 10) {
-                    digit -= 10;
-                    carry = 1;
-                }
-                current.next = new ListNode(digit);
-                l1 = l1.next;
-                current = current.next;
-            }
-        }
-        while (l2 != null) {
-            if (carry == 0) {
-                current.next = l2;
-                break;
-            } else {
-                digit = l2.val + carry;
-                carry = 0;
-                if (digit >= 10) {
-                    digit -= 10;
-                    carry = 1;
-                }
-                current.next = new ListNode(digit);
-                l2 = l2.next;
-                current = current.next;
-            }
-        }
-        if (carry == 1) {
-            current.next = new ListNode(1);
-        }
-        return result.next;
-    }
-
-    public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0);
         ListNode p = l1, q = l2, curr = dummyHead;
         int carry = 0;

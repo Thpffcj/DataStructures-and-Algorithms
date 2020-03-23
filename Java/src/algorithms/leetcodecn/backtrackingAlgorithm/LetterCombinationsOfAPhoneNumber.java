@@ -18,7 +18,8 @@ import java.util.List;
 public class LetterCombinationsOfAPhoneNumber {
 
     public List<String> result = new ArrayList<>();
-    public String[] letters = new String[]{"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+    public String[] letters = new String[]
+            {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
     public List<String> letterCombinations(String digits) {
         if (digits == null || digits.length() <= 0) {

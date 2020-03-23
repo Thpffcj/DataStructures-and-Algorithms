@@ -24,7 +24,6 @@ public class SearchInRotatedSortedArray {
     }
 
     public int binarySearch(int[] nums, int left, int right, int target) {
-
         int index;
         if (left > right) {
             return -1;
@@ -47,7 +46,6 @@ public class SearchInRotatedSortedArray {
                 index = binarySearch(nums, left, mid - 1, target);
             }
         }
-
         return index;
     }
 

@@ -27,25 +27,19 @@ import java.util.Set;
  */
 public class Subsets {
 
-    Set<List<Integer>> set;
     public List<List<Integer>> subsets(int[] nums) {
-        set = new HashSet<>();
-        getSubsets(nums, new ArrayList<>(), 0);
-        List<List<Integer>> result = new ArrayList<>();
-        result.addAll(set);
-        return result;
+        List<List<Integer>> res = new ArrayList<>();
+        backtrack(0, nums, res, new ArrayList<Integer>());
+        return res;
     }
 
-    public void getSubsets(int[] nums, List<Integer> list, int position) {
-        if (position == nums.length) {
-            set.add(new ArrayList<>(list));
-            return;
+    private void backtrack(int start, int[] nums, List<List<Integer>> res, List<Integer> tmp) {
+        res.add(new ArrayList<>(tmp));
+        for (int i = start; i < nums.length; i++) {
+            tmp.add(nums[i]);
+            backtrack(i + 1, nums, res, tmp);
+            tmp.remove(tmp.size() - 1);
         }
-
-        getSubsets(nums, list, position + 1);
-        list.add(nums[position]);
-        getSubsets(nums, list, position + 1);
-        list.remove(list.size() - 1);
     }
 
     // 集合的每个元素，都有可以选或不选，用二进制和位运算，可以很好的表示
@@ -67,20 +61,5 @@ public class Subsets {
         }
 
         return res;
-    }
-
-    public List<List<Integer>> subsets3(int[] nums) {
-        List<List<Integer>> res = new ArrayList<>();
-        backtrack(0, nums, res, new ArrayList<Integer>());
-        return res;
-    }
-
-    private void backtrack(int i, int[] nums, List<List<Integer>> res, ArrayList<Integer> tmp) {
-        res.add(new ArrayList<>(tmp));
-        for (int j = i; j < nums.length; j++) {
-            tmp.add(nums[j]);
-            backtrack(j + 1, nums, res, tmp);
-            tmp.remove(tmp.size() - 1);
-        }
     }
 }

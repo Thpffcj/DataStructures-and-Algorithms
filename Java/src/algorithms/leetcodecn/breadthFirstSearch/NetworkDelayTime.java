@@ -1,12 +1,10 @@
 package algorithms.leetcodecn.breadthFirstSearch;
 
-/**
- * Created by thpffcj on 2019/12/7.
- */
-
 import java.util.*;
 
 /**
+ * Created by thpffcj on 2019/12/7.
+ *
  * 有 N 个网络节点，标记为 1 到 N。
  * 给定一个列表 times，表示信号经过有向边的传递时间。 times[i] = (u, v, w)，其中 u 是源节点，v 是目标节点， w 是一个信号从源节点传
  * 递到目标节点的时间。
@@ -18,7 +16,7 @@ import java.util.*;
  * times 的长度在 [1, 6000] 之间。
  * 所有的边 times[i] = (u, v, w) 都有 1 <= u, v <= N 且 0 <= w <= 100。
  */
-public class NetworkLatency {
+public class NetworkDelayTime {
 
     public int networkDelayTime(int[][] times, int N, int K) {
 
@@ -46,8 +44,8 @@ public class NetworkLatency {
             int point = queue.poll();
 
             for (int j = 1; j < graph[point].length; j++) {
+                // 当最短距离发生变化且不在队列中时，将该节点加入队列
                 if (graph[point][j] != -1 && (result[j] == -1 || result[j] > result[point] + graph[point][j])) {
-                    // 当最短距离发生变化且不在队列中时，将该节点加入队列
                     result[j] = result[point] + graph[point][j];
                     if (!queue.contains(j)) {
                         queue.add(j);
@@ -138,7 +136,7 @@ public class NetworkLatency {
     }
 
     public static void main(String[] args) {
-        NetworkLatency n = new NetworkLatency();
+        NetworkDelayTime n = new NetworkDelayTime();
         int[][] times = new int[][]{{1,2,2}};
         n.networkDelayTime2(times, 2, 2);
     }

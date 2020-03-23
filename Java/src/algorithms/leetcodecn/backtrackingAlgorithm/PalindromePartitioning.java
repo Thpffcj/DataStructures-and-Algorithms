@@ -21,12 +21,10 @@ public class PalindromePartitioning {
 
     List<List<String>> result = new ArrayList<>();
     public List<List<String>> partition(String s) {
-
         result = new ArrayList<>();
         if (s == null || s.length() <= 0) {
             return result;
         }
-
         boolean[][] dp = new boolean[s.length()][s.length()];
         for (int right = 0; right < s.length(); right++) {
             for (int left = 0; left <= right; left++) {
@@ -38,7 +36,6 @@ public class PalindromePartitioning {
         }
 
         partitionHelper(s, 0, dp, new ArrayList<>());
-
         return result;
     }
 

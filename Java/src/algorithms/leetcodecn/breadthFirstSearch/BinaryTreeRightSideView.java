@@ -22,44 +22,8 @@ import java.util.*;
  */
 public class BinaryTreeRightSideView {
 
-    public List<Integer> rightSideView(TreeNode root) {
-
-        List<Integer> result = new ArrayList<>();
-        if (root == null) {
-            return result;
-        }
-
-        Queue<TreeNode> queue = new LinkedList<>();
-        Queue<Integer> levels = new LinkedList<>();
-        Set<Integer> visited = new HashSet<>();
-        queue.add(root);
-        levels.add(0);
-
-        while (!queue.isEmpty()) {
-            TreeNode node = queue.poll();
-            int level = levels.poll();
-
-            if (!visited.contains(level)) {
-                result.add(node.val);
-                visited.add(level);
-            }
-
-            if (node.right != null) {
-                queue.add(node.right);
-                levels.add(level + 1);
-            }
-
-            if (node.left != null) {
-                queue.add(node.left);
-                levels.add(level + 1);
-            }
-        }
-
-        return result;
-    }
-
     // 题目求解的是右视图，那么BFS层次遍历时保存每层的最右一个节点即可
-    public List<Integer> rightSideView2(TreeNode root) {
+    public List<Integer> rightSideView(TreeNode root) {
 
         if (root == null) {
             return new ArrayList<>();
@@ -81,7 +45,7 @@ public class BinaryTreeRightSideView {
                     queue.add(node.left);
                 }
 
-                if (node.right !=null) {
+                if (node.right != null) {
                     queue.add(node.right);
                 }
             }

@@ -1,14 +1,12 @@
 package algorithms.leetcodecn.breadthFirstSearch;
 
-/**
- * Created by thpffcj on 2019/12/23.
- */
-
 import algorithms.leetcodecn.TreeNode;
 
 import java.util.*;
 
 /**
+ * Created by thpffcj on 2019/12/23.
+ *
  * 给定一个二叉树，返回其节点值自底向上的层次遍历。 （即按从叶子节点所在层到根节点所在的层，逐层从左向右遍历）
  *
  * 例如：
@@ -28,41 +26,31 @@ import java.util.*;
 public class BinaryTreeLevelOrderTraversalII {
 
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
-
         List<List<Integer>> result = new LinkedList<>();
         if (root == null) {
             return result;
         }
 
         Queue<TreeNode> node = new LinkedList<>();
-        Queue<Integer> levels = new LinkedList<>();
         node.offer(root);
-        levels.offer(0);
-        int lastLevel = -1;
 
-        List<Integer> list = new ArrayList<>();
         while (!node.isEmpty()) {
-            TreeNode curNode = node.poll();
-            int level = levels.poll();
+            List<Integer> list = new LinkedList<>();
+            int size = node.size();
 
-            if (level > lastLevel) {
-                list = new ArrayList<>();
-                result.add(list);
+            for (int i = 0; i < size; i++) {
+                TreeNode curNode = node.poll();
+                list.add(curNode.val);
+                if (curNode.left != null) {
+                    node.offer(curNode.left);
+                }
+                if (curNode.right != null) {
+                    node.offer(curNode.right);
+                }
             }
-            list.add(curNode.val);
-
-            if (curNode.left != null) {
-                node.offer(curNode.left);
-                levels.offer(level + 1);
-            }
-            if (curNode.right != null) {
-                node.offer(curNode.right);
-                levels.offer(level + 1);
-            }
-            lastLevel = level;
+            result.add(0, list);
         }
 
-        Collections.reverse(result);
         return result;
     }
 }

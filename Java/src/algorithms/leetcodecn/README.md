@@ -7,7 +7,7 @@
 - 15 三数之和 ThreeSum
 - 42 * 接雨水 TrappingRainWater
 - 11 盛最多水的容器 ContainerWithMostWater
-- 53 最大子序和 MaximumSubsequenceSum
+- 53 最大子序和 MaximumSubarray
 - 644 最大平均子段和2 *
 - 16 最接近的三数之和 ThreeSumClosest
 - 85 * 最大矩形 MaximalRectangle
@@ -18,18 +18,18 @@
 
 ### 回溯算法
 
-- 22 括号生成 BracketGeneration
+- 22 括号生成 GenerateParentheses
 - 46 全排列 Permutations
 - 17 电话号码的字母组合 LetterCombinationOfPhoneNumber
-- 37 解数独
-- 10 正则表达式匹配 RegularExpressionMatching
+- 37 * 解数独 SudokuSolver
+- 10 * 正则表达式匹配 RegularExpressionMatching
 - 351 安卓系统手势解锁 *
 - 411 最短特异单词缩写 *
 - 51 * N皇后 NQueens
 - 93 复原IP地址 RestoreIpAddresses
 - 78 子集 Subsets
 - 39 组合总和 CombinationSum
-- 784 字母大小写全排列 AllLettersInUppercaseAndLowercase
+- 784 字母大小写全排列 LetterCasePermutation
 - 131 * 分割回文串 PalindromePartitioning
 
 ### 二分查找
@@ -63,7 +63,7 @@
 - 654 最大二叉树 MaximumBinaryTree
 - 655 * 输出二叉树 PrintBinaryTree
 - 101 对称二叉树 SymmetricTree
-- 105 从前序与中序遍历序列构造二叉树
+- 105 * 从前序与中序遍历序列构造二叉树 ConstructBinaryTreeFromPreorderAndInorderTraversal
 
 ### 位运算
 
@@ -85,9 +85,9 @@
 ### 广度优先搜索
 
 - 815 * 公交路线 BusRoutes
-- 743 网络延迟时间 NetworkLatency
+- 743 * 网络延迟时间 NetworkDelayTime
 - 107 二叉树的层次遍历2 BinaryTreeLevelOrderTraversalII
-- 407 接雨水2
+- 407 接雨水2 
 - 542 * 01矩阵 ZeroOneMatrix
 - 847 访问所有节点的最短路径
 - 490 迷宫 *
@@ -104,10 +104,10 @@
 - 679 24点游戏
 - 753 * 破解保险箱 CrackingTheSafe
 - 104 二叉树的最大深度 MaximumDepthOfBinaryTree
-- 743 网络延迟时间 NetworkLatency
+- 743 网络延迟时间 NetworkDelayTime
 - 533 孤独像素2 *
 - 694 不同岛屿的数量 *
-- 108 将有序数组转换为二叉搜索树
+- 108 将有序数组转换为二叉搜索树 ConvertSortedArrayToBinarySearchTree
 - 114 * 二叉树展开为链表 FlattenBinaryTreeToLinkedList
 - 542 01矩阵 ZeroOneMatrix
 - 490 迷宫 *
@@ -136,10 +136,10 @@
 ### 动态规划
 
 - 5 最长回文子串 LongestPalindromeSubstring
-- 53 最大子序和 MaximumSubsequenceSum
+- 53 最大子序和 MaximumSubarray
 - 85 * 最大矩形 MaximalRectangle
 - 10 正则表达式匹配 RegularExpressionMatching
-- 95 不同的二叉搜索树2
+- 95 * 不同的二叉搜索树2 UniqueBinarySearchTreesII
 - 351 安卓系统手势解锁 *
 - 72 * 编辑距离 EditDistance
 - 96 不同的二叉搜索树 UniqueBinarySearchTrees
@@ -178,7 +178,7 @@
 - 18 四数之和 FourSum
 - 94 二叉树的中序遍历 BinaryTreeInorderTraversal
 - 136 只出现一次的数字 SingleNumber
-- 739 * 每日温度 DailyTemperature
+- 739 * 每日温度 DailyTemperatures
 - 694 不同岛屿的数量 *
 - 463 岛屿的周长 IslandPerimeter
 - 349 两个数组的交集 TheIntersectionOfTwoArrays
@@ -220,7 +220,7 @@
 
 - 23 合并K个排序链表 MergeKSortedLists
 - 818 * 赛车 RaceCar
-- 743 网络延迟时间 NetworkLatency
+- 743 网络延迟时间 NetworkDelayTime
 - 407 接雨水2
 - 264 * 丑数2 UglyNumberII
 - 767 重构字符串 ReconstructingAString
@@ -237,7 +237,7 @@
 
 - 3 无重复字符的最长子串 LongestSubstringWithoutRepeatingCharacters
 - 5 长回文子串 LongestPalindromeSubstring
-- 22 括号生成 BracketGeneration
+- 22 括号生成 GenerateParentheses
 - 13 罗马数字转整数 RomanToInteger
 - 6 Z字形变换 ZigzagConversion
 - 38 外观数列 CountAndSay

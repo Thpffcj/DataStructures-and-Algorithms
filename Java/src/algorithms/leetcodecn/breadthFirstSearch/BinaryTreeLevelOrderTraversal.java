@@ -1,9 +1,5 @@
 package algorithms.leetcodecn.breadthFirstSearch;
 
-/**
- * Created by thpffcj on 2019/10/16.
- */
-
 import algorithms.leetcodecn.TreeNode;
 
 import java.util.ArrayList;
@@ -12,6 +8,8 @@ import java.util.List;
 import java.util.Queue;
 
 /**
+ * Created by thpffcj on 2019/10/16.
+ *
  * 给定一个二叉树，返回其按层次遍历的节点值。 （即逐层地，从左到右访问所有节点）。
  *
  * 例如:
@@ -32,50 +30,6 @@ import java.util.Queue;
 public class BinaryTreeLevelOrderTraversal {
 
     public List<List<Integer>> levelOrder(TreeNode root) {
-
-        List<List<Integer>> result = new ArrayList<>();
-        if (root == null) {
-            return result;
-        }
-
-        Queue<TreeNode> queue = new LinkedList<>();
-        Queue<Integer> layers = new LinkedList<>();
-        queue.add(root);
-        layers.add(0);
-
-        TreeNode node;
-        int layer;
-        int lastLayer = -1;
-        List<Integer> list = new ArrayList<>();
-        while (!queue.isEmpty()) {
-
-            node = queue.poll();
-            layer = layers.poll();
-
-            if (layer != lastLayer) {
-                list = new ArrayList<>();
-                list.add(node.val);
-                result.add(list);
-            } else {
-                list.add(node.val);
-            }
-
-            if (node.left != null) {
-                queue.add(node.left);
-                layers.add(layer + 1);
-            }
-            if (node.right != null) {
-                queue.add(node.right);
-                layers.add(layer + 1);
-            }
-
-            lastLayer = layer;
-        }
-
-        return result;
-    }
-
-    public List<List<Integer>> levelOrder2(TreeNode root) {
         List<List<Integer>> levels = new ArrayList<List<Integer>>();
         if (root == null) {
             return levels;
