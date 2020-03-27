@@ -4,8 +4,6 @@ import java.util.*;
 
 /**
  * Created by thpffcj on 2020/3/22.
- *
- * 15112347234,15176313245,15176313346,15176313325,15166667234,15188847234
  */
 public class KuaiShou20203 {
 

@@ -1,6 +1,5 @@
 package algorithms.masterOnlineExam.kuaishou;
 
-import java.util.Scanner;
 import java.util.Stack;
 
 /**

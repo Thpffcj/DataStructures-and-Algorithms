@@ -7,14 +7,6 @@ import java.util.Scanner;
 
 /**
  * Created by thpffcj on 2020/3/22.
- *
- * 2 2 2 1
- * 2 1
- * 3 1
- *
- * 2
- * 1 2 0
- * 1 1 1
  */
 public class KuaiShou20204 {
 
