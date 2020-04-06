@@ -48,7 +48,7 @@ public class ShortestUnsortedContinuousSubarray {
      * nums[j]nums[j] 比栈顶元素小，我们可以知道 nums[j]nums[j] 一定不在正确的位置上。
      */
     public int findUnsortedSubarray2(int[] nums) {
-        Stack < Integer > stack = new Stack< Integer >();
+        Stack <Integer> stack = new Stack< Integer >();
         int l = nums.length, r = 0;
         for (int i = 0; i < nums.length; i++) {
             while (!stack.isEmpty() && nums[stack.peek()] > nums[i])
@@ -63,5 +63,4 @@ public class ShortestUnsortedContinuousSubarray {
         }
         return r - l > 0 ? r - l + 1 : 0;
     }
-
 }

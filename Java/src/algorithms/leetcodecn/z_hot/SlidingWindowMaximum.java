@@ -66,20 +66,4 @@ public class SlidingWindowMaximum {
             deq.removeLast();
         }
     }
-
-    public int[] maxSlidingWindow2(int[] nums, int k) {
-
-        if (nums == null || nums.length <= 0) {
-            return nums;
-        }
-        int[] result = new int[nums.length - k + 1];
-        for (int i = 0; i <= nums.length - k; i++) {
-            int max = Integer.MIN_VALUE;
-            for (int j = 0; j < k; j++) {
-                max = Math.max(max, nums[i + j]);
-            }
-            result[i] = max;
-        }
-        return result;
-    }
 }

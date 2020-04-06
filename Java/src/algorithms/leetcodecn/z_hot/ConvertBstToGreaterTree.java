@@ -22,24 +22,7 @@ import java.util.Stack;
  */
 public class ConvertBstToGreaterTree {
 
-    private int sum;
     public TreeNode convertBST(TreeNode root) {
-        add(root);
-        return root;
-    }
-
-    public void add(TreeNode root) {
-        if (root == null) {
-            return;
-        }
-
-        add(root.right);
-        sum += root.val;
-        root.val = sum;
-        add(root.left);
-    }
-
-    public TreeNode convertBST2(TreeNode root) {
         int sum = 0;
         TreeNode node = root;
         Stack<TreeNode> stack = new Stack<>();
@@ -56,7 +39,23 @@ public class ConvertBstToGreaterTree {
 
             node = node.left;
         }
-
         return root;
+    }
+
+    private int sum;
+    public TreeNode convertBST2(TreeNode root) {
+        add(root);
+        return root;
+    }
+
+    public void add(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+
+        add(root.right);
+        sum += root.val;
+        root.val = sum;
+        add(root.left);
     }
 }

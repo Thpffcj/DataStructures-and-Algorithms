@@ -45,7 +45,6 @@ public class HouseRobberIII {
         if (root.left != null) {
             money += (rob(root.left.left) + rob(root.left.right));
         }
-
         if (root.right != null) {
             money += (rob(root.right.left) + rob(root.right.right));
         }

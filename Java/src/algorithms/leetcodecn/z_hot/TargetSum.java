@@ -3,8 +3,8 @@ package algorithms.leetcodecn.z_hot;
 /**
  * Created by thpffcj on 2020/2/13.
  *
- * 给定一个非负整数数组，a1, a2, ..., an, 和一个目标数，S。现在你有两个符号 + 和 -。对于数组中的任意一个整数，你都可以从 + 或 -中选
- * 择一个符号添加在前面。
+ * 给定一个非负整数数组，a1, a2, ..., an, 和一个目标数，S。现在你有两个符号 + 和 -。对于数组中的任意一个整数，你都可以从 + 或 
+ * -中选择一个符号添加在前面。
  * 返回可以使最终数组和为目标数 S 的所有添加符号的方法数。
  *
  * 示例 1:
@@ -27,7 +27,6 @@ public class TargetSum {
 
     // 背包问题
     public int findTargetSumWays(int[] nums, int S) {
-
         int sum = 0;
         for (int num : nums) {
             sum += num;

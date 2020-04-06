@@ -24,7 +24,7 @@ public class DiameterOfBinaryTree {
         return res;
     }
 
-    // 函数dfs的作用是：找到以root为根节点的二叉树的最大深度
+    // 找到以root为根节点的二叉树的最大深度
     public int dfs(TreeNode root){
         if(root == null){
             return 0;
@@ -33,5 +33,23 @@ public class DiameterOfBinaryTree {
         int rightDepth = dfs(root.right);
         res = Math.max(res, leftDepth + rightDepth);
         return Math.max(leftDepth, rightDepth) + 1;
+    }
+
+    public int diameterOfBinaryTree2(TreeNode root) {
+
+        if (root == null) {
+            return 0;
+        }
+        int left = maxDepth(root.left);
+        int right = maxDepth(root.right);
+        return Math.max(left + right,
+                Math.max(diameterOfBinaryTree2(root.left), diameterOfBinaryTree2(root.right)));
+    }
+
+    public int maxDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
 }
